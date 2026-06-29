@@ -8,7 +8,7 @@ This document is the project's operational guide. Each stage should be executed 
 - [x] Ignore `.crawler-data/` in Git.
 - [x] Document the expected JSON data architecture.
 - [x] Establish English as the repository and code convention.
-- [ ] Install the Vite + Vue + TypeScript project.
+- [x] Install the Vite + Vue + TypeScript project.
 - [ ] Convert the initial `a.json` and `b.json` data to the new schema.
 - [ ] Implement the webapp.
 - [ ] Implement the prescription page and calculator.
@@ -40,7 +40,7 @@ This document is the project's operational guide. Each stage should be executed 
 - `Vue Router` for screens.
 - `Pinia` for prescription state, preferences, and lightweight cache.
 - `LESS` for styles.
-- `lucide-vue-next` for icons.
+- `@lucide/vue` for icons.
 - `vite-plugin-pwa` for manifest and service worker.
 - `Vitest` for pure functions, validators, search, and calculator logic.
 - `@vue/test-utils` only for component unit tests when useful.
@@ -102,10 +102,10 @@ Tasks:
 
 Acceptance criteria:
 
-- `pnpm install` has been run.
-- `pnpm run build` finishes without errors.
-- No raw `.crawler-data/` content is versioned.
-- `docs/BUILD_PLAN.md` is updated with what was done.
+- [x] `pnpm install` has been run.
+- [x] `pnpm run build` finishes without errors.
+- [x] No raw `.crawler-data/` content is versioned.
+- [x] `docs/BUILD_PLAN.md` is updated with what was done.
 
 ## Stage 2 - Data Structure and Types
 
@@ -338,3 +338,12 @@ Acceptance criteria:
 - Renamed developer documents to English filenames.
 - Updated `AGENTS.md`, `README.md`, and the build plan to require English for repository and code conventions.
 - Kept `pt-BR` as the default end-user locale.
+
+### 2026-06-29 - Stage 1 Project Bootstrap
+
+- Installed Vite + Vue + TypeScript with `pnpm`.
+- Installed Vue Router, Pinia, LESS, `@lucide/vue`, `vite-plugin-pwa`, Vitest, Vue Test Utils, jsdom, and `npm-run-all2`.
+- Replaced the default Vite demo with a minimal app shell, English route segments, Pinia setup, router setup, PWA config, LESS global styles, and initial `public/data/pt-BR` JSON files.
+- Used `@lucide/vue` instead of `lucide-vue-next` because the registry marks `lucide-vue-next` as deprecated.
+- Verified `pnpm run typecheck`, `pnpm run test`, and `pnpm run build`.
+- Did not run browser tests or open a browser.

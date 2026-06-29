@@ -1,0 +1,20 @@
+{
+  "appName": "Sala Vet Drugbook",
+  "welcome": {
+    "title": "Drugbook veterinario",
+    "subtitle": "Base mobile de medicamentos veterinarios para consulta, calculo e receituario."
+  },
+  "search": {
+    "placeholder": "Buscar medicamentos",
+    "empty": "Nenhum medicamento encontrado"
+  },
+  "prescription": {
+    "title": "Receituario",
+    "clear": "Limpar receituario",
+    "print": "Imprimir"
+  },
+  "placeholders": {
+    "letter": "Lista de medicamentos",
+    "drug": "Monografia do medicamento"
+  }
+}

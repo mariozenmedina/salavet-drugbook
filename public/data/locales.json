@@ -1,0 +1,10 @@
+{
+  "defaultLocale": "pt-BR",
+  "locales": [
+    {
+      "code": "pt-BR",
+      "label": "Portuguese (Brazil)",
+      "nativeLabel": "Portugues (Brasil)"
+    }
+  ]
+}
