@@ -51,6 +51,35 @@ describe('auditVeterinaryProductSource', () => {
     })
   })
 
+  it.each([
+    {
+      fileName: 'mapa-pharmaceutical-export.csv',
+      recognizedFields: {
+        activeIngredients: 'IFA´s',
+        registrationNumber: 'Registro do Produto',
+        tradeName: 'Nome do Produto',
+      },
+    },
+    {
+      fileName: 'mapa-biological-export.csv',
+      recognizedFields: {
+        activeIngredients: 'Insumos ativos',
+        registrationNumber: 'Nº Licença',
+        tradeName: 'Denominação do Produto',
+      },
+    },
+  ])('recognizes the official MAPA headers in $fileName', ({ fileName, recognizedFields }) => {
+    const report = auditVeterinaryProductSource(fixtureBytes(fileName), fileName)
+
+    expect(report.format.delimiter).toBe(',')
+    expect(report.classification).toEqual({
+      schema: 'product-catalog-candidate',
+      canProceedToProductMapping: true,
+      recognizedFields,
+      blockingReasons: [],
+    })
+  })
+
   it('fails closed when a product-identifying field is missing', () => {
     const report = auditVeterinaryProductSource(
       new TextEncoder().encode('NOME COMERCIAL;NÚMERO DO REGISTRO\nProduto teste;BR-1\n'),

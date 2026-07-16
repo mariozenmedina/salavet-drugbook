@@ -13,7 +13,8 @@ This document is the project's operational guide. Each stage should be executed 
 - [x] Define v1 as an installable, drugbook-only PWA.
 - [x] Implement Stage 2 data contracts, runtime validation, loaders, normalized search, and fixture data.
 - [x] Audit the current MAPA veterinary product sources and add fail-closed local intake validation.
-- [ ] Obtain and approve product-level MAPA pharmaceutical and biological exports.
+- [x] Obtain and audit product-level MAPA pharmaceutical and biological exports.
+- [ ] Resolve the MAPA panel export reuse terms before publishing generated records.
 - [ ] Implement the official Brazilian veterinary product catalog pipeline.
 - [ ] Implement the v1 drugbook webapp and publish the initial reviewed monographs.
 - [ ] Prepare the public contribution workflow.
@@ -171,7 +172,9 @@ Tasks:
 
 - [x] Inspect and document the current SIPEAGRO CSV columns and data-quality limitations.
 - [x] Add deterministic, fail-closed intake auditing for explicit local delimited files.
-- [ ] Obtain manual pharmaceutical and biological panel exports, inspect their exact fields, and confirm source-specific reuse terms.
+- [x] Obtain manual pharmaceutical and biological panel exports and inspect their exact fields and data quality.
+- [x] Recognize the official export headers and detect comma, semicolon, or tab delimiters deterministically.
+- [ ] Confirm source-specific reuse terms before publishing generated panel records.
 - Create a deterministic importer in `scripts/` that accepts an explicit local input file for reproducible tests.
 - Normalize source rows into commercial product records without inventing missing ingredient links.
 - Maintain a review queue for unmatched ingredients, salts, spelling variants, and fixed combinations.
@@ -417,4 +420,16 @@ Acceptance criteria:
 - Identified the official MAPA pharmaceutical and biological Qlik panels as the next product-level candidates, pending manual exports, field inspection, and reuse review.
 - Added a deterministic local source-audit command with strict delimited-text parsing, source hashing, schema classification, blocking reasons, fictitious fixtures, and unit tests.
 - Kept raw snapshots and research files under the ignored `.data/` inbox.
+- Did not run browser tests or open a browser.
+
+### 2026-07-16 - Stage 3B MAPA Panel Export Audit
+
+- Audited the operator-provided pharmaceutical export with 2,825 rows and the biological export with 1,374 rows, recording their exact schemas, byte counts, hashes, statuses, duplicate identifiers, and missing component fields.
+- Confirmed that both exports meet the minimum product-catalog schema and added deterministic recognition for their official Portuguese headers.
+- Added automatic comma, semicolon, and tab delimiter detection while preserving strict quoted-field and multiline parsing.
+- Defined the first adapter scope as pharmaceutical inventory only, with review queues for missing current registrations, duplicate registrations, source ingredient variants, and unmatched components.
+- Excluded `Modo de Uso`, `Advertência`, and `Indicação` from bulk monograph ingestion because they are label-like clinical text.
+- Kept vaccines, diagnostic kits, antigens, organisms, and diluents out of the chemical ingredient model pending a separate biological-product schema decision.
+- Kept generated panel records blocked from publication because the panel page's Attribution-NoDerivatives notice does not clearly establish terms for transformed Qlik export redistribution.
+- Kept the raw exports under the ignored `.data/` inbox and used fictitious committed fixtures for tests.
 - Did not run browser tests or open a browser.

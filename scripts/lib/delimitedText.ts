@@ -10,6 +10,56 @@ export class DelimitedTextError extends Error {
   }
 }
 
+export function detectDelimitedTextDelimiter(
+  input: string,
+  candidates: readonly string[] = [',', ';', '\t'],
+): string {
+  const counts = new Map(candidates.map((candidate) => [candidate, 0]))
+  let inQuotedField = false
+
+  for (let index = 0; index < input.length; index += 1) {
+    const character = input[index]
+
+    if (character === '"') {
+      if (inQuotedField && input[index + 1] === '"') {
+        index += 1
+      } else {
+        inQuotedField = !inQuotedField
+      }
+
+      continue
+    }
+
+    if (!inQuotedField && (character === '\r' || character === '\n')) {
+      break
+    }
+
+    if (!inQuotedField && counts.has(character)) {
+      counts.set(character, counts.get(character)! + 1)
+    }
+  }
+
+  const rankedCandidates = [...counts.entries()].sort(
+    (left, right) => right[1] - left[1],
+  )
+  const [bestCandidate, bestCount] = rankedCandidates[0]
+  const secondCount = rankedCandidates[1]?.[1] ?? 0
+
+  if (bestCount === 0) {
+    throw new DelimitedTextError(
+      'Could not detect a delimiter from the header row.',
+    )
+  }
+
+  if (bestCount === secondCount) {
+    throw new DelimitedTextError(
+      'Delimiter detection is ambiguous; pass --delimiter explicitly.',
+    )
+  }
+
+  return bestCandidate
+}
+
 function isEmptyTrailingRow(row: string[]): boolean {
   return row.length === 1 && row[0] === ''
 }

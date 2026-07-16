@@ -408,6 +408,8 @@ Clinical references add bibliographic fields such as authors, year, DOI, PMID, e
 
 No ingestion workflow pushes directly to the default branch.
 
+The initial MAPA adapter is limited to pharmaceutical inventory facts and must not bulk-import label-like `Modo de Uso`, `Advertência`, or `Indicação` text as clinical monographs. Biological products such as vaccines, diagnostic kits, antigens, organisms, and diluents require a separate product model and must not be forced into chemical ingredient or fixed-combination records.
+
 ## Fixture Data
 
 The initial `pt-BR` data is deliberately fictitious and exists only to exercise schemas, loaders, search, and relationship validation. Fixture products use `marketingStatus: "unknown"` and a local fixture source. The example monograph remains `needsReview`, contains no dosage or clinical recommendation, and must be replaced by sourced editorial data rather than promoted to reviewed status.

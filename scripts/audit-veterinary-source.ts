@@ -4,7 +4,7 @@ import { basename, dirname, resolve } from 'node:path'
 import { auditVeterinaryProductSource } from './lib/veterinarySourceAudit.ts'
 
 interface CommandArguments {
-  delimiter: string
+  delimiter: string | undefined
   inputPath: string
   reportPath: string | null
 }
@@ -35,7 +35,7 @@ function parseArguments(argumentsList: string[]): CommandArguments {
   }
 
   return {
-    delimiter: readOption(argumentsList, '--delimiter') ?? ';',
+    delimiter: readOption(argumentsList, '--delimiter') ?? undefined,
     inputPath: resolve(inputPath),
     reportPath: readOption(argumentsList, '--report'),
   }

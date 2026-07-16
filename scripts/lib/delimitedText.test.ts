@@ -1,6 +1,22 @@
 import { describe, expect, it } from 'vitest'
 
-import { DelimitedTextError, parseDelimitedText } from './delimitedText.ts'
+import {
+  DelimitedTextError,
+  detectDelimitedTextDelimiter,
+  parseDelimitedText,
+} from './delimitedText.ts'
+
+describe('detectDelimitedTextDelimiter', () => {
+  it('detects comma, semicolon, and tab delimiters from the header row', () => {
+    expect(detectDelimitedTextDelimiter('A,B,C\n1,2,3')).toBe(',')
+    expect(detectDelimitedTextDelimiter('A;B;C\n1;2;3')).toBe(';')
+    expect(detectDelimitedTextDelimiter('A\tB\tC\n1\t2\t3')).toBe('\t')
+  })
+
+  it('ignores candidate delimiters inside a quoted header', () => {
+    expect(detectDelimitedTextDelimiter('"A, label";B\nvalue;other')).toBe(';')
+  })
+})
 
 describe('parseDelimitedText', () => {
   it('parses delimiters, escaped quotes, and newlines inside quoted fields', () => {

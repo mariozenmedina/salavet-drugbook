@@ -1,6 +1,9 @@
 import { createHash } from 'node:crypto'
 
-import { parseDelimitedText } from './delimitedText.ts'
+import {
+  detectDelimitedTextDelimiter,
+  parseDelimitedText,
+} from './delimitedText.ts'
 
 const SIPEAGRO_ESTABLISHMENT_HEADERS = [
   'UNIDADE_DA_FEDERACAO',
@@ -19,8 +22,12 @@ const SIPEAGRO_ESTABLISHMENT_HEADERS = [
 const PRODUCT_FIELD_ALIASES = {
   activeIngredients: [
     'COMPOSICAO',
+    'IFA_S',
+    'IFAS',
     'INGREDIENTE_ATIVO',
     'INGREDIENTES_ATIVOS',
+    'INSUMO_ATIVO',
+    'INSUMOS_ATIVOS',
     'PRINCIPIO_ATIVO',
     'PRINCIPIOS_ATIVOS',
   ],
@@ -28,10 +35,13 @@ const PRODUCT_FIELD_ALIASES = {
     'NUMERO_DO_REGISTRO',
     'NUMERO_REGISTRO',
     'NUMERO_REGISTRO_PRODUTO',
+    'NO_LICENCA',
     'REGISTRO_MAPA',
+    'REGISTRO_DO_PRODUTO',
     'REGISTRO_PRODUTO',
   ],
   tradeName: [
+    'DENOMINACAO_DO_PRODUTO',
     'NOME_COMERCIAL',
     'NOME_DO_PRODUTO',
     'NOME_PRODUTO',
@@ -104,10 +114,11 @@ function matchesEstablishmentSchema(headers: string[]): boolean {
 export function auditVeterinaryProductSource(
   bytes: Uint8Array,
   fileName: string,
-  delimiter = ';',
+  delimiter?: string,
 ): VeterinarySourceAuditReport {
   const text = new TextDecoder('utf-8', { fatal: true }).decode(bytes)
-  const table = parseDelimitedText(text, delimiter)
+  const resolvedDelimiter = delimiter ?? detectDelimitedTextDelimiter(text)
+  const table = parseDelimitedText(text, resolvedDelimiter)
   const normalizedHeaders = new Map(
     table.headers.map((header) => [normalizeHeader(header), header]),
   )
@@ -166,7 +177,7 @@ export function auditVeterinaryProductSource(
     },
     format: {
       encoding: 'utf-8',
-      delimiter,
+      delimiter: resolvedDelimiter,
       headers: table.headers,
       rowCount: table.rows.length,
     },
