@@ -2,7 +2,7 @@
 
 Public veterinary drugbook for Sala Vet, planned as an installable, mobile-first, multilingual webapp driven by JSON data.
 
-Current status: the Vite + Vue + TypeScript bootstrap, Stage 2 data foundation, deterministic MAPA pharmaceutical adapter, and first public Brazilian product inventory are implemented. The `pt-BR` catalog contains 2,825 MAPA pharmaceutical products with validated provenance, trade-name shards, and a commercial-product search index. Component normalization and clinical monographs remain separately reviewed work.
+Current status: the Vite + Vue + TypeScript foundation, deterministic MAPA pharmaceutical pipeline, first public Brazilian product inventory, and mobile commercial-product catalog are implemented. The `pt-BR` webapp searches 2,825 MAPA pharmaceutical products and exposes traceable regulatory detail pages. Component normalization and clinical monographs remain separately reviewed work.
 
 Main documents:
 

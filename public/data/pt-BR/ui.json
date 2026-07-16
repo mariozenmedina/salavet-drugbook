@@ -1,12 +1,81 @@
 {
   "appName": "Sala Vet Drugbook",
+  "navigation": {
+    "home": "Voltar ao catálogo",
+    "locale": "Idioma: Português do Brasil",
+    "localeShortLabel": "PT"
+  },
+  "common": {
+    "loading": "Carregando dados do drugbook…",
+    "loadError": "Não foi possível carregar os dados. Tente novamente em alguns instantes.",
+    "notAvailable": "Não informado"
+  },
   "welcome": {
-    "title": "Drugbook veterinário",
-    "subtitle": "Base móvel de medicamentos veterinários com informações rastreáveis e revisão explícita."
+    "title": "Medicamentos veterinários, em um só lugar",
+    "subtitle": "Consulte produtos comerciais registrados no Brasil por nome, princípio ativo informado, registro, fabricante, classe ou espécie."
   },
   "search": {
-    "placeholder": "Buscar medicamentos",
-    "empty": "Nenhum medicamento encontrado"
+    "placeholder": "Buscar produto, componente ou registro",
+    "ariaLabel": "Buscar no catálogo de medicamentos veterinários",
+    "emptyTitle": "Nenhum produto encontrado",
+    "emptyBody": "Revise a escrita ou tente buscar pelo componente, número de registro, fabricante, classe ou espécie.",
+    "resultSummary": "{shown} de {total} produtos encontrados",
+    "limitedResults": "Mostrando os primeiros resultados. Refine a busca para encontrar um produto específico."
+  },
+  "catalog": {
+    "eyebrow": "Catálogo regulatório brasileiro",
+    "productCount": "{count} produtos comerciais",
+    "searchPrompt": "Comece digitando no campo de busca acima. Os resultados aparecem a partir do primeiro caractere.",
+    "sourceNotice": "Inventário derivado do painel oficial de produtos farmacêuticos veterinários do MAPA. Relações com princípios ativos clínicos permanecem separadas até revisão editorial.",
+    "updatedAt": "Dados atualizados em {date}"
+  },
+  "product": {
+    "backToCatalog": "Voltar aos resultados",
+    "recordEyebrow": "Registro de produto veterinário",
+    "notFoundTitle": "Produto não encontrado",
+    "notFoundBody": "Este identificador não existe no catálogo atual ou o registro foi substituído.",
+    "sections": {
+      "regulatory": "Situação regulatória",
+      "composition": "Componentes informados",
+      "presentation": "Classificação e apresentação",
+      "authorization": "Titular e espécies",
+      "source": "Rastreabilidade da fonte"
+    },
+    "fields": {
+      "marketingStatus": "Situação",
+      "registrationNumber": "Registro atual",
+      "previousRegistrationNumber": "Registro anterior",
+      "regulatoryAuthority": "Autoridade",
+      "jurisdiction": "Jurisdição",
+      "components": "Componentes",
+      "dosageForms": "Forma farmacêutica",
+      "pharmaceuticalClasses": "Classe farmacêutica",
+      "routes": "Via de administração",
+      "authorizedSpecies": "Espécies autorizadas",
+      "holder": "Titular",
+      "holderRegistrationNumber": "Registro do titular",
+      "origin": "Origem",
+      "sourceId": "Conjunto de dados",
+      "sourceRecordId": "Identificador na fonte",
+      "retrievedAt": "Data de consulta",
+      "contentHash": "Integridade do conteúdo"
+    },
+    "marketingStatus": {
+      "registered": "Registrado",
+      "suspended": "Suspenso",
+      "cancelled": "Cancelado",
+      "unknown": "Situação não informada"
+    },
+    "componentLinkStatus": {
+      "unmatched": "Relação ainda não revisada",
+      "candidate": "Relação candidata",
+      "verified": "Relação verificada"
+    },
+    "componentLinkNote": {
+      "unmatched": "Os componentes abaixo reproduzem os nomes informados pelo MAPA e ainda não foram vinculados a princípios ativos clínicos.",
+      "candidate": "Existe uma proposta de vínculo com princípio ativo, mas ela ainda aguarda revisão editorial e não deve ser tratada como verificada.",
+      "verified": "A relação entre este produto e seus princípios ativos foi revisada no catálogo."
+    }
   },
   "prescription": {
     "title": "Receituário",

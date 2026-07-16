@@ -66,6 +66,32 @@ const referenceKinds: readonly ReferenceKind[] = [
   'website',
 ]
 const sectionKinds = ['paragraphs', 'list', 'table', 'doseSummary', 'alerts', 'references'] as const
+const uiProductSectionKeys = [
+  'regulatory',
+  'composition',
+  'presentation',
+  'authorization',
+  'source',
+] as const
+const uiProductFieldKeys = [
+  'marketingStatus',
+  'registrationNumber',
+  'previousRegistrationNumber',
+  'regulatoryAuthority',
+  'jurisdiction',
+  'components',
+  'dosageForms',
+  'pharmaceuticalClasses',
+  'routes',
+  'authorizedSpecies',
+  'holder',
+  'holderRegistrationNumber',
+  'origin',
+  'sourceId',
+  'sourceRecordId',
+  'retrievedAt',
+  'contentHash',
+] as const
 
 function addIssue(issues: ValidationIssue[], path: string, message: string): void {
   issues.push({ path, message })
@@ -798,6 +824,20 @@ export const validateUiText: DataValidator<UiText> = (value) =>
 
     requireString(record, 'appName', path, issues)
 
+    const navigation = asRecord(record.navigation, `${path}.navigation`, issues)
+    if (navigation) {
+      requireString(navigation, 'home', `${path}.navigation`, issues)
+      requireString(navigation, 'locale', `${path}.navigation`, issues)
+      requireString(navigation, 'localeShortLabel', `${path}.navigation`, issues)
+    }
+
+    const common = asRecord(record.common, `${path}.common`, issues)
+    if (common) {
+      requireString(common, 'loading', `${path}.common`, issues)
+      requireString(common, 'loadError', `${path}.common`, issues)
+      requireString(common, 'notAvailable', `${path}.common`, issues)
+    }
+
     const welcome = asRecord(record.welcome, `${path}.welcome`, issues)
     if (welcome) {
       requireString(welcome, 'title', `${path}.welcome`, issues)
@@ -807,7 +847,75 @@ export const validateUiText: DataValidator<UiText> = (value) =>
     const search = asRecord(record.search, `${path}.search`, issues)
     if (search) {
       requireString(search, 'placeholder', `${path}.search`, issues)
-      requireString(search, 'empty', `${path}.search`, issues)
+      requireString(search, 'ariaLabel', `${path}.search`, issues)
+      requireString(search, 'emptyTitle', `${path}.search`, issues)
+      requireString(search, 'emptyBody', `${path}.search`, issues)
+      requireString(search, 'resultSummary', `${path}.search`, issues)
+      requireString(search, 'limitedResults', `${path}.search`, issues)
+    }
+
+    const catalog = asRecord(record.catalog, `${path}.catalog`, issues)
+    if (catalog) {
+      requireString(catalog, 'eyebrow', `${path}.catalog`, issues)
+      requireString(catalog, 'productCount', `${path}.catalog`, issues)
+      requireString(catalog, 'searchPrompt', `${path}.catalog`, issues)
+      requireString(catalog, 'sourceNotice', `${path}.catalog`, issues)
+      requireString(catalog, 'updatedAt', `${path}.catalog`, issues)
+    }
+
+    const product = asRecord(record.product, `${path}.product`, issues)
+    if (product) {
+      requireString(product, 'backToCatalog', `${path}.product`, issues)
+      requireString(product, 'recordEyebrow', `${path}.product`, issues)
+      requireString(product, 'notFoundTitle', `${path}.product`, issues)
+      requireString(product, 'notFoundBody', `${path}.product`, issues)
+
+      const sections = asRecord(product.sections, `${path}.product.sections`, issues)
+      if (sections) {
+        uiProductSectionKeys.forEach((key) =>
+          requireString(sections, key, `${path}.product.sections`, issues),
+        )
+      }
+
+      const fields = asRecord(product.fields, `${path}.product.fields`, issues)
+      if (fields) {
+        uiProductFieldKeys.forEach((key) =>
+          requireString(fields, key, `${path}.product.fields`, issues),
+        )
+      }
+
+      const marketingStatus = asRecord(
+        product.marketingStatus,
+        `${path}.product.marketingStatus`,
+        issues,
+      )
+      if (marketingStatus) {
+        marketingStatuses.forEach((key) =>
+          requireString(marketingStatus, key, `${path}.product.marketingStatus`, issues),
+        )
+      }
+
+      const componentLinkStatus = asRecord(
+        product.componentLinkStatus,
+        `${path}.product.componentLinkStatus`,
+        issues,
+      )
+      if (componentLinkStatus) {
+        componentLinkStatuses.forEach((key) =>
+          requireString(componentLinkStatus, key, `${path}.product.componentLinkStatus`, issues),
+        )
+      }
+
+      const componentLinkNote = asRecord(
+        product.componentLinkNote,
+        `${path}.product.componentLinkNote`,
+        issues,
+      )
+      if (componentLinkNote) {
+        componentLinkStatuses.forEach((key) =>
+          requireString(componentLinkNote, key, `${path}.product.componentLinkNote`, issues),
+        )
+      }
     }
 
     const prescription = asRecord(record.prescription, `${path}.prescription`, issues)

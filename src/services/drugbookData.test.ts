@@ -14,8 +14,10 @@ import {
   DrugbookDataError,
   DrugbookHttpError,
   DrugbookValidationError,
+  ProductNotFoundError,
   loadAlphabet,
   loadConceptShard,
+  loadCommercialProduct,
   loadLetter,
   loadLocaleManifest,
   loadLocales,
@@ -88,7 +90,7 @@ describe('drugbook JSON loaders', () => {
 
     expect(locales.defaultLocale).toBe('pt-BR')
     expect(manifest.schemaVersion).toBe('1.0.0')
-    expect(ui.welcome.title).toBe('Drugbook veterinário')
+    expect(ui.welcome.title).toBe('Medicamentos veterinários, em um só lugar')
     expect(alphabet.letters).toHaveLength(2)
     expect(search.items).toHaveLength(4)
     expect(productManifest.totalCount).toBe(2_825)
@@ -136,5 +138,22 @@ describe('drugbook JSON loaders', () => {
 
     expect(() => loadMonograph('pt-BR', '../secrets', fetcher)).toThrow(DrugbookDataError)
     expect(fetcher).not.toHaveBeenCalled()
+  })
+
+  it('resolves a commercial product through its search-index shard pointer', async () => {
+    const fetcher = fixtureFetcher()
+    const productId = productsJson.items[0]!.id
+
+    const product = await loadCommercialProduct('pt-BR', productId, fetcher)
+
+    expect(product.id).toBe(productId)
+    expect(fetcher).toHaveBeenCalledWith('/data/pt-BR/product-search-index.json')
+    expect(fetcher).toHaveBeenCalledWith('/data/pt-BR/catalog/products/a.json')
+  })
+
+  it('throws a typed not-found error for an unknown commercial product', async () => {
+    await expect(
+      loadCommercialProduct('pt-BR', 'product-does-not-exist', fixtureFetcher()),
+    ).rejects.toBeInstanceOf(ProductNotFoundError)
   })
 })
