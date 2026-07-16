@@ -9,6 +9,26 @@
       "url": "https://github.com/mariozenmedina/salavet-drugbook",
       "license": "Internal fixture",
       "accessedAt": "2026-07-16"
+    },
+    {
+      "id": "mapa-veterinary-pharmaceutical-products",
+      "kind": "regulatoryDataset",
+      "publisher": "Ministry of Agriculture and Livestock of Brazil",
+      "jurisdiction": "BR",
+      "title": "MAPA veterinary pharmaceutical products panel export",
+      "url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/Produtos_Farmaceuticos/Produtos_Farmaceuticos.html",
+      "license": "Free redistribution and transformation approved by project operator on 2026-07-16",
+      "accessedAt": "2026-07-16"
+    },
+    {
+      "id": "mapa-veterinary-biological-products",
+      "kind": "regulatoryDataset",
+      "publisher": "Ministry of Agriculture and Livestock of Brazil",
+      "jurisdiction": "BR",
+      "title": "MAPA veterinary biological products panel export",
+      "url": "https://mapa-indicadores.agricultura.gov.br/publico/extensions/Produtos_Biologicos/Produtos_Biologicos.html",
+      "license": "Free redistribution and transformation approved by project operator on 2026-07-16",
+      "accessedAt": "2026-07-16"
     }
   ]
 }

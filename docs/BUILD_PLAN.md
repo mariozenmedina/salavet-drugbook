@@ -14,7 +14,7 @@ This document is the project's operational guide. Each stage should be executed 
 - [x] Implement Stage 2 data contracts, runtime validation, loaders, normalized search, and fixture data.
 - [x] Audit the current MAPA veterinary product sources and add fail-closed local intake validation.
 - [x] Obtain and audit product-level MAPA pharmaceutical and biological exports.
-- [ ] Resolve the MAPA panel export reuse terms before publishing generated records.
+- [x] Approve the MAPA panel exports for redistribution and transformation.
 - [ ] Implement the official Brazilian veterinary product catalog pipeline.
 - [ ] Implement the v1 drugbook webapp and publish the initial reviewed monographs.
 - [ ] Prepare the public contribution workflow.
@@ -163,7 +163,7 @@ Goal: replace the lost crawler data with a reproducible, licensed, source-tracea
 
 Primary source:
 
-- Use a product-level MAPA pharmaceutical or biological export as the primary inventory of Brazilian commercial products only after its schema, access method, and reuse terms pass review.
+- Use the audited, operator-approved MAPA pharmaceutical or biological exports as the primary inventory of Brazilian commercial products.
 - Treat the current SIPEAGRO `Produto Veterinário` open-data resource as an establishment catalog and possible holder cross-check, not as a commercial-product inventory.
 - Record the source URL, upstream record identifier when available, retrieval time, content hash, jurisdiction, and license attribution.
 - Treat foreign regulatory databases as secondary cross-checks, never as evidence that a product is marketed or approved in Brazil.
@@ -174,12 +174,12 @@ Tasks:
 - [x] Add deterministic, fail-closed intake auditing for explicit local delimited files.
 - [x] Obtain manual pharmaceutical and biological panel exports and inspect their exact fields and data quality.
 - [x] Recognize the official export headers and detect comma, semicolon, or tab delimiters deterministically.
-- [ ] Confirm source-specific reuse terms before publishing generated panel records.
-- Create a deterministic importer in `scripts/` that accepts an explicit local input file for reproducible tests.
-- Normalize source rows into commercial product records without inventing missing ingredient links.
-- Maintain a review queue for unmatched ingredients, salts, spelling variants, and fixed combinations.
+- [x] Record the project operator's approval for redistribution and transformation of the supplied panel exports.
+- [x] Create a deterministic first-stage pharmaceutical adapter in `scripts/` that accepts explicit local input and output files.
+- [x] Normalize pharmaceutical source rows into intermediate product candidates without inventing missing ingredient links.
+- [x] Maintain review queues for legacy registrations, duplicate registrations, missing ingredients, unknown statuses, and unmatched source components.
 - Generate active-ingredient, combination, product, letter, and search artifacts under `public/data/pt-BR`.
-- Create fixtures and unit tests for normalization, duplicate registrations, combinations, and source attribution.
+- [x] Create fictitious fixtures and unit tests for exact schema validation, multiline fields, missing values, duplicate registrations, component splitting, exclusions, and source attribution.
 - Add a manual and scheduled GitHub Actions workflow that downloads the upstream source, runs validation, and opens or updates a draft data PR when the generated catalog changes.
 - Never let source synchronization merge directly into the default branch.
 
@@ -433,3 +433,19 @@ Acceptance criteria:
 - Kept generated panel records blocked from publication because the panel page's Attribution-NoDerivatives notice does not clearly establish terms for transformed Qlik export redistribution.
 - Kept the raw exports under the ignored `.data/` inbox and used fictitious committed fixtures for tests.
 - Did not run browser tests or open a browser.
+
+### 2026-07-16 - Stage 3C MAPA Reuse Approval
+
+- Recorded the project operator's explicit confirmation that content supplied under `.data/` is authorized for free redistribution and transformation in the free veterinary drugbook.
+- Removed the publication-license blocker for derived MAPA pharmaceutical and biological catalog data without assigning an unsupported SPDX or Creative Commons identifier to the Qlik exports.
+- Kept regulatory label text subject to provenance and editorial review even though reuse is approved; rights approval does not make clinical content reviewed.
+
+### 2026-07-16 - Stage 3D Pharmaceutical Source Adapter
+
+- Added a deterministic, exact-schema MAPA pharmaceutical adapter that writes intermediate candidates and import-quality review queues outside `public/data`.
+- Preserved current and previous registrations separately and normalized the source's `-` absence marker without treating it as an identifier or ingredient.
+- Kept all source components unmatched and queued for reviewed ingredient or fixed-combination mapping.
+- Processed the 2,825-row local snapshot into 2,825 candidates, 158 legacy-registration items, 13 duplicate-registration groups, 369 missing-ingredient items, and 871 unique component values.
+- Verified byte-identical candidate and report files across repeated runs with the same source bytes and retrieval date.
+- Kept `Modo de Uso`, `Advertência`, and `Indicação` values out of the initial inventory artifacts pending the separate clinical editorial workflow.
+- Kept raw and generated local artifacts under ignored `.data/` and did not run browser tests.
