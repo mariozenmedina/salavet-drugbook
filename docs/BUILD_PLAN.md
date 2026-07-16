@@ -12,6 +12,8 @@ This document is the project's operational guide. Each stage should be executed 
 - [x] Replace the lost crawler migration with an official-source ingestion plan.
 - [x] Define v1 as an installable, drugbook-only PWA.
 - [x] Implement Stage 2 data contracts, runtime validation, loaders, normalized search, and fixture data.
+- [x] Audit the current MAPA veterinary product sources and add fail-closed local intake validation.
+- [ ] Obtain and approve product-level MAPA pharmaceutical and biological exports.
 - [ ] Implement the official Brazilian veterinary product catalog pipeline.
 - [ ] Implement the v1 drugbook webapp and publish the initial reviewed monographs.
 - [ ] Prepare the public contribution workflow.
@@ -160,13 +162,16 @@ Goal: replace the lost crawler data with a reproducible, licensed, source-tracea
 
 Primary source:
 
-- Use the MAPA SIPEAGRO veterinary product dataset as the primary inventory of Brazilian commercial products.
+- Use a product-level MAPA pharmaceutical or biological export as the primary inventory of Brazilian commercial products only after its schema, access method, and reuse terms pass review.
+- Treat the current SIPEAGRO `Produto Veterinário` open-data resource as an establishment catalog and possible holder cross-check, not as a commercial-product inventory.
 - Record the source URL, upstream record identifier when available, retrieval time, content hash, jurisdiction, and license attribution.
 - Treat foreign regulatory databases as secondary cross-checks, never as evidence that a product is marketed or approved in Brazil.
 
 Tasks:
 
-- Inspect and document the upstream CSV columns and data-quality limitations.
+- [x] Inspect and document the current SIPEAGRO CSV columns and data-quality limitations.
+- [x] Add deterministic, fail-closed intake auditing for explicit local delimited files.
+- [ ] Obtain manual pharmaceutical and biological panel exports, inspect their exact fields, and confirm source-specific reuse terms.
 - Create a deterministic importer in `scripts/` that accepts an explicit local input file for reproducible tests.
 - Normalize source rows into commercial product records without inventing missing ingredient links.
 - Maintain a review queue for unmatched ingredients, salts, spelling variants, and fixed combinations.
@@ -178,6 +183,7 @@ Tasks:
 Acceptance criteria:
 
 - Import is reproducible from a pinned fixture or source snapshot.
+- Inputs without product-level trade name, product registration, and active ingredient or composition fields are rejected before transformation.
 - Generated files pass validation.
 - Imported records include provenance and normalization status.
 - Trade names belong to commercial product records and are derived into ingredient/combination search entries.
@@ -388,7 +394,7 @@ Acceptance criteria:
 - Defined v1 as an installable, mobile-first drugbook PWA.
 - Deferred the prescription builder, calculator, and automated interaction checks until after v1.
 - Replaced the lost crawler-based A/B migration stage with an official-source ingestion plan.
-- Selected the MAPA SIPEAGRO dataset as the primary Brazilian commercial-product inventory, subject to importer field inspection.
+- Selected the MAPA SIPEAGRO dataset as the initial Brazilian commercial-product candidate, subject to importer field inspection. The later Stage 3A audit rejected it for product ingestion because it contains establishment records.
 - Required commercial products, active ingredients, combinations, clinical monographs, and provenance to remain separate concepts.
 
 ### 2026-07-16 - Stage 2 Drugbook Data Contracts
@@ -401,4 +407,14 @@ Acceptance criteria:
 - Added deterministic accent-insensitive and case-insensitive search across generic names, synonyms, trade names, and components.
 - Added a deliberately fictitious `pt-BR` fixture dataset with no unsupported clinical claims and a `needsReview` monograph.
 - Added unit tests for valid and invalid data, relationships, loaders, and search behavior.
+- Did not run browser tests or open a browser.
+
+### 2026-07-16 - Stage 3A MAPA Source Audit
+
+- Audited the current MAPA SIPEAGRO resource named `Produto Veterinário` from its downloaded bytes.
+- Recorded its exact 11 establishment-level columns, 64,536 rows, 25,008 distinct establishment registrations, byte count, and SHA-256 hash.
+- Confirmed that the resource has no product registration, trade name, active ingredient, composition, dosage form, route, or authorized-species fields and rejected it as a commercial-product source.
+- Identified the official MAPA pharmaceutical and biological Qlik panels as the next product-level candidates, pending manual exports, field inspection, and reuse review.
+- Added a deterministic local source-audit command with strict delimited-text parsing, source hashing, schema classification, blocking reasons, fictitious fixtures, and unit tests.
+- Kept raw snapshots and research files under the ignored `.data/` inbox.
 - Did not run browser tests or open a browser.

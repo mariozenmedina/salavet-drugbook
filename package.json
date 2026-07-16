@@ -11,6 +11,7 @@
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
     "data:validate": "vitest run src/services/dataValidation.test.ts",
+    "source:audit": "node scripts/audit-veterinary-source.ts",
     "typecheck": "vue-tsc -b --noEmit",
     "lint": "vue-tsc -b --noEmit"
   },
