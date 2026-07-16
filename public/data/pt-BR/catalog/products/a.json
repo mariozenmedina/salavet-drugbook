@@ -1,0 +1,41 @@
+{
+  "locale": "pt-BR",
+  "letter": "a",
+  "updatedAt": "2026-07-16T12:00:00Z",
+  "items": [
+    {
+      "id": "product-fixture-amoxicillin-clavulanate",
+      "tradeName": "Produto Exemplo AC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "Fixture local",
+      "registrationNumber": "FIXTURE-AC-001",
+      "marketingStatus": "unknown",
+      "holder": "Sala Vet Drugbook",
+      "conceptId": "combination-amoxicillin-clavulanate",
+      "components": [
+        {
+          "ingredientId": "ingredient-amoxicillin",
+          "sourceIngredientName": "AMOXICILINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": "ingredient-potassium-clavulanate",
+          "sourceIngredientName": "CLAVULANATO DE POTÁSSIO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "verified",
+      "dosageForms": [],
+      "routes": [],
+      "authorizedSpecies": [],
+      "sourceRecord": {
+        "sourceId": "fixture-local",
+        "recordId": "FIXTURE-AC-001",
+        "retrievedAt": "2026-07-16T12:00:00Z",
+        "contentHash": "sha256:fixture-amoxicillin-clavulanate"
+      }
+    }
+  ]
+}

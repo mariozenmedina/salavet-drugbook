@@ -1,0 +1,14 @@
+{
+  "sources": [
+    {
+      "id": "fixture-local",
+      "kind": "website",
+      "publisher": "Sala Vet Drugbook",
+      "jurisdiction": null,
+      "title": "Local structural fixture",
+      "url": "https://github.com/mariozenmedina/salavet-drugbook",
+      "license": "Internal fixture",
+      "accessedAt": "2026-07-16"
+    }
+  ]
+}

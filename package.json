@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "test": "vitest run --passWithNoTests",
     "test:watch": "vitest",
+    "data:validate": "vitest run src/services/dataValidation.test.ts",
     "typecheck": "vue-tsc -b --noEmit",
     "lint": "vue-tsc -b --noEmit"
   },

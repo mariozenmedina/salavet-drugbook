@@ -1,4 +1,57 @@
 {
   "locale": "pt-BR",
-  "items": []
+  "items": [
+    {
+      "conceptId": "ingredient-amoxicillin",
+      "slug": "amoxicilina",
+      "letter": "a",
+      "primaryName": "Amoxicilina",
+      "conceptType": "ingredient",
+      "tradeNames": ["Produto Exemplo AC"],
+      "synonyms": ["Amoxicillin"],
+      "componentNames": ["Amoxicilina"],
+      "species": [],
+      "monographStatus": "draft",
+      "path": "/pt-BR/drug/amoxicilina"
+    },
+    {
+      "conceptId": "combination-amoxicillin-clavulanate",
+      "slug": "amoxicilina-clavulanato",
+      "letter": "a",
+      "primaryName": "Amoxicilina + clavulanato de potássio",
+      "conceptType": "combination",
+      "tradeNames": ["Produto Exemplo AC"],
+      "synonyms": ["Amoxicillin + potassium clavulanate"],
+      "componentNames": ["Amoxicilina", "Clavulanato de potássio"],
+      "species": [],
+      "monographStatus": "draft",
+      "path": "/pt-BR/drug/amoxicilina-clavulanato"
+    },
+    {
+      "conceptId": "ingredient-carprofen",
+      "slug": "carprofeno",
+      "letter": "c",
+      "primaryName": "Carprofeno",
+      "conceptType": "ingredient",
+      "tradeNames": ["Produto Exemplo Carprofeno"],
+      "synonyms": ["Carprofen"],
+      "componentNames": ["Carprofeno"],
+      "species": [],
+      "monographStatus": "needsReview",
+      "path": "/pt-BR/drug/carprofeno"
+    },
+    {
+      "conceptId": "ingredient-potassium-clavulanate",
+      "slug": "clavulanato-de-potassio",
+      "letter": "c",
+      "primaryName": "Clavulanato de potássio",
+      "conceptType": "ingredient",
+      "tradeNames": ["Produto Exemplo AC"],
+      "synonyms": ["Potassium clavulanate"],
+      "componentNames": ["Clavulanato de potássio"],
+      "species": [],
+      "monographStatus": "draft",
+      "path": "/pt-BR/drug/clavulanato-de-potassio"
+    }
+  ]
 }

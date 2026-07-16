@@ -1,3 +1,14 @@
 {
-  "letters": []
+  "letters": [
+    {
+      "id": "a",
+      "label": "A",
+      "sortKey": "a"
+    },
+    {
+      "id": "c",
+      "label": "C",
+      "sortKey": "c"
+    }
+  ]
 }

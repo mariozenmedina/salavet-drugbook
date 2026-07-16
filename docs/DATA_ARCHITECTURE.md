@@ -55,6 +55,30 @@ tests/
 
 Large upstream files should not be committed until their size, update frequency, license, and retention requirements have been reviewed. Each import run must still record the upstream URL, retrieval time, and content hash.
 
+## Public File Envelopes
+
+Every public JSON file is validated at runtime before the application returns it to a component or store. Loaders reject non-successful HTTP responses, invalid JSON, unsafe path segments, and schema mismatches with path-aware issues such as `$.items[0].conceptId`.
+
+Catalog shards use a consistent envelope:
+
+```json
+{
+  "locale": "pt-BR",
+  "letter": "a",
+  "updatedAt": "2026-07-16T12:00:00Z",
+  "items": []
+}
+```
+
+The envelope applies independently to `catalog/concepts/{letter}.json`, `catalog/products/{letter}.json`, and `letters/{letter}.json`. Item schemas differ, but locale, shard key, update time, and item collection are always explicit.
+
+Validation has two layers:
+
+1. **Structural validation** checks required fields, scalar types, enum values, nested arrays, review metadata, dose ranges, and source records in each JSON file.
+2. **Relationship validation** checks unique IDs, sorted combination components, ingredient/product/concept links, letter and search coverage, monograph links, and monograph reference IDs across the assembled dataset.
+
+Runtime types and validation code live in `src/types/drugbook.ts` and `src/services/dataValidation.ts`. Typed loaders live in `src/services/drugbookData.ts`.
+
 ## Entity Relationships
 
 ```text
@@ -204,6 +228,8 @@ Fields absent from the upstream dataset remain empty or `null`. Importers must n
 ## Search Index
 
 The global index is also generated. It searches ingredient and combination names, synonyms, and related verified trade names.
+
+Search normalization uses Unicode decomposition, removes diacritical marks, applies locale-aware lowercase conversion, normalizes punctuation and whitespace, and sorts equal-ranked results deterministically. Multi-token queries can match across component names while exact and prefix matches rank above generic substring matches.
 
 ```json
 {
@@ -381,6 +407,10 @@ Clinical references add bibliographic fields such as authors, year, DOI, PMID, e
 8. Separate issues and pull requests enrich one drug concept and species at a paced rate.
 
 No ingestion workflow pushes directly to the default branch.
+
+## Fixture Data
+
+The initial `pt-BR` data is deliberately fictitious and exists only to exercise schemas, loaders, search, and relationship validation. Fixture products use `marketingStatus: "unknown"` and a local fixture source. The example monograph remains `needsReview`, contains no dosage or clinical recommendation, and must be replaced by sourced editorial data rather than promoted to reviewed status.
 
 ## PWA Data Strategy
 

@@ -1,0 +1,31 @@
+{
+  "locale": "pt-BR",
+  "letter": "a",
+  "updatedAt": "2026-07-16T12:00:00Z",
+  "items": [
+    {
+      "id": "ingredient-amoxicillin",
+      "conceptType": "ingredient",
+      "primaryName": "Amoxicilina",
+      "normalizedName": "amoxicilina",
+      "synonyms": ["Amoxicillin"],
+      "externalIdentifiers": [],
+      "catalogStatus": "verified",
+      "referenceIds": ["fixture-local"]
+    },
+    {
+      "id": "combination-amoxicillin-clavulanate",
+      "conceptType": "combination",
+      "primaryName": "Amoxicilina + clavulanato de potássio",
+      "normalizedName": "amoxicilina clavulanato de potassio",
+      "ingredientIds": [
+        "ingredient-amoxicillin",
+        "ingredient-potassium-clavulanate"
+      ],
+      "synonyms": ["Amoxicillin + potassium clavulanate"],
+      "externalIdentifiers": [],
+      "catalogStatus": "verified",
+      "referenceIds": ["fixture-local"]
+    }
+  ]
+}

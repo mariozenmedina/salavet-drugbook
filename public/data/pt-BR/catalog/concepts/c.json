@@ -1,0 +1,27 @@
+{
+  "locale": "pt-BR",
+  "letter": "c",
+  "updatedAt": "2026-07-16T12:00:00Z",
+  "items": [
+    {
+      "id": "ingredient-carprofen",
+      "conceptType": "ingredient",
+      "primaryName": "Carprofeno",
+      "normalizedName": "carprofeno",
+      "synonyms": ["Carprofen"],
+      "externalIdentifiers": [],
+      "catalogStatus": "verified",
+      "referenceIds": ["fixture-local"]
+    },
+    {
+      "id": "ingredient-potassium-clavulanate",
+      "conceptType": "ingredient",
+      "primaryName": "Clavulanato de potássio",
+      "normalizedName": "clavulanato de potassio",
+      "synonyms": ["Potassium clavulanate"],
+      "externalIdentifiers": [],
+      "catalogStatus": "verified",
+      "referenceIds": ["fixture-local"]
+    }
+  ]
+}
