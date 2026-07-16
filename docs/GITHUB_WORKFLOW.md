@@ -41,7 +41,7 @@ Separating them keeps regulatory diffs reviewable and prevents a large generated
 
 1. Approve the v1 scope, data model, source policy, and editorial workflow.
 2. Implement schemas, validators, deterministic data builders, and fixtures.
-3. Implement the MAPA SIPEAGRO importer and produce an import-quality report.
+3. Audit and approve a product-level MAPA export, implement its deterministic source adapter, and produce an import-quality report.
 4. Configure pull request CI and the scheduled catalog synchronization workflow.
 5. Implement the mobile-first catalog, search, and monograph screens.
 6. Configure and verify the production PWA manifest, icons, service worker, cache versioning, and offline messaging without browser automation.
@@ -83,7 +83,7 @@ No browser test is part of the agent workflow. The operator performs installatio
 
 The job:
 
-1. downloads the current allowed MAPA resource;
+1. downloads the current allowed product-level MAPA resource, after its access and reuse method has been approved;
 2. records the URL, retrieval time, byte count, and SHA-256 hash;
 3. verifies expected headers before transformation;
 4. runs the deterministic importer;

@@ -19,19 +19,22 @@ Policy reviewed: 2026-07-16.
 
 ### Tier 1 - Brazilian Regulatory Inventory
 
-#### MAPA SIPEAGRO Veterinary Product Dataset
+#### MAPA Veterinary Product Inventory
 
-- Dataset: https://dados.agricultura.gov.br/dataset/sipeagro
-- Veterinary product resource: https://dados.agricultura.gov.br/dataset/sipeagro/resource/7ce5fac0-9c8f-4e14-82d9-6deab9b5e2e9
+- Product-panel index: https://www.gov.br/agricultura/pt-br/assuntos/insumos-agropecuarios/insumos-pecuarios/produtos-veterinarios/paineis-de-bi-do-mapa
+- Pharmaceutical panel: https://mapa-indicadores.agricultura.gov.br/publico/extensions/Produtos_Farmaceuticos/Produtos_Farmaceuticos.html
+- Biological panel: https://mapa-indicadores.agricultura.gov.br/publico/extensions/Produtos_Biologicos/Produtos_Biologicos.html
+- SIPEAGRO dataset: https://dados.agricultura.gov.br/dataset/sipeagro
 - Publisher: Ministry of Agriculture and Livestock of Brazil (MAPA).
-- Published format: CSV.
-- Declared update frequency: weekly.
-- Declared license: Creative Commons Attribution.
-- Intended use: primary inventory of Brazilian veterinary commercial products and registrations.
+- Intended use: a product-level MAPA export is the planned primary inventory of Brazilian veterinary commercial products and registrations after schema and reuse review.
 
-The importer must inspect the current CSV schema before relying on any field. Missing ingredient, formulation, strength, route, species, or status data remains missing until an allowed source supplies it. Trade names alone are not sufficient evidence for component mapping.
+The 2026-07-16 audit found that the SIPEAGRO resource named `Produto Veterinário` contains establishment registrations and activities, not product records. Its declared Creative Commons Attribution license applies to that open-data dataset, but the file cannot support commercial-product ingestion. See [the source audit](SOURCE_AUDIT.md) for the hash, row counts, exact fields, and decision.
 
-Attribution must be present in project documentation and in the application's data-source view.
+The product panels expose product-level table exports. Their pharmaceutical and biological schemas were audited on 2026-07-16 and can support local deterministic adapter development. The panel-index page states that site content uses Creative Commons Attribution-NoDerivatives 3.0 Unported, while the Qlik exports do not present separate reuse terms. Public visibility alone is not treated as permission for transformed bulk redistribution. Importer code may be developed with fictitious fixtures, but generated panel records must not be committed until this reuse question is resolved.
+
+The first pharmaceutical adapter may inspect product identity, regulatory status, holder, source active-ingredient names, form, route, and species fields. It must ignore `Modo de Uso`, `Advertência`, and `Indicação`; these label-like fields must not become clinical content through bulk ingestion. The biological export is not mapped into chemical ingredient concepts because vaccines, diagnostic kits, antigens, organisms, and diluents require a separate data model.
+
+Every input must pass fail-closed schema inspection. Missing ingredient, formulation, strength, route, species, or status data remains missing until an allowed source supplies it. Trade names alone are not sufficient evidence for component mapping. Attribution must be present in project documentation and in the application's data-source view.
 
 ### Tier 2 - Foreign Regulatory Cross-Checks and Labels
 

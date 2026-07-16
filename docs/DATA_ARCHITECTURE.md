@@ -20,7 +20,7 @@ The application serves static JSON split by locale and by small catalog shards. 
 ```text
 data/
   imports/
-    sipeagro/
+    mapa-products/
       ingredient-aliases.json
       product-overrides.json
       ignored-records.json
@@ -43,12 +43,12 @@ public/
       monographs/
         carprofeno.json
 scripts/
-  import-sipeagro.ts
+  import-mapa-products.ts
   build-data.ts
   validate-data.ts
 tests/
   fixtures/
-    sipeagro/
+    mapa-products/
 ```
 
 `data/imports` contains developer-facing normalization rules and import state. It is not served to users. Generated and editorial end-user content lives under the matching locale folder in `public/data`.
@@ -108,7 +108,7 @@ A single-ingredient product usually resolves to one ingredient concept. A multi-
   "schemaVersion": "1.0.0",
   "dataVersion": "2026.07.16.1",
   "updatedAt": "2026-07-16T12:00:00Z",
-  "sources": ["mapa-sipeagro"],
+  "sources": ["mapa-veterinary-products"],
   "letters": [
     {
       "id": "a",
@@ -135,7 +135,7 @@ A drug concept is either one active ingredient or a defined fixed combination. I
   "synonyms": ["Carprofen"],
   "externalIdentifiers": [],
   "catalogStatus": "normalized",
-  "referenceIds": ["source-mapa-sipeagro"]
+  "referenceIds": ["source-mapa-veterinary-products"]
 }
 ```
 
@@ -155,7 +155,7 @@ Ingredient salts, esters, solvates, and active moieties require explicit normali
   ],
   "synonyms": [],
   "catalogStatus": "verified",
-  "referenceIds": ["source-mapa-sipeagro"]
+  "referenceIds": ["source-mapa-veterinary-products"]
 }
 ```
 
@@ -188,7 +188,7 @@ Commercial products are jurisdiction-specific. Their registration status does no
   "routes": [],
   "authorizedSpecies": [],
   "sourceRecord": {
-    "sourceId": "mapa-sipeagro",
+    "sourceId": "mapa-veterinary-products",
     "recordId": "example-registration",
     "retrievedAt": "2026-07-16T12:00:00Z",
     "contentHash": "sha256:example"
@@ -382,13 +382,13 @@ Regulatory source metadata and clinical references are both traceable, but they 
 
 ```json
 {
-  "id": "source-mapa-sipeagro",
+  "id": "source-mapa-veterinary-products",
   "kind": "regulatoryDataset",
   "publisher": "Ministry of Agriculture and Livestock of Brazil",
   "jurisdiction": "BR",
-  "title": "SIPEAGRO - Veterinary Product",
-  "url": "https://dados.agricultura.gov.br/dataset/sipeagro",
-  "license": "CC-BY",
+  "title": "MAPA veterinary product export",
+  "url": "https://www.gov.br/agricultura/pt-br/assuntos/insumos-agropecuarios/insumos-pecuarios/produtos-veterinarios/paineis-de-bi-do-mapa",
+  "license": "Pending source-specific review",
   "accessedAt": "2026-07-16"
 }
 ```
@@ -407,6 +407,8 @@ Clinical references add bibliographic fields such as authors, year, DOI, PMID, e
 8. Separate issues and pull requests enrich one drug concept and species at a paced rate.
 
 No ingestion workflow pushes directly to the default branch.
+
+The initial MAPA adapter is limited to pharmaceutical inventory facts and must not bulk-import label-like `Modo de Uso`, `Advertência`, or `Indicação` text as clinical monographs. Biological products such as vaccines, diagnostic kits, antigens, organisms, and diluents require a separate product model and must not be forced into chemical ingredient or fixed-combination records.
 
 ## Fixture Data
 
