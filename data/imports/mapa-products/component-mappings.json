@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.0.0",
+  "sourceId": "mapa-veterinary-pharmaceutical-products",
+  "updatedAt": "2026-07-16",
+  "mappings": [
+    {
+      "sourceKind": "pharmaceuticalActive",
+      "sourceName": "AMOXICILINA",
+      "ingredientId": "ingredient-amoxicillin",
+      "status": "candidate",
+      "reviewedAt": null,
+      "reviewedBy": null,
+      "note": "Exact Portuguese active-ingredient name."
+    },
+    {
+      "sourceKind": "pharmaceuticalActive",
+      "sourceName": "CARPROFEN",
+      "ingredientId": "ingredient-carprofen",
+      "status": "candidate",
+      "reviewedAt": null,
+      "reviewedBy": null,
+      "note": "Exact English synonym already recorded on the carprofen concept."
+    },
+    {
+      "sourceKind": "pharmaceuticalActive",
+      "sourceName": "CARPROFEN (CARPROFENO)",
+      "ingredientId": "ingredient-carprofen",
+      "status": "candidate",
+      "reviewedAt": null,
+      "reviewedBy": null,
+      "note": "The source value explicitly names carprofen and its Portuguese name."
+    },
+    {
+      "sourceKind": "pharmaceuticalActive",
+      "sourceName": "CLAVULANATO DE POTASSIO",
+      "ingredientId": "ingredient-potassium-clavulanate",
+      "status": "candidate",
+      "reviewedAt": null,
+      "reviewedBy": null,
+      "note": "Exact unaccented source spelling of the existing Portuguese concept."
+    }
+  ]
+}

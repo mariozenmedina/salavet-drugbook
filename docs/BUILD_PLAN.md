@@ -15,6 +15,7 @@ This document is the project's operational guide. Each stage should be executed 
 - [x] Audit the current MAPA veterinary product sources and add fail-closed local intake validation.
 - [x] Obtain and audit product-level MAPA pharmaceutical and biological exports.
 - [x] Approve the MAPA panel exports for redistribution and transformation.
+- [x] Publish the initial 2,825-record MAPA pharmaceutical product inventory and product search index.
 - [ ] Implement the official Brazilian veterinary product catalog pipeline.
 - [ ] Implement the v1 drugbook webapp and publish the initial reviewed monographs.
 - [ ] Prepare the public contribution workflow.
@@ -80,6 +81,7 @@ The following features remain planned but must not delay the first release:
 - `/{locale}`: welcome/home screen with the alphabet grid loaded from locale data.
 - `/{locale}/letter/{letter}`: filterable drug list for that letter.
 - `/{locale}/drug/{slug}`: drug monograph.
+- `/{locale}/product/{id}`: regulatory commercial-product detail, including products that do not yet have a reviewed concept link.
 
 Post-v1 adds `/{locale}/prescription` for the calculator and editable/printable prescription page.
 
@@ -178,7 +180,9 @@ Tasks:
 - [x] Create a deterministic first-stage pharmaceutical adapter in `scripts/` that accepts explicit local input and output files.
 - [x] Normalize pharmaceutical source rows into intermediate product candidates without inventing missing ingredient links.
 - [x] Maintain review queues for legacy registrations, duplicate registrations, missing ingredients, unknown statuses, and unmatched source components.
-- Generate active-ingredient, combination, product, letter, and search artifacts under `public/data/pt-BR`.
+- [x] Add an explicit reviewable component-mapping registry keyed by exact MAPA source values.
+- [x] Generate the complete pharmaceutical product inventory, product manifest, and product search index under `public/data/pt-BR`.
+- [ ] Derive ingredient, combination, letter, and concept-search artifacts only from explicitly reviewed component mappings.
 - [x] Create fictitious fixtures and unit tests for exact schema validation, multiline fields, missing values, duplicate registrations, component splitting, exclusions, and source attribution.
 - Add a manual and scheduled GitHub Actions workflow that downloads the upstream source, runs validation, and opens or updates a draft data PR when the generated catalog changes.
 - Never let source synchronization merge directly into the default branch.
@@ -189,7 +193,7 @@ Acceptance criteria:
 - Inputs without product-level trade name, product registration, and active ingredient or composition fields are rejected before transformation.
 - Generated files pass validation.
 - Imported records include provenance and normalization status.
-- Trade names belong to commercial product records and are derived into ingredient/combination search entries.
+- Trade names belong to commercial product records; all products are discoverable in the product index, while only reviewed component relationships are derived into ingredient/combination search entries.
 - Unresolved component mappings remain visible to editors and are never guessed into reviewed data.
 - License-sensitive or proprietary monograph text is not imported.
 
@@ -449,3 +453,14 @@ Acceptance criteria:
 - Verified byte-identical candidate and report files across repeated runs with the same source bytes and retrieval date.
 - Kept `Modo de Uso`, `Advertência`, and `Indicação` values out of the initial inventory artifacts pending the separate clinical editorial workflow.
 - Kept raw and generated local artifacts under ignored `.data/` and did not run browser tests.
+
+### 2026-07-16 - Stage 3E Public Pharmaceutical Product Inventory
+
+- Generated 2,825 public MAPA pharmaceutical product records across 26 deterministic trade-name shards and removed the fictitious commercial products.
+- Added a product catalog manifest and compact product search index covering every source row, including 158 products without a current registration and 369 products without reported components.
+- Added stable IDs for unique, duplicate, legacy, and unregistered source rows without relying only on row position.
+- Added nullable current registration, previous registration, holder registration, holder, and origin fields to preserve source absence faithfully.
+- Added an exact component-mapping registry with four small candidate proposals; no product relationship was marked verified automatically.
+- Generated 2,821 unmatched and 4 candidate product relationships, preserving 4,301 source component occurrences.
+- Added runtime validators, typed loaders, complete shard/search coverage tests, and search by trade name, current or previous registration, source component, holder, class, and species.
+- Verified that rebuilding all 28 generated product files with the same input produced byte-identical output and did not run browser tests.

@@ -21,7 +21,7 @@ The application serves static JSON split by locale and by small catalog shards. 
 data/
   imports/
     mapa-products/
-      ingredient-aliases.json
+      component-mappings.json
       product-overrides.json
       ignored-records.json
   source-registry.json
@@ -33,12 +33,14 @@ public/
       ui.json
       alphabet.json
       search-index.json
+      product-search-index.json
       letters/
         a.json
       catalog/
         concepts/
           a.json
         products/
+          manifest.json
           a.json
       monographs/
         carprofeno.json
@@ -70,7 +72,7 @@ Catalog shards use a consistent envelope:
 }
 ```
 
-The envelope applies independently to `catalog/concepts/{letter}.json`, `catalog/products/{letter}.json`, and `letters/{letter}.json`. Item schemas differ, but locale, shard key, update time, and item collection are always explicit.
+The envelope applies independently to `catalog/concepts/{letter}.json`, `catalog/products/{letter}.json`, and `letters/{letter}.json`. Concept and letter shards use the normalized concept initial. Product shards use the normalized trade-name initial so every regulatory product has one deterministic location even when `conceptId` is `null`. Item schemas differ, but locale, shard key, update time, and item collection are always explicit.
 
 Validation has two layers:
 
@@ -172,6 +174,7 @@ Commercial products are jurisdiction-specific. Their registration status does no
   "jurisdiction": "BR",
   "regulatoryAuthority": "MAPA",
   "registrationNumber": "example-registration",
+  "previousRegistrationNumber": null,
   "marketingStatus": "registered",
   "holder": "Example Holder",
   "conceptId": "ingredient-carprofen",
@@ -185,8 +188,10 @@ Commercial products are jurisdiction-specific. Their registration status does no
   ],
   "componentLinkStatus": "verified",
   "dosageForms": [],
+  "pharmaceuticalClasses": [],
   "routes": [],
   "authorizedSpecies": [],
+  "origin": null,
   "sourceRecord": {
     "sourceId": "mapa-veterinary-products",
     "recordId": "example-registration",
@@ -196,7 +201,13 @@ Commercial products are jurisdiction-specific. Their registration status does no
 }
 ```
 
-Fields absent from the upstream dataset remain empty or `null`. Importers must not infer formulation, strength, route, species, marketing status, or ingredient composition from a trade name alone.
+`registrationNumber`, `previousRegistrationNumber`, `holder`, and `origin` are nullable because the audited export contains real missing values. Fields absent from the upstream dataset remain empty or `null`. Importers must not infer formulation, strength, route, species, marketing status, or ingredient composition from a trade name alone.
+
+The first public MAPA product inventory preserves every source component name on its commercial product. Canonical `ingredientId` and `conceptId` values are added only by an exact, committed decision in `data/imports/mapa-products/component-mappings.json`. Product and source-record IDs use stable source facts and content fingerprints rather than source row numbers alone.
+
+`catalog/products/manifest.json` lists every trade-name shard and its item count. `product-search-index.json` provides compact discovery by commercial name, current or previous registration, holder, source component, pharmaceutical class, and species without requiring a concept link. It is separate from `search-index.json`, which remains the concept and monograph index.
+
+Mapping entries have either `candidate` or `verified` status. Candidate mappings may populate `ingredientId` so editors and interfaces can inspect the proposed relationship, but they never populate `conceptId` or produce verified trade-name derivations. Verified mappings require reviewer and review-date metadata. A product becomes verified only when every source component has a verified ingredient mapping and the complete ingredient set resolves to one existing ingredient or fixed-combination concept.
 
 ## Letter Files
 
