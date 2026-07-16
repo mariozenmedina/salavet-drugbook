@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 
 import productSearchIndexJson from '../../public/data/pt-BR/product-search-index.json'
 import { validateProductSearchIndex } from './dataValidation'
-import { searchProductIndex } from './productSearch'
+import { searchProductIndex, searchProductIndexWithMeta } from './productSearch'
 
 function productSearchIndex() {
   const result = validateProductSearchIndex(productSearchIndexJson)
@@ -51,5 +51,14 @@ describe('searchProductIndex', () => {
     expect(firstRun).toEqual(secondRun)
     expect(firstRun).toHaveLength(5)
     expect(searchProductIndex(productSearchIndex(), '   ')).toEqual([])
+  })
+
+  it('reports the complete match count when the rendered result set is limited', () => {
+    const result = searchProductIndexWithMeta(productSearchIndex(), 'ivermectina', {
+      limit: 3,
+    })
+
+    expect(result.items).toHaveLength(3)
+    expect(result.total).toBeGreaterThan(result.items.length)
   })
 })

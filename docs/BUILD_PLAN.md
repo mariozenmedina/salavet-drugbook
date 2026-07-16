@@ -16,6 +16,7 @@ This document is the project's operational guide. Each stage should be executed 
 - [x] Obtain and audit product-level MAPA pharmaceutical and biological exports.
 - [x] Approve the MAPA panel exports for redistribution and transformation.
 - [x] Publish the initial 2,825-record MAPA pharmaceutical product inventory and product search index.
+- [x] Deliver the mobile commercial-product search and regulatory product-detail experience tracked in issue #11.
 - [ ] Implement the official Brazilian veterinary product catalog pipeline.
 - [ ] Implement the v1 drugbook webapp and publish the initial reviewed monographs.
 - [ ] Prepare the public contribution workflow.
@@ -203,12 +204,12 @@ Goal: deliver the visual shell and basic navigation.
 
 Tasks:
 
-- Create a mobile-first layout with sticky top navigation.
-- Implement light/dark themes with LESS/CSS tokens.
+- [x] Create a mobile-first layout with sticky top navigation.
+- [x] Implement light/dark themes with LESS/CSS tokens.
 - Implement locale selector.
 - Persist theme and locale preferences.
 - Create base components: icon button, search input, select, chip, alert, compact card, and list.
-- Configure the web app manifest, install icons, theme colors, and service worker required for installation on supported mobile browsers.
+- [x] Configure the web app manifest, install icon, theme colors, and service worker required for installation on supported mobile browsers.
 
 Acceptance criteria:
 
@@ -320,10 +321,10 @@ Goal: make the v1 drugbook installable and resilient without requiring every mon
 
 Tasks:
 
-- Configure manifest with name, icons, and theme.
-- Configure the service worker for the app shell.
-- Cache the essential catalog and default-locale data after the first successful load.
-- Plan the strategy for on-demand locale/letter data.
+- [x] Configure manifest with name, icon, language, and theme.
+- [x] Configure the service worker for the app shell.
+- [x] Cache the essential catalog and default-locale data after the first successful load.
+- [x] Use a bounded, network-first runtime cache for locale data and visited product shards.
 - Cache visited monographs on demand without making stale clinical data appear current.
 - Create a translated warning when offline data is unavailable.
 
@@ -464,3 +465,14 @@ Acceptance criteria:
 - Generated 2,821 unmatched and 4 candidate product relationships, preserving 4,301 source component occurrences.
 - Added runtime validators, typed loaders, complete shard/search coverage tests, and search by trade name, current or previous registration, source component, holder, class, and species.
 - Verified that rebuilding all 28 generated product files with the same input produced byte-identical output and did not run browser tests.
+
+### 2026-07-16 - Mobile Commercial Product Catalog
+
+- Replaced the placeholder home screen with a mobile-first search experience over all 2,825 MAPA pharmaceutical products.
+- Added bounded results with complete match counts and search by trade name, registration, reported component, holder, pharmaceutical class, and species.
+- Added direct regulatory product pages with registration history, marketing status, reported components, presentation, authorized species, holder, origin, and source-record provenance.
+- Made unmatched, candidate, and verified component relationships explicit without presenting unreviewed proposals as clinical facts.
+- Moved every new end-user string into validated `pt-BR` locale data and added safe named-template formatting for result counts and dates.
+- Added product lookup through deterministic search-index shard pointers with typed not-found handling and unit coverage.
+- Replaced the scaffold favicon, completed the default-language PWA manifest metadata, and added bounded network-first caching for locale data and visited product shards.
+- Verified data validation, unit tests, type checking, linting, and the production PWA build without running browser tests.

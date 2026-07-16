@@ -1,5 +1,6 @@
 import type {
   AlphabetFile,
+  CommercialProduct,
   ConceptShard,
   DrugMonograph,
   LetterFile,
@@ -66,6 +67,16 @@ export class DrugbookValidationError extends DrugbookDataError {
     super(`Invalid drugbook data from ${path}\n${formatValidationIssues(issues)}`, path)
     this.name = 'DrugbookValidationError'
     this.issues = issues
+  }
+}
+
+export class ProductNotFoundError extends DrugbookDataError {
+  readonly productId: string
+
+  constructor(productId: string) {
+    super(`Product ${productId} was not found in the catalog`, productId)
+    this.name = 'ProductNotFoundError'
+    this.productId = productId
   }
 }
 
@@ -185,6 +196,32 @@ export function loadProductShard(
     validateProductShard,
     fetcher,
   )
+}
+
+export async function loadCommercialProduct(
+  locale: string,
+  productId: string,
+  fetcher?: JsonFetcher,
+): Promise<CommercialProduct> {
+  const safeProductId = safeSegment(productId, 'product')
+  const index = await loadProductSearchIndex(locale, fetcher)
+  const indexItem = index.items.find((item) => item.productId === safeProductId)
+
+  if (!indexItem) {
+    throw new ProductNotFoundError(safeProductId)
+  }
+
+  const shard = await loadProductShard(locale, indexItem.shard, fetcher)
+  const product = shard.items.find((item) => item.id === safeProductId)
+
+  if (!product) {
+    throw new DrugbookDataError(
+      `Product index entry ${safeProductId} is missing from shard ${indexItem.shard}`,
+      indexItem.path,
+    )
+  }
+
+  return product
 }
 
 export function loadMonograph(

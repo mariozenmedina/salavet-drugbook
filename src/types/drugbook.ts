@@ -78,13 +78,69 @@ export interface AlphabetFile {
 
 export interface UiText {
   appName: string
+  navigation: {
+    home: string
+    locale: string
+    localeShortLabel: string
+  }
+  common: {
+    loading: string
+    loadError: string
+    notAvailable: string
+  }
   welcome: {
     title: string
     subtitle: string
   }
   search: {
     placeholder: string
-    empty: string
+    ariaLabel: string
+    emptyTitle: string
+    emptyBody: string
+    resultSummary: string
+    limitedResults: string
+  }
+  catalog: {
+    eyebrow: string
+    productCount: string
+    searchPrompt: string
+    sourceNotice: string
+    updatedAt: string
+  }
+  product: {
+    backToCatalog: string
+    recordEyebrow: string
+    notFoundTitle: string
+    notFoundBody: string
+    sections: {
+      regulatory: string
+      composition: string
+      presentation: string
+      authorization: string
+      source: string
+    }
+    fields: {
+      marketingStatus: string
+      registrationNumber: string
+      previousRegistrationNumber: string
+      regulatoryAuthority: string
+      jurisdiction: string
+      components: string
+      dosageForms: string
+      pharmaceuticalClasses: string
+      routes: string
+      authorizedSpecies: string
+      holder: string
+      holderRegistrationNumber: string
+      origin: string
+      sourceId: string
+      sourceRecordId: string
+      retrievedAt: string
+      contentHash: string
+    }
+    marketingStatus: Record<MarketingStatus, string>
+    componentLinkStatus: Record<ComponentLinkStatus, string>
+    componentLinkNote: Record<ComponentLinkStatus, string>
   }
   prescription: {
     title: string

@@ -9,6 +9,11 @@ export interface ProductSearchOptions {
   locale?: string
 }
 
+export interface ProductSearchResult {
+  items: ProductSearchIndexItem[]
+  total: number
+}
+
 interface RankedProductSearchItem {
   item: ProductSearchIndexItem
   score: number
@@ -73,16 +78,23 @@ export function searchProductIndex(
   query: string,
   options: ProductSearchOptions = {},
 ): ProductSearchIndexItem[] {
+  return searchProductIndexWithMeta(index, query, options).items
+}
+
+export function searchProductIndexWithMeta(
+  index: ProductSearchIndexFile,
+  query: string,
+  options: ProductSearchOptions = {},
+): ProductSearchResult {
   const locale = options.locale ?? index.locale
   const normalizedQuery = normalizeSearchText(query, locale)
 
   if (!normalizedQuery) {
-    return []
+    return { items: [], total: 0 }
   }
 
   const limit = Math.max(0, Math.floor(options.limit ?? 20))
-
-  return index.items
+  const rankedItems = index.items
     .map((item) => rankProduct(item, normalizedQuery, locale))
     .filter((candidate): candidate is RankedProductSearchItem => candidate !== null)
     .sort(
@@ -94,6 +106,10 @@ export function searchProductIndex(
         )
         || left.item.productId.localeCompare(right.item.productId, 'en'),
     )
-    .slice(0, limit)
     .map((candidate) => candidate.item)
+
+  return {
+    items: rankedItems.slice(0, limit),
+    total: rankedItems.length,
+  }
 }
