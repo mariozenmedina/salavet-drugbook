@@ -9,10 +9,35 @@ This document is the project's operational guide. Each stage should be executed 
 - [x] Document the expected JSON data architecture.
 - [x] Establish English as the repository and code convention.
 - [x] Install the Vite + Vue + TypeScript project.
-- [ ] Convert the initial `a.json` and `b.json` data to the new schema.
-- [ ] Implement the webapp.
-- [ ] Implement the prescription page and calculator.
+- [x] Replace the lost crawler migration with an official-source ingestion plan.
+- [x] Define v1 as an installable, drugbook-only PWA.
+- [ ] Implement the official Brazilian veterinary product catalog pipeline.
+- [ ] Implement the v1 drugbook webapp and publish the initial reviewed monographs.
 - [ ] Prepare the public contribution workflow.
+
+## Release Scope
+
+### V1 - Installable Drugbook
+
+V1 is a mobile-first, installable PWA focused on finding and reading veterinary drug information. It includes:
+
+- an active-ingredient and fixed-combination catalog;
+- Brazilian commercial products and trade names linked to their components;
+- global search by ingredient, combination, synonym, or trade name;
+- structured monographs with species-specific sections, references, provenance, and review status;
+- a valid web app manifest, icons, service worker, and an offline-capable app shell;
+- essential default-locale catalog data available after the first successful load.
+
+The catalog can contain imported entries that do not yet have a complete monograph, but the UI must distinguish imported, draft, and reviewed information clearly.
+
+### Post-v1
+
+The following features remain planned but must not delay the first release:
+
+- prescription builder;
+- dose calculator;
+- automated interaction and patient-specific warning checks;
+- advanced offline packs and additional locales.
 
 ## Language Conventions
 
@@ -107,17 +132,18 @@ Acceptance criteria:
 - [x] No raw `.crawler-data/` content is versioned.
 - [x] `docs/BUILD_PLAN.md` is updated with what was done.
 
-## Stage 2 - Data Structure and Types
+## Stage 2 - Drugbook Data Structure and Types
 
-Goal: define contracts before the UI depends on the data.
+Goal: define catalog and monograph contracts before the UI or importer depends on the data.
 
 Tasks:
 
-- Create TypeScript types for locale, index, drug, sections, dosages, alerts, interactions, and references.
+- Create TypeScript types for locale, index, ingredient, combination, commercial product, monograph, provenance, sections, species evidence, and references.
 - Create schema validators for JSON data.
 - Create loaders that fetch data by locale and letter.
 - Create normalized accent-insensitive and case-insensitive search.
 - Create minimal mock data in `public/data/pt-BR`.
+- Keep dosage and calculator contracts forward-compatible without making them a v1 requirement.
 
 Acceptance criteria:
 
@@ -125,34 +151,37 @@ Acceptance criteria:
 - Unit tests cover mock data loading and validation.
 - Schema documentation is updated if anything changes.
 
-## Stage 3 - Initial A/B Data Migration
+## Stage 3 - Official Source and Catalog Ingestion Foundation
 
-Goal: transform `.crawler-data/a.json` and `.crawler-data/b.json` into reviewable structured data.
+Goal: replace the lost crawler data with a reproducible, licensed, source-traceable product catalog pipeline.
 
-Notes about the raw data:
+Primary source:
 
-- Local files contain large monographs with `conteudo_texto` and `conteudo_html`.
-- The `Doses` section includes embedded HTML, scripts, and calculator text.
-- Publishing the content requires an explicit permission/license review before the repository becomes public.
+- Use the MAPA SIPEAGRO veterinary product dataset as the primary inventory of Brazilian commercial products.
+- Record the source URL, upstream record identifier when available, retrieval time, content hash, jurisdiction, and license attribution.
+- Treat foreign regulatory databases as secondary cross-checks, never as evidence that a product is marketed or approved in Brazil.
 
 Tasks:
 
-- Create an import script in `scripts/`.
-- Extract basic metadata: primary name, slug, letter, local source, sections, and detectable references.
-- Remove scripts, styles, and raw HTML.
-- Convert common sections into structured blocks.
-- Isolate dosage data into reviewable fields, even if initially marked as `needsReview`.
-- Mark obvious clinical warnings as candidates, never as final truth without review.
-- Generate `public/data/pt-BR/letters/a.json`, `b.json`, and `search-index.json`.
+- Inspect and document the upstream CSV columns and data-quality limitations.
+- Create a deterministic importer in `scripts/` that accepts an explicit local input file for reproducible tests.
+- Normalize source rows into commercial product records without inventing missing ingredient links.
+- Maintain a review queue for unmatched ingredients, salts, spelling variants, and fixed combinations.
+- Generate active-ingredient, combination, product, letter, and search artifacts under `public/data/pt-BR`.
+- Create fixtures and unit tests for normalization, duplicate registrations, combinations, and source attribution.
+- Add a manual and scheduled GitHub Actions workflow that downloads the upstream source, runs validation, and opens or updates a draft data PR when the generated catalog changes.
+- Never let source synchronization merge directly into the default branch.
 
 Acceptance criteria:
 
-- Import is reproducible by command.
+- Import is reproducible from a pinned fixture or source snapshot.
 - Generated files pass validation.
-- Imported records include `reviewStatus`.
-- License-sensitive data is not published without an explicit decision.
+- Imported records include provenance and normalization status.
+- Trade names belong to commercial product records and are derived into ingredient/combination search entries.
+- Unresolved component mappings remain visible to editors and are never guessed into reviewed data.
+- License-sensitive or proprietary monograph text is not imported.
 
-## Stage 4 - App Shell and Theme
+## Stage 4 - V1 App Shell, Theme, and Installability
 
 Goal: deliver the visual shell and basic navigation.
 
@@ -163,12 +192,14 @@ Tasks:
 - Implement locale selector.
 - Persist theme and locale preferences.
 - Create base components: icon button, search input, select, chip, alert, compact card, and list.
+- Configure the web app manifest, install icons, theme colors, and service worker required for installation on supported mobile browsers.
 
 Acceptance criteria:
 
 - Build passes.
 - Components do not contain hardcoded strings that should be translated.
 - Theme switching preserves basic contrast.
+- The production build contains the manifest and service worker needed for PWA installation.
 
 ## Stage 5 - Welcome and Alphabet
 
@@ -243,9 +274,9 @@ Acceptance criteria:
 - Long sections remain readable on phones.
 - Content without reviewed dosage does not feed the calculator automatically.
 
-## Stage 9 - Prescription and Calculator
+## Stage 9 - Post-v1 Prescription and Calculator
 
-Goal: create the calculation, prescription, and warning page.
+Goal: create the calculation, prescription, and warning page after the drugbook v1 is released.
 
 Tasks:
 
@@ -268,21 +299,23 @@ Acceptance criteria:
 - Warnings show severity, reason, and reference when available.
 - `localStorage` includes schema versioning for future migrations.
 
-## Stage 10 - PWA and Offline
+## Stage 10 - V1 PWA and Offline Baseline
 
-Goal: make the app installable and resilient.
+Goal: make the v1 drugbook installable and resilient without requiring every monograph to be downloaded upfront.
 
 Tasks:
 
 - Configure manifest with name, icons, and theme.
 - Configure the service worker for the app shell.
-- Cache essential data for the default locale.
+- Cache the essential catalog and default-locale data after the first successful load.
 - Plan the strategy for on-demand locale/letter data.
+- Cache visited monographs on demand without making stale clinical data appear current.
 - Create a translated warning when offline data is unavailable.
 
 Acceptance criteria:
 
 - Build generates manifest and service worker.
+- The app meets the technical installability requirements of supported mobile browsers.
 - Basic `pt-BR` data is available after the first load.
 - Data version can invalidate an old cache.
 
@@ -347,3 +380,11 @@ Acceptance criteria:
 - Used `@lucide/vue` instead of `lucide-vue-next` because the registry marks `lucide-vue-next` as deprecated.
 - Verified `pnpm run typecheck`, `pnpm run test`, and `pnpm run build`.
 - Did not run browser tests or open a browser.
+
+### 2026-07-16 - V1 Drugbook Scope and Data Recovery Plan
+
+- Defined v1 as an installable, mobile-first drugbook PWA.
+- Deferred the prescription builder, calculator, and automated interaction checks until after v1.
+- Replaced the lost crawler-based A/B migration stage with an official-source ingestion plan.
+- Selected the MAPA SIPEAGRO dataset as the primary Brazilian commercial-product inventory, subject to importer field inspection.
+- Required commercial products, active ingredients, combinations, clinical monographs, and provenance to remain separate concepts.

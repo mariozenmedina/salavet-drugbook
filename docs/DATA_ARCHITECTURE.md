@@ -1,10 +1,30 @@
 # Data Architecture
 
-Drugbook data should be static JSON, split by locale and by the drug's first letter. The proposed folder is `public/data`, so Vite can serve files without mixing translatable data with components in `src`.
+Sala Vet Drugbook separates regulatory product inventory from clinical editorial content. A commercial product, an active ingredient, a fixed combination, and a clinical monograph are different records with different update and review lifecycles.
+
+The application serves static JSON split by locale and by small catalog shards. End-user data remains under `public/data/{locale}` so that every displayed value can be translated or localized without changing schema keys.
+
+## Design Principles
+
+- Product registration facts come from identified regulatory sources and retain jurisdiction and provenance.
+- Trade names belong to commercial product records, not directly to ingredients.
+- Ingredient-to-trade-name lists are generated relationships used by search and monograph views.
+- A fixed combination links to each ingredient and may have its own clinical monograph.
+- Clinical claims are written in original wording and cite one or more references.
+- Imported product metadata and reviewed clinical evidence use separate status fields.
+- Missing component links remain unresolved; importers must not guess them into reviewed data.
+- Public files are generated deterministically and reviewed through pull requests.
 
 ## Proposed Structure
 
 ```text
+data/
+  imports/
+    sipeagro/
+      ingredient-aliases.json
+      product-overrides.json
+      ignored-records.json
+  source-registry.json
 public/
   data/
     locales.json
@@ -15,37 +35,56 @@ public/
       search-index.json
       letters/
         a.json
-        b.json
+      catalog/
+        concepts/
+          a.json
+        products/
+          a.json
+      monographs/
+        carprofeno.json
+scripts/
+  import-sipeagro.ts
+  build-data.ts
+  validate-data.ts
+tests/
+  fixtures/
+    sipeagro/
 ```
 
-## `locales.json`
+`data/imports` contains developer-facing normalization rules and import state. It is not served to users. Generated and editorial end-user content lives under the matching locale folder in `public/data`.
 
-Available locale list.
+Large upstream files should not be committed until their size, update frequency, license, and retention requirements have been reviewed. Each import run must still record the upstream URL, retrieval time, and content hash.
 
-```json
-{
-  "defaultLocale": "pt-BR",
-  "locales": [
-    {
-      "code": "pt-BR",
-      "label": "Portuguese (Brazil)",
-      "nativeLabel": "Portugues (Brasil)"
-    }
-  ]
-}
+## Entity Relationships
+
+```text
+Ingredient concept ─┐
+                    ├── Commercial product ── Source record
+Ingredient concept ─┘           │
+                                └── derived trade-name search entries
+
+Ingredient concept ─┐
+                    ├── Fixed-combination concept ── Clinical monograph
+Ingredient concept ─┘
+
+Ingredient concept ──────────────────────────────── Clinical monograph
 ```
 
-## `manifest.json`
+A single-ingredient product usually resolves to one ingredient concept. A multi-ingredient product resolves to a stable combination concept whose component IDs are sorted and unique. Products that cannot be resolved safely stay in the catalog with `componentLinkStatus: "unmatched"` and do not populate clinical relationships.
 
-Locale metadata.
+## Locale Manifest
+
+`manifest.json` describes the generated locale dataset and lets the service worker invalidate old caches.
 
 ```json
 {
   "locale": "pt-BR",
   "label": "Portuguese (Brazil)",
   "direction": "ltr",
-  "dataVersion": "0.1.0",
-  "updatedAt": "2026-06-29",
+  "schemaVersion": "1.0.0",
+  "dataVersion": "2026.07.16.1",
+  "updatedAt": "2026-07-16T12:00:00Z",
+  "sources": ["mapa-sipeagro"],
   "letters": [
     {
       "id": "a",
@@ -57,131 +96,219 @@ Locale metadata.
 }
 ```
 
-## `ui.json`
+## Drug Concepts
 
-Translatable interface text.
+A drug concept is either one active ingredient or a defined fixed combination. IDs are stable and must not depend on a translated display name.
+
+### Ingredient Concept
 
 ```json
 {
-  "appName": "Sala Vet Drugbook",
-  "search": {
-    "placeholder": "Buscar medicamentos",
-    "empty": "Nenhum medicamento encontrado"
-  },
-  "prescription": {
-    "title": "Receituario",
-    "clear": "Limpar receituario",
-    "print": "Imprimir"
+  "id": "ingredient-carprofen",
+  "conceptType": "ingredient",
+  "primaryName": "Carprofeno",
+  "normalizedName": "carprofeno",
+  "synonyms": ["Carprofen"],
+  "externalIdentifiers": [],
+  "catalogStatus": "normalized",
+  "referenceIds": ["source-mapa-sipeagro"]
+}
+```
+
+Ingredient salts, esters, solvates, and active moieties require explicit normalization rules. They must not be collapsed automatically when the distinction affects strength, formulation, or clinical use.
+
+### Fixed-Combination Concept
+
+```json
+{
+  "id": "combination-amoxicillin-clavulanate",
+  "conceptType": "combination",
+  "primaryName": "Amoxicilina + clavulanato de potássio",
+  "normalizedName": "amoxicilina clavulanato de potassio",
+  "ingredientIds": [
+    "ingredient-amoxicillin",
+    "ingredient-potassium-clavulanate"
+  ],
+  "synonyms": [],
+  "catalogStatus": "verified",
+  "referenceIds": ["source-mapa-sipeagro"]
+}
+```
+
+The ingredient ID list is sorted before generating a combination key. A combination is not represented as a synthetic ingredient.
+
+## Commercial Products
+
+Commercial products are jurisdiction-specific. Their registration status does not establish approval in another country and does not establish that every clinical use in a monograph is on-label.
+
+```json
+{
+  "id": "product-br-mapa-example-registration",
+  "tradeName": "Example Vet",
+  "jurisdiction": "BR",
+  "regulatoryAuthority": "MAPA",
+  "registrationNumber": "example-registration",
+  "marketingStatus": "registered",
+  "holder": "Example Holder",
+  "conceptId": "ingredient-carprofen",
+  "components": [
+    {
+      "ingredientId": "ingredient-carprofen",
+      "sourceIngredientName": "CARPROFENO",
+      "role": "active",
+      "strength": null
+    }
+  ],
+  "componentLinkStatus": "verified",
+  "dosageForms": [],
+  "routes": [],
+  "authorizedSpecies": [],
+  "sourceRecord": {
+    "sourceId": "mapa-sipeagro",
+    "recordId": "example-registration",
+    "retrievedAt": "2026-07-16T12:00:00Z",
+    "contentHash": "sha256:example"
   }
 }
 ```
 
-## `alphabet.json`
+Fields absent from the upstream dataset remain empty or `null`. Importers must not infer formulation, strength, route, species, marketing status, or ingredient composition from a trade name alone.
 
-Locale alphabet. The UI must use this file instead of hardcoded letters.
+## Letter Files
+
+`letters/{letter}.json` is a lightweight, localized list of drug concepts. It is derived from catalog concepts and monograph availability, not used as the editorial source of truth.
 
 ```json
 {
-  "letters": [
+  "locale": "pt-BR",
+  "letter": "c",
+  "updatedAt": "2026-07-16T12:00:00Z",
+  "items": [
     {
-      "id": "a",
-      "label": "A",
-      "sortKey": "a"
+      "conceptId": "ingredient-carprofen",
+      "slug": "carprofeno",
+      "primaryName": "Carprofeno",
+      "conceptType": "ingredient",
+      "tradeNames": ["Example Vet"],
+      "synonyms": ["Carprofen"],
+      "species": ["dog"],
+      "monographStatus": "reviewed",
+      "path": "/pt-BR/drug/carprofeno"
     }
   ]
 }
 ```
 
-## `search-index.json`
+`tradeNames` is generated from verified product relationships. Editors do not maintain it by hand in letter or search files.
 
-Small index for global search.
+## Search Index
+
+The global index is also generated. It searches ingredient and combination names, synonyms, and related verified trade names.
 
 ```json
 {
   "locale": "pt-BR",
   "items": [
     {
-      "id": "abamectin-derquantel",
-      "slug": "abamectin-derquantel",
-      "letter": "a",
-      "primaryName": "Abamectina + derquantel",
-      "tradeNames": ["Startect"],
-      "synonyms": ["Abamectin - Derquantel"],
-      "components": ["abamectina", "derquantel"],
-      "species": ["sheep"],
-      "path": "/pt-BR/drug/abamectin-derquantel"
+      "conceptId": "ingredient-carprofen",
+      "slug": "carprofeno",
+      "letter": "c",
+      "primaryName": "Carprofeno",
+      "conceptType": "ingredient",
+      "tradeNames": ["Example Vet"],
+      "synonyms": ["Carprofen"],
+      "componentNames": ["Carprofeno"],
+      "species": ["dog"],
+      "monographStatus": "reviewed",
+      "path": "/pt-BR/drug/carprofeno"
     }
   ]
 }
 ```
 
-## `letters/{letter}.json`
+## Clinical Monographs
 
-File with all drugs for that letter.
+A monograph belongs to a drug concept and a locale. Regulatory product metadata may be imported automatically, but clinical statements require references and editorial review.
 
 ```json
 {
+  "conceptId": "ingredient-carprofen",
   "locale": "pt-BR",
-  "letter": "a",
-  "updatedAt": "2026-06-29",
-  "items": [
-    {
-      "id": "abamectin-derquantel",
-      "slug": "abamectin-derquantel",
-      "primaryName": "Abamectina + derquantel",
-      "tradeNames": ["Startect"],
-      "synonyms": ["Abamectin - Derquantel"],
-      "components": ["abamectina", "derquantel"],
-      "classification": ["Anthelmintico"],
-      "summary": "Resumo revisado em linguagem propria.",
-      "reviewStatus": "needsReview",
-      "sections": [],
-      "dosages": [],
-      "safety": {
-        "contraindications": [],
-        "warnings": [],
-        "adverseEffects": [],
-        "monitoring": []
-      },
-      "interactions": [],
-      "references": []
-    }
-  ]
+  "slug": "carprofeno",
+  "primaryName": "Carprofeno",
+  "monographStatus": "reviewed",
+  "review": {
+    "reviewedAt": "2026-07-16",
+    "reviewerIds": ["reviewer-example"],
+    "nextReviewAt": "2027-07-16"
+  },
+  "sections": [],
+  "speciesEvidence": [],
+  "safety": {
+    "contraindications": [],
+    "warnings": [],
+    "adverseEffects": [],
+    "monitoring": []
+  },
+  "interactions": [],
+  "references": []
 }
 ```
 
-Schema keys and IDs stay in English. Values shown to users can be localized inside the locale folder.
+Draft catalog entries may be visible as incomplete records, but unreviewed clinical claims and dosage instructions must not be presented as reviewed guidance.
 
-## Review Status
+## Species-Specific Evidence
 
-Use closed enum values:
+Clinical information is reviewed per drug concept and species. One drug can therefore be complete for dogs and still have no approved content for cats, horses, or production animals.
 
-- `draft`: manually created or imported, still incomplete.
-- `needsReview`: needs editorial/clinical review before broad use.
-- `reviewed`: reviewed for display.
-- `calculatorReady`: reviewed and approved for the calculator.
+```json
+{
+  "id": "evidence-carprofen-dog-example",
+  "species": "dog",
+  "indication": "Example reviewed indication",
+  "regulatoryContext": {
+    "jurisdiction": "BR",
+    "useType": "unknown"
+  },
+  "reviewStatus": "reviewed",
+  "sections": [],
+  "dosages": [],
+  "referenceIds": ["ref-example"]
+}
+```
 
-The calculator can only use `calculatorReady` dosages.
+`useType` is one of `onLabel`, `offLabel`, or `unknown`. It is always evaluated for an explicit jurisdiction. Evidence from a foreign label does not make a use on-label in Brazil.
+
+## Dosages
+
+V1 may display reviewed, species-specific dosage information inside a monograph, but it does not calculate patient doses. Calculator approval remains a separate future gate.
+
+```json
+{
+  "id": "dose-example",
+  "reviewStatus": "reviewed",
+  "calculatorStatus": "notEvaluated",
+  "species": "dog",
+  "indication": "Example reviewed indication",
+  "route": "PO",
+  "dose": {
+    "min": 1,
+    "max": 2,
+    "unit": "mg/kg"
+  },
+  "frequency": "q24h",
+  "duration": null,
+  "maxDose": null,
+  "notes": [],
+  "referenceIds": ["ref-example"]
+}
+```
+
+Only a later clinical workflow can change `calculatorStatus` to `calculatorReady`.
 
 ## Renderable Sections
 
-Avoid raw HTML. Components should render typed blocks.
-
-```json
-{
-  "id": "pharmacodynamics",
-  "title": "Farmacodinamica",
-  "kind": "list",
-  "items": [
-    {
-      "text": "Texto em linguagem propria.",
-      "referenceIds": ["ref-001"]
-    }
-  ]
-}
-```
-
-Initial block types:
+Avoid raw HTML. Components render typed blocks such as:
 
 - `paragraphs`
 - `list`
@@ -190,89 +317,85 @@ Initial block types:
 - `alerts`
 - `references`
 
-## Dosages
+Every clinical statement or table row supports `referenceIds` so the UI can show traceable evidence.
 
-Dosages should be structured for calculation and warnings.
+## Status Models
 
-```json
-{
-  "id": "dose-dog-gerd-po",
-  "reviewStatus": "needsReview",
-  "species": "dog",
-  "indication": "Refluxo gastroesofagico",
-  "route": "PO",
-  "dose": {
-    "min": 0.7,
-    "max": 0.7,
-    "unit": "mg/kg"
-  },
-  "frequency": "q24h",
-  "duration": null,
-  "maxDose": null,
-  "requiredPatientFields": ["weightKg"],
-  "notes": [],
-  "referenceIds": ["ref-001"]
-}
-```
+Catalog normalization and clinical review are independent.
 
-## Clinical Alerts
+### Catalog Status
 
-Alerts must be structured for the monograph, calculator, and prescription page.
+- `imported`: copied from an allowed source with provenance but not normalized.
+- `normalized`: names and identifiers were normalized by deterministic rules.
+- `verified`: a human verified the concept or product relationship.
+- `retired`: no longer current in the upstream source but retained for history.
 
-```json
-{
-  "id": "alert-horse-derquantel",
-  "severity": "danger",
-  "appliesTo": {
-    "species": ["horse"]
-  },
-  "message": "Nao usar em equinos.",
-  "recommendation": "Escolher alternativa terapeutica.",
-  "referenceIds": ["ref-001"]
-}
-```
+### Component Link Status
 
-Severities:
+- `unmatched`: no safe ingredient or combination link exists.
+- `candidate`: automation proposed a link for review.
+- `verified`: a human or an approved deterministic mapping verified the link.
 
-- `info`
-- `caution`
-- `warning`
-- `danger`
+### Monograph and Clinical Evidence Status
 
-## Interactions
+- `draft`: incomplete editorial content.
+- `needsReview`: ready for clinical/editorial review.
+- `reviewed`: approved for user-facing drugbook display.
 
-Interactions should be comparable on the prescription page.
+### Calculator Status
+
+- `notEvaluated`: not assessed for calculation.
+- `needsReview`: structured but not approved for calculation.
+- `calculatorReady`: approved through the future calculator review process.
+
+The v1 drugbook never treats catalog import status as clinical review.
+
+## Provenance and References
+
+Regulatory source metadata and clinical references are both traceable, but they serve different purposes.
 
 ```json
 {
-  "id": "interaction-example",
-  "severity": "warning",
-  "withDrugIds": ["other-drug"],
-  "withClasses": [],
-  "mechanism": "Potencializacao de sedacao.",
-  "recommendation": "Monitorar o paciente e ajustar dose se necessario.",
-  "referenceIds": ["ref-001"]
+  "id": "source-mapa-sipeagro",
+  "kind": "regulatoryDataset",
+  "publisher": "Ministry of Agriculture and Livestock of Brazil",
+  "jurisdiction": "BR",
+  "title": "SIPEAGRO - Veterinary Product",
+  "url": "https://dados.agricultura.gov.br/dataset/sipeagro",
+  "license": "CC-BY",
+  "accessedAt": "2026-07-16"
 }
 ```
 
-## References
+Clinical references add bibliographic fields such as authors, year, DOI, PMID, edition, label revision, and access date as appropriate. A source registry documents whether a source permits automated access, factual extraction, quotation, redistribution, or only citation.
 
-```json
-{
-  "id": "ref-001",
-  "label": "Fonte bibliografica em formato curto",
-  "type": "book",
-  "year": 2026,
-  "url": null,
-  "accessedAt": null
-}
-```
+## Import and Publication Flow
 
-## LocalStorage
+1. A manual or scheduled workflow downloads an allowed regulatory dataset.
+2. The workflow records retrieval metadata and verifies the source format.
+3. The importer normalizes rows deterministically and applies reviewed aliases or overrides.
+4. Unmatched values enter an editorial queue; they are not silently discarded or guessed.
+5. Generated public files are validated for schema, IDs, relationships, sorting, references, and duplicate registrations.
+6. Automation opens or updates a draft pull request containing the data diff and an import report.
+7. A human reviews and merges the product inventory changes.
+8. Separate issues and pull requests enrich one drug concept and species at a paced rate.
 
-Planned keys:
+No ingestion workflow pushes directly to the default branch.
+
+## PWA Data Strategy
+
+- Precache the app shell, locale manifest, UI strings, alphabet, and compact search index.
+- Cache letter files and monographs on demand after successful responses.
+- Version every generated dataset so the service worker can invalidate stale entries.
+- Display the data version, monograph review date, and offline state where clinically relevant.
+- Do not claim freshness while offline; cached regulatory and clinical information retains its recorded update dates.
+
+## Local Storage
+
+Planned keys remain versioned:
 
 - `salavet-drugbook:settings:v1`
-- `salavet-drugbook:prescription:v1`
+- `salavet-drugbook:pwa-data:v1`
+- `salavet-drugbook:prescription:v1` after the prescription feature is implemented post-v1.
 
-Values must include `schemaVersion` for future migrations.
+Stored values include `schemaVersion` for future migrations.
