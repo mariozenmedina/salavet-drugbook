@@ -2,7 +2,7 @@
 
 Public veterinary drugbook for Sala Vet, planned as an installable, mobile-first, multilingual webapp driven by JSON data.
 
-Current status: the Vite + Vue + TypeScript bootstrap and Stage 2 data foundation are implemented. The repository now has typed contracts, runtime validation, loaders, normalized search, and a fictitious `pt-BR` fixture dataset for the installable drugbook-only v1. The manually exported MAPA pharmaceutical and biological product tables have been audited and approved by the project operator for free redistribution and transformation. Stage 3 now proceeds with a deterministic pharmaceutical inventory adapter.
+Current status: the Vite + Vue + TypeScript bootstrap, Stage 2 data foundation, deterministic MAPA pharmaceutical adapter, and first public Brazilian product inventory are implemented. The `pt-BR` catalog contains 2,825 MAPA pharmaceutical products with validated provenance, trade-name shards, and a commercial-product search index. Component normalization and clinical monographs remain separately reviewed work.
 
 Main documents:
 
@@ -31,3 +31,11 @@ pnpm source:adapt:pharmaceutical -- --input .data/produtos_farma_mapa.csv --outp
 ```
 
 The command writes deterministic intermediate candidates and review queues outside `public/data`; it does not create user-facing catalog records or reviewed component links.
+
+Build the reviewed public product inventory from that intermediate dataset with:
+
+```bash
+pnpm source:build:product-catalog -- --input .data/mapa-pharmaceutical-candidates.json --mappings data/imports/mapa-products/component-mappings.json --public-root public/data/pt-BR --locale pt-BR --data-version 2026.07.16.2 --updated-at 2026-07-16T16:00:00Z
+```
+
+The generated product manifest and search index cover every MAPA row. Exact component-to-concept proposals live in the committed mapping registry and remain visibly `candidate` until reviewed.

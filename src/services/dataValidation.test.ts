@@ -2,17 +2,19 @@ import { describe, expect, it } from 'vitest'
 import sourceRegistryJson from '../../data/source-registry.json'
 import conceptsAJson from '../../public/data/pt-BR/catalog/concepts/a.json'
 import conceptsCJson from '../../public/data/pt-BR/catalog/concepts/c.json'
-import productsAJson from '../../public/data/pt-BR/catalog/products/a.json'
-import productsCJson from '../../public/data/pt-BR/catalog/products/c.json'
+import productManifestJson from '../../public/data/pt-BR/catalog/products/manifest.json'
 import letterAJson from '../../public/data/pt-BR/letters/a.json'
 import letterCJson from '../../public/data/pt-BR/letters/c.json'
 import monographJson from '../../public/data/pt-BR/monographs/carprofeno.json'
+import productSearchIndexJson from '../../public/data/pt-BR/product-search-index.json'
 import searchIndexJson from '../../public/data/pt-BR/search-index.json'
 import type {
   ConceptShard,
   DrugMonograph,
   DrugbookDatasetRelations,
   LetterFile,
+  ProductCatalogManifest,
+  ProductSearchIndexFile,
   ProductShard,
   SearchIndexFile,
 } from '../types/drugbook'
@@ -21,6 +23,8 @@ import {
   validateDatasetRelations,
   validateDrugMonograph,
   validateLetterFile,
+  validateProductCatalogManifest,
+  validateProductSearchIndex,
   validateProductShard,
   validateSearchIndex,
   validateSourceRegistry,
@@ -35,12 +39,39 @@ function requireValid<T>(result: ValidationResult<T>): T {
   return result.value
 }
 
+const productShardModules = import.meta.glob(
+  '../../public/data/pt-BR/catalog/products/*.json',
+  { eager: true, import: 'default' },
+)
+
+function generatedProductData(): {
+  manifest: ProductCatalogManifest
+  searchIndex: ProductSearchIndexFile
+  shards: ProductShard[]
+} {
+  const manifest = requireValid(
+    validateProductCatalogManifest(structuredClone(productManifestJson)),
+  )
+  const searchIndex = requireValid(
+    validateProductSearchIndex(structuredClone(productSearchIndexJson)),
+  )
+  const shards = Object.entries(productShardModules)
+    .filter(([filePath]) => !filePath.endsWith('/manifest.json'))
+    .sort(([leftPath], [rightPath]) => leftPath.localeCompare(rightPath, 'en'))
+    .map(([, value]) =>
+      requireValid<ProductShard>(
+        validateProductShard(structuredClone(value)),
+      ),
+    )
+
+  return { manifest, searchIndex, shards }
+}
+
 function fixtureRelations(): DrugbookDatasetRelations {
   const sourceRegistry = requireValid(validateSourceRegistry(structuredClone(sourceRegistryJson)))
   const conceptsA = requireValid<ConceptShard>(validateConceptShard(structuredClone(conceptsAJson)))
   const conceptsC = requireValid<ConceptShard>(validateConceptShard(structuredClone(conceptsCJson)))
-  const productsA = requireValid<ProductShard>(validateProductShard(structuredClone(productsAJson)))
-  const productsC = requireValid<ProductShard>(validateProductShard(structuredClone(productsCJson)))
+  const products = generatedProductData().shards.flatMap((shard) => shard.items)
   const letterA = requireValid<LetterFile>(validateLetterFile(structuredClone(letterAJson)))
   const letterC = requireValid<LetterFile>(validateLetterFile(structuredClone(letterCJson)))
   const searchIndex = requireValid<SearchIndexFile>(validateSearchIndex(structuredClone(searchIndexJson)))
@@ -49,7 +80,7 @@ function fixtureRelations(): DrugbookDatasetRelations {
   return {
     sources: sourceRegistry.sources,
     concepts: [...conceptsA.items, ...conceptsC.items],
-    products: [...productsA.items, ...productsC.items],
+    products,
     letters: [letterA, letterC],
     searchIndex,
     monographs: [monograph],
@@ -63,6 +94,26 @@ describe('drugbook data validation', () => {
     expect(result).toEqual({
       ok: true,
       value: expect.any(Object),
+    })
+  })
+
+  it('validates complete generated product shard and search coverage', () => {
+    const { manifest, searchIndex, shards } = generatedProductData()
+    const products = shards.flatMap((shard) => shard.items)
+    const productIds = products.map((product) => product.id)
+    const searchProductIds = searchIndex.items.map((item) => item.productId)
+
+    expect(manifest.totalCount).toBe(2_825)
+    expect(manifest.shards.reduce((count, shard) => count + shard.count, 0)).toBe(
+      products.length,
+    )
+    expect(new Set(productIds).size).toBe(products.length)
+    expect(new Set(searchProductIds).size).toBe(searchIndex.items.length)
+    expect([...searchProductIds].sort()).toEqual([...productIds].sort())
+
+    manifest.shards.forEach((manifestShard) => {
+      const productShard = shards.find((shard) => shard.letter === manifestShard.id)
+      expect(productShard?.items).toHaveLength(manifestShard.count)
     })
   })
 
@@ -113,6 +164,22 @@ describe('drugbook data validation', () => {
 
     if (!result.ok) {
       expect(result.issues.some((issue) => issue.message.includes('Unknown concept ID'))).toBe(true)
+    }
+  })
+
+  it('rejects trade names without a verified commercial-product relationship', () => {
+    const relations = fixtureRelations()
+    relations.letters[0]!.items[0]!.tradeNames = ['CURAMOXIN']
+
+    const result = validateDatasetRelations(relations)
+
+    expect(result.ok).toBe(false)
+
+    if (!result.ok) {
+      expect(result.issues).toContainEqual({
+        path: '$.letters.items[0].tradeNames',
+        message: 'Trade names must match verified commercial-product relationships',
+      })
     }
   })
 

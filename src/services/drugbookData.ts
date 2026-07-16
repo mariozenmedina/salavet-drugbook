@@ -5,6 +5,8 @@ import type {
   LetterFile,
   LocaleList,
   LocaleManifest,
+  ProductCatalogManifest,
+  ProductSearchIndexFile,
   ProductShard,
   SearchIndexFile,
   UiText,
@@ -17,6 +19,8 @@ import {
   validateLetterFile,
   validateLocaleList,
   validateLocaleManifest,
+  validateProductCatalogManifest,
+  validateProductSearchIndex,
   validateProductShard,
   validateSearchIndex,
   validateUiText,
@@ -123,6 +127,30 @@ export function loadAlphabet(locale: string, fetcher?: JsonFetcher): Promise<Alp
 export function loadSearchIndex(locale: string, fetcher?: JsonFetcher): Promise<SearchIndexFile> {
   const localeSegment = safeSegment(locale, 'locale')
   return loadValidatedJson(`/data/${localeSegment}/search-index.json`, validateSearchIndex, fetcher)
+}
+
+export function loadProductCatalogManifest(
+  locale: string,
+  fetcher?: JsonFetcher,
+): Promise<ProductCatalogManifest> {
+  const localeSegment = safeSegment(locale, 'locale')
+  return loadValidatedJson(
+    `/data/${localeSegment}/catalog/products/manifest.json`,
+    validateProductCatalogManifest,
+    fetcher,
+  )
+}
+
+export function loadProductSearchIndex(
+  locale: string,
+  fetcher?: JsonFetcher,
+): Promise<ProductSearchIndexFile> {
+  const localeSegment = safeSegment(locale, 'locale')
+  return loadValidatedJson(
+    `/data/${localeSegment}/product-search-index.json`,
+    validateProductSearchIndex,
+    fetcher,
+  )
 }
 
 export function loadLetter(locale: string, letter: string, fetcher?: JsonFetcher): Promise<LetterFile> {

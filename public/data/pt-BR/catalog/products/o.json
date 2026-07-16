@@ -1,0 +1,3609 @@
+{
+  "locale": "pt-BR",
+  "letter": "o",
+  "updatedAt": "2026-07-16T16:00:00Z",
+  "items": [
+    {
+      "id": "product-mapa-legacy-3591-1991-c35d2c789336",
+      "tradeName": "O SHAMPOO E CONDICIONADOR W.A.PET 6  EM 1 PARASITICIDA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "3591/1991",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0009369",
+      "holder": "DINAMICA PRODUTOS VETERINARIOS EIRELI - EPP",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO",
+        "EQÜINO/EQUIDEO",
+        "FELINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:3591/1991",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001400-1-8bd9a74d3aba",
+      "tradeName": "OCEANBLU BARRIER",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001400-1",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001400",
+      "holder": "DELAVAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACIDO GLICOLICO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "70%",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001400-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001400-4-a4acc5bdf20a",
+      "tradeName": "OCEANBLU PRE-POST",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001400-4",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001400",
+      "holder": "DELAVAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACIDO GLICOLICO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "70%",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTISSEPTICO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001400-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-1-154-1980-044c50c85f60",
+      "tradeName": "OCITOCINA BIOFARM",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "1.154/1980",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002356",
+      "holder": "BIOFARM QUIMICA E FARMACEUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OCITOCINA SINTETICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAO",
+        "CAPRINO",
+        "EQÜINO/EQUIDEO",
+        "GATO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:1.154/1980",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002178-16-66179cc345b1",
+      "tradeName": "OCITOCINA FORTE UCB",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002178-16",
+      "previousRegistrationNumber": "0.697/1978",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002178",
+      "holder": "UZINAS CHIMICAS BRASILEIRAS S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OCITOCINA SINTETICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAPRINO",
+        "EQÜINO/EQUIDEO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002178-16",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002003-22-d54f6ead1a02",
+      "tradeName": "OCITOCINA SYNTEC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002003-22",
+      "previousRegistrationNumber": "9330/2007",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002003",
+      "holder": "SYNTEC DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OCITOCINA SINTETICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "EQÜINO/EQUIDEO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002003-22",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-pr0000060-4-d873b7158b7b",
+      "tradeName": "OCITOFORT VILAVET",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "PR0000060-4",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "PR0000060",
+      "holder": "VILAVET SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OCITOCINA SINTETICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "PR0000060-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001650-3-e0b62e6f9d26",
+      "tradeName": "OCITON SOLUÇÃO INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001650-3",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001650",
+      "holder": "chemitec agro veterinaria ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OCITOCINA SINTETICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO AQUOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [
+        "INTRAMAMARIA"
+      ],
+      "authorizedSpecies": [
+        "BOVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001650-3",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0008850-24-edd42b9b2f00",
+      "tradeName": "OCITOPEC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0008850-24",
+      "previousRegistrationNumber": "7.970/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0008850",
+      "holder": "LABORATÓRIO BIOVET LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OCITOCINA SINTETICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0008850-24",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-pr0000230-16-e812b01e6ed3",
+      "tradeName": "ÓLEO CANFORADO 15% PRADO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "PR0000230-16",
+      "previousRegistrationNumber": "5.887/1997",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "PR0000230",
+      "holder": "laboratorio prado s.a",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CANFORA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO OLEOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "PR0000230-16",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-2-658-1969-77f071e540a5",
+      "tradeName": "ÓLEO CANFORADO COMPOSTO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "2.658/1969",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002356",
+      "holder": "BIOFARM QUIMICA E FARMACEUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CANFORA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLOROFILA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EUCALIPTOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GUAIACOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CANINO",
+        "CAPRINO",
+        "EQÜINO/EQUIDEO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:2.658/1969",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-1949-85863652d533",
+      "tradeName": "ÓLEO CANFORADO UCB",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "/1949",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002178",
+      "holder": "UZINAS CHIMICAS BRASILEIRAS S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CANFORA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAPRINO",
+        "EQÜINO/EQUIDEO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:/1949",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001510-6-c047a07d180a",
+      "tradeName": "ÓLEO CANFORADO VANSIL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001510-6",
+      "previousRegistrationNumber": "209",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001510",
+      "holder": "vansil industria e comercio e representações ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CANFORA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAPRINO",
+        "EQÜINO/EQUIDEO",
+        "OVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001510-6",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002151-4-d9967efbcb22",
+      "tradeName": "OLIVIT SE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002151-4",
+      "previousRegistrationNumber": "9775",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0002151",
+      "holder": "EMBRASVET EMPRESA BRASILEIRA VETERINARIA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACIDO FENICO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CITRATO FERRICO AMONIACAL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLICEROFOSFATO DE SODIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE CALCIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE COBALTO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE COBRE",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE MAGNESIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE MANGANÊS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE ZINCO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IODETO DE POTASSIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L ¿ GLICINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L- GLICINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-ARGININA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-LISINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-METIONINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SELENITO DE SÓDIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TOCOFEROL - VIT.E",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VITAMINA A",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VITAMINA D3",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "VITAMINAS E MINERAIS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002151-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002178-22-22685c12ca78",
+      "tradeName": "OLIVIT SE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002178-22",
+      "previousRegistrationNumber": "000215-1.000004",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002178",
+      "holder": "UZINAS CHIMICAS BRASILEIRAS S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACIDO FENICO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CITRATO FERRICO AMONIACAL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLICEROFOSFATO DE SODIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE CALCIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE COBALTO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE COBRE",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE MAGNESIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE MANGANÊS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE ZINCO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IODETO DE POTASSIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L ¿ GLICINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L- GLICINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-ARGININA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-LISINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-METIONINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SELENITO DE SÓDIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TOCOFEROL - VIT.E",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VITAMINA A",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VITAMINA D3",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "VITAMINAS E MINERAIS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002178-22",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-95-6238c3ae3330",
+      "tradeName": "OMNICIDE AQUA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-95",
+      "previousRegistrationNumber": "8.994",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORETO DE DIMETIL COCOBENZIL AMÔNICO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUTARALDEIDO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "DESINFETANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "NAO SE APLICA"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-95",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000574-11-baa0e7710346",
+      "tradeName": "ONSIOR",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000574-11",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000574",
+      "holder": "elanco saude animal",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTI-INFLAMATÓRIOS NÃO ESTEROIDAIS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000574-11",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000574-12-7282b6522953",
+      "tradeName": "ONSIOR INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000574-12",
+      "previousRegistrationNumber": "0000574000012",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000574",
+      "holder": "elanco saude animal",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ROBENACOXIBE",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTI-INFLAMATÓRIOS NÃO ESTEROIDAIS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000574-12",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-66-20470794ea7c",
+      "tradeName": "ONYX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-66",
+      "previousRegistrationNumber": "9.074/2005",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MOXIDECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-66",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-26-18db9a1f232c",
+      "tradeName": "OPTIMMUNE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-26",
+      "previousRegistrationNumber": "5.180",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CICLOSPORINA A",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-26",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-29-afc9adcbda03",
+      "tradeName": "OPTIMMUNE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-29",
+      "previousRegistrationNumber": "5.180",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CICLOSPORINA A",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-29",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-mg0000150-9-0170ce8d2e43",
+      "tradeName": "ORACINA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "MG0000150-9",
+      "previousRegistrationNumber": "1.559/1982",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0000150",
+      "holder": "LEMA BIOLOGIC DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OCITOCINA SINTETICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO AQUOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "MG0000150-9",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000566-8-62b673aa05e3",
+      "tradeName": "ORALGUARD 150 MG",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000566-8",
+      "previousRegistrationNumber": "Altera7981/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000566",
+      "holder": "cepav pharma ltda.",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000566-8",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000566-35-e3f1b73129f1",
+      "tradeName": "ORALGUARD 50 MG",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000566-35",
+      "previousRegistrationNumber": "8326/2002",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000566",
+      "holder": "cepav pharma ltda.",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000566-35",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-52-2ece7b2e5a1a",
+      "tradeName": "ORBENIN EXTRA DRY COW",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-52",
+      "previousRegistrationNumber": "6.576/1998",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLOXACILLIN BENZATINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "INTRAMAMARIA"
+      ],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-52",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sc0006025-1-fdd3370df063",
+      "tradeName": "ORGÂNICA INTOXICAÇÃO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SC0006025-1",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SC0006025",
+      "holder": "ORGÂNICA FARMACÊUTICA EPP",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ARSENICUM ALBUM",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BERBERIS VULGARIS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CANTHARIS VESICATORIA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CARDUS MARIANUS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CHELIDONIUM MAJUS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CHINA OFFICINALIS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LACHESIS MUTA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NUX VOMICA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PHOSPHORUS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PTERIDIUM AQUILINUM",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAPRINO",
+        "OVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SC0006025-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-pr0000337-1-e5d46a8ed967",
+      "tradeName": "ORGANNACT PRATA - INSETICIDA PARA CONTROLE DE BICHEIRAS (MIÍASES)",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "PR0000337-1",
+      "previousRegistrationNumber": "7.807/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "PR0000337",
+      "holder": "baston industria de aerossois ltda.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLOREXIDINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FENITROTHION",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "AEROSSOL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "EQÜINO/EQUIDEO",
+        "OVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "PR0000337-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002356-1-2da7a9939dc9",
+      "tradeName": "ORGANOVIT",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002356-1",
+      "previousRegistrationNumber": "7.540/2000",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002356",
+      "holder": "BIOFARM QUIMICA E FARMACEUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORETO DE COBALTO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORETO DE MAGNESIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORETO DE SODIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORETO DE ZINCO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE L-ARGININA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE L-HISTIDINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE L-LISINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DL-METIONINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLICINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "HIPOFOSFITO DE CALCIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IODETO DE POTASSIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-LEUCINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-TRIPTOFANO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-VALINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MONOGLUTAMATO DE SODIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFATO DE COBRE",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VITAMINA B12 (CIANOCOBALAMINA)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VITAMINA D",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VITAMINA E (ACETATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAPRINO",
+        "OVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002356-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001390-22-77ea1d51dad7",
+      "tradeName": "ORNITIL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001390-22",
+      "previousRegistrationNumber": "8157",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001390",
+      "holder": "vetnil ind e comércio de produtos veterinários ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACETILMETIONINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ASPARTATO DE L-ORNITINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CITRATO DE COLINA- ATIVO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE L-ARGININA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-CITRULINA- ATIVO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001390-22",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002607-1-e1de7ffcc41d",
+      "tradeName": "ORTOSELL G®",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002607-1",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002607",
+      "holder": "poly sell produtos quimicos ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ORTOFTALADEÍDO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "DESINFETANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "NAO SE APLICA"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002607-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-pr0000078-9-7d8861a95fbd",
+      "tradeName": "OSPHOS 60 MG/ML",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "PR0000078-9",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "PR0000078",
+      "holder": "dechra brasil produtos veterinários ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLODRONATO DISSÓDICO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "PR0000078-9",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000345-4-9e2ee5831859",
+      "tradeName": "OSTEOCART EQUINOS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000345-4",
+      "previousRegistrationNumber": "8.051/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000345",
+      "holder": "LABYES DO BRASIL COMERCIAL, IMPORTADORA E EXPORTADORA DE MEDICAMENTOS E PRODUTOS VETERINARIOS LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BETAINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CISTEÍNA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DL-METIONINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE COBRE",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE MAGNESIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE MANGANÊS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE ZINCO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCOSAMINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-HISTIDINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-LISINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-TRIPTOFANO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SELENITO DE SÓDIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VITAMINA B6 (PIRIDOXINA)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VITAMINA E (ACETATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000345-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000345-8-4255d1a3da1e",
+      "tradeName": "OSTEOCART EQUINOS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000345-8",
+      "previousRegistrationNumber": "8.051/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000345",
+      "holder": "LABYES DO BRASIL COMERCIAL, IMPORTADORA E EXPORTADORA DE MEDICAMENTOS E PRODUTOS VETERINARIOS LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BETAINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CISTEÍNA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DL-METIONINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE COBRE",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE MAGNESIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE MANGANÊS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE ZINCO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCOSAMINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-HISTIDINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-LISINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-TRIPTOFANO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SELENITO DE SÓDIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VITAMINA B6 (PIRIDOXINA)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VITAMINA E (ACETATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000345-8",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000345-16-03282540bdfa",
+      "tradeName": "OSTEOCART PLUS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000345-16",
+      "previousRegistrationNumber": "9.988/2014",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000345",
+      "holder": "LABYES DO BRASIL COMERCIAL, IMPORTADORA E EXPORTADORA DE MEDICAMENTOS E PRODUTOS VETERINARIOS LTDA.",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000345-16",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000345-7-cd42ec21cfb9",
+      "tradeName": "OSTEOCREM",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000345-7",
+      "previousRegistrationNumber": "8050/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000345",
+      "holder": "LABYES DO BRASIL COMERCIAL, IMPORTADORA E EXPORTADORA DE MEDICAMENTOS E PRODUTOS VETERINARIOS LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DIMETILSULFOXIDO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFATO DE CONDROITINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "CREME"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000345-7",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sc0005347-2-6ef0c53248a2",
+      "tradeName": "OSTEOFIX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SC0005347-2",
+      "previousRegistrationNumber": "137/1972",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SC0005347",
+      "holder": "LABORATÓRIO PERINI LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLICOSE",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE CALCIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "HIPOSSULFITO DE MAGNÉSIO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "VITAMINAS E MINERAIS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CANINO",
+        "CAPRINO",
+        "EQÜINO/EQUIDEO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SC0005347-2",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-pr0000078-8-2968911fd035",
+      "tradeName": "OSURNIA GEL AURICULAR PARA CÃES",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "PR0000078-8",
+      "previousRegistrationNumber": "SP 000057-4.000",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "PR0000078",
+      "holder": "dechra brasil produtos veterinários ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACETATO BETAMETASONA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FLORFENICOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TERBINAFINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "GEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "PR0000078-8",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000574-2-5dd5693d1f96",
+      "tradeName": "OSURNIA GEL AURICULAR PARA CÃES",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000574-2",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000574",
+      "holder": "elanco saude animal",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACETATO BETAMETASONA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FLORFENICOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TERBINAFINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "GEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [
+        "TOPICA"
+      ],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000574-2",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001460-39-c10595793fa8",
+      "tradeName": "OTC 23%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001460-39",
+      "previousRegistrationNumber": "8342/2002",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001460",
+      "holder": "m cassab comercio e industria ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001460-39",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002925-67-762698bb47bb",
+      "tradeName": "OTOCALM",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002925-67",
+      "previousRegistrationNumber": "7793/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002925",
+      "holder": "UNIÃO QUIMICA FARMACEUTICA NACIONAL S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BETAMETASONA (VALERATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE LIDOCAINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GENTAMICINA (SULFATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TIABENDAZOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002925-67",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001290-35-59f1dda1327a",
+      "tradeName": "OTODEM PLUS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001290-35",
+      "previousRegistrationNumber": "6554/1998",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001290",
+      "holder": "SESPO INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE LIDOCAINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DEXAMETASONA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NEOMICINA (SULFATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TIABENDAZOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001290-35",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rj0003352-31-994a2957a4b1",
+      "tradeName": "OTODERMIN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RJ0003352-31",
+      "previousRegistrationNumber": "8840",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RJ0003352",
+      "holder": "LABORATÓRIO BRAVET LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DEXAMETASONA (FOSFATO DISSODICO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NEOMICINA (SULFATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TIABENDAZOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "TOPICA"
+      ],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RJ0003352-31",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002178-29-dd737dc12b23",
+      "tradeName": "OTODEX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002178-29",
+      "previousRegistrationNumber": "7.944/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002178",
+      "holder": "UZINAS CHIMICAS BRASILEIRAS S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BETAMETASONA (FOSFATO DE SODIO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLOTRIMAZOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINA HCL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002178-29",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000566-19-0ef672cd82ec",
+      "tradeName": "OTOGUARD",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000566-19",
+      "previousRegistrationNumber": "7381/2000",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000566",
+      "holder": "cepav pharma ltda.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CETOCONAZOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DEXAMETASONA FOSFATO DE SODIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LIDOCAINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TOBRAMICINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000566-19",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002178-20-e340c24f58b3",
+      "tradeName": "OTOLIN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002178-20",
+      "previousRegistrationNumber": "2.410/1973",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002178",
+      "holder": "UZINAS CHIMICAS BRASILEIRAS S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE PROCAINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFAMETAZINA SODICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002178-20",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-98-a1343f7b5d04",
+      "tradeName": "OTOMAX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-98",
+      "previousRegistrationNumber": "5.179/1995",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BETAMETASONA VALERATO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLOTRIMAZOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GENTAMICINA ( SULFATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "POMADA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-98",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-8-741-2003-a771f9373eb7",
+      "tradeName": "OTOSANA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "8.741/2003",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002275",
+      "holder": "Mundo Animal Laboratório Veterinário Ltda.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CETOCONAZOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFATO DE GENTAMICINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VALERATO DE BETAMETASONA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:8.741/2003",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rj0004766-2-71e1ac2db175",
+      "tradeName": "OTOSPAN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RJ0004766-2",
+      "previousRegistrationNumber": "3372/1990",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RJ0004766",
+      "holder": "LABORATÓRIOS DUPRAT LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "HIDROCORTISONA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NEOMICINA (SULFATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "POLIMIXINA B (SULFATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RJ0004766-2",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000027-28-5ad364c699f6",
+      "tradeName": "OTOSYN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000027-28",
+      "previousRegistrationNumber": "6724/1999",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000027",
+      "holder": "KONIG DO BRASIL",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACETONIDO DE TRIANCINOLONA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NEOMICINA (SULFATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TIABENDAZOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000027-28",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-2-786-1987-6555d1dcf31c",
+      "tradeName": "OTOVET",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "2.786/1987",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002356",
+      "holder": "BIOFARM QUIMICA E FARMACEUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE LIDOCAINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLOTRIMAZOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DEXAMETASONA (FOSFATO DISSODICO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:2.786/1987",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000051-9-5cb5fc0644e2",
+      "tradeName": "OUROTETRA OF",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000051-9",
+      "previousRegistrationNumber": "7.576/2000",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0000051",
+      "holder": "OURO FINO SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "INTRAMUSCULAR"
+      ],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000051-9",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000051-18-5c8ad1e949b1",
+      "tradeName": "OUROTETRA PLUS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000051-18",
+      "previousRegistrationNumber": "8.863/2004",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000051",
+      "holder": "OURO FINO SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DICLOFENACO DE SODIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA (NA FORMA DIHIDRATADA)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000051-18",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-39-3c874106ba69",
+      "tradeName": "OVALYSE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-39",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GONADORRELINA (DIACETATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-39",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000311-9-511e238224f4",
+      "tradeName": "OVELOR",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000311-9",
+      "previousRegistrationNumber": "9.127/2005",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000311",
+      "holder": "AGROFARM IMP. Y EXP. DE PRODUTOS VETERINARIOS LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000311-9",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-go0011703-52-67806ee7895e",
+      "tradeName": "OVUGEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "GO0011703-52",
+      "previousRegistrationNumber": "001170-3.000052",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "GO0011703",
+      "holder": "vetoquinol saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TRIPTORRELINA (ACETATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "GEL"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "GO0011703-52",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-69-246d33f3535e",
+      "tradeName": "OVULARE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-69",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPIONATO DE ESTRADIOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-69",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002178-4-693e27d638a6",
+      "tradeName": "OXCINT",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002178-4",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002178",
+      "holder": "UZINAS CHIMICAS BRASILEIRAS S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OCITOCINA SINTETICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002178-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-5536-8e166a7c66d9",
+      "tradeName": "OXI VANSIL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "5536",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001510",
+      "holder": "vansil industria e comercio e representações ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE OXITETRACICLINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:5536",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001410-65-4f7e5f5454f6",
+      "tradeName": "OXIBAC 50",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001410-65",
+      "previousRegistrationNumber": "000141-0.000065",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001410",
+      "holder": "farmabase saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA (NA FORMA DIHIDRATADA)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001410-65",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0004413-35-37c2cde42776",
+      "tradeName": "OXIMAX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0004413-35",
+      "previousRegistrationNumber": "9.754/2013",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0004413",
+      "holder": "SAUVET INDUSTRIA FARMACÊUTICA E VETERINÁRIA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA (NA FORMA DIHIDRATADA)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0004413-35",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-mg0000220-32-473427a99c90",
+      "tradeName": "OXITAPE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "MG0000220-32",
+      "previousRegistrationNumber": "6068/1997",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0000220",
+      "holder": "CEVA SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE OXITETRACICLINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "INTRAMUSCULAR"
+      ],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "MG0000220-32",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-pr0000060-18-7ca00c4f40e1",
+      "tradeName": "OXITETRA VILAVET",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "PR0000060-18",
+      "previousRegistrationNumber": "7635",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "PR0000060",
+      "holder": "VILAVET SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LIDOCAINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "INTRAMUSCULAR"
+      ],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "PR0000060-18",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0008850-9-e57a379d60c6",
+      "tradeName": "OXITETRACICLINA 20% BIOVET",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0008850-9",
+      "previousRegistrationNumber": "7.493/2000",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0008850",
+      "holder": "LABORATÓRIO BIOVET LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0008850-9",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000108-15-c8d474878d3d",
+      "tradeName": "OXITETRACICLINA 20% LA MATSUDA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000108-15",
+      "previousRegistrationNumber": "8.796/2004",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000108",
+      "holder": "VETECIA LABORATÓRIOS DE PRODUTOS VETERINÁRIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA (NA FORMA DIHIDRATADA)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000108-15",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001080-27-489acbc202d3",
+      "tradeName": "OXITETRACICLINA ALIVIRA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001080-27",
+      "previousRegistrationNumber": "10.092/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001080",
+      "holder": "ALIVIRA SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA BASE DIHIDRATADA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001080-27",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002003-32-25f2bb2f020a",
+      "tradeName": "OXITETRACICLINA L.A. 20% INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002003-32",
+      "previousRegistrationNumber": "7.861/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002003",
+      "holder": "SYNTEC DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002003-32",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000159-28-6da601b137a3",
+      "tradeName": "OXITETRACICLINA MLCROSULES 2O%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000159-28",
+      "previousRegistrationNumber": "7835/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000159",
+      "holder": "LABORATORIO MICROSULES DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "OVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000159-28",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002011-11-9a6a9c912472",
+      "tradeName": "OXITETRACICLINA SOLÚVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002011-11",
+      "previousRegistrationNumber": "2717/1987",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002011",
+      "holder": "DES-FAR LABORATÓRIOS LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002011-11",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001230-6-0ff93e4009f4",
+      "tradeName": "OXITOP",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001230-6",
+      "previousRegistrationNumber": "10093/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001230",
+      "holder": "VETICA PHARMACEUTICAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXITETRACICLINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "GALLUS GALLUS (GALINHA POEDEIRA)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001230-6",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-89-f36d9aa66ccf",
+      "tradeName": "OXITRAT LA PLUS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-89",
+      "previousRegistrationNumber": "7.847/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE OXITETRACICLINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DICLOFENACO DE SODIO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-89",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002259-3-eab4e9797318",
+      "tradeName": "OXYCIDE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002259-3",
+      "previousRegistrationNumber": "10119/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002259",
+      "holder": "GEA EQUIPAMENTOS E SOLUCOES LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PEROXIDO DE HIDROGENIO (AGUA OXIGENADA)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTISSEPTICO"
+      ],
+      "routes": [
+        "TOPICA"
+      ],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002259-3",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001740-2-c70816c42c55",
+      "tradeName": "OXYTOCIN INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001740-2",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001740",
+      "holder": "bimeda brasil s.a.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OCITOCINA SINTETICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001740-2",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001410-13-12fc707cbc41",
+      "tradeName": "OXYVERM",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001410-13",
+      "previousRegistrationNumber": "7.564/2000",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001410",
+      "holder": "farmabase saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXIBENDAZOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001410-13",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    }
+  ]
+}

@@ -33,14 +33,8 @@ describe('searchDrugIndex', () => {
     expect(results.map((item) => item.conceptId)).toEqual(['ingredient-carprofen'])
   })
 
-  it('finds every verified relationship by trade name', () => {
-    const results = searchDrugIndex(fixtureSearchIndex(), 'Produto Exemplo AC')
-
-    expect(results.map((item) => item.conceptId)).toEqual([
-      'ingredient-amoxicillin',
-      'combination-amoxicillin-clavulanate',
-      'ingredient-potassium-clavulanate',
-    ])
+  it('does not expose candidate product mappings as verified concept trade names', () => {
+    expect(searchDrugIndex(fixtureSearchIndex(), 'CURAMOXIN')).toEqual([])
   })
 
   it('matches multiple query tokens across combination components', () => {
@@ -50,7 +44,7 @@ describe('searchDrugIndex', () => {
   })
 
   it('returns deterministic limited results and ignores empty queries', () => {
-    expect(searchDrugIndex(fixtureSearchIndex(), 'produto', { limit: 1 })).toHaveLength(1)
+    expect(searchDrugIndex(fixtureSearchIndex(), 'amoxicilina', { limit: 1 })).toHaveLength(1)
     expect(searchDrugIndex(fixtureSearchIndex(), '   ')).toEqual([])
   })
 })

@@ -1,0 +1,135 @@
+{
+  "locale": "pt-BR",
+  "letter": "j",
+  "updatedAt": "2026-07-16T16:00:00Z",
+  "items": [
+    {
+      "id": "product-mapa-mg0000566-17-cedbb547597f",
+      "tradeName": "JOFATOX INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "MG0000566-17",
+      "previousRegistrationNumber": "7725/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0000566",
+      "holder": "jofadel industria farmaceutica s/a",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACETILMETIONINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BITARTARATO DE COLINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE PIRIDOXINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "INOSITOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TIAMINA CLORIDRATO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAPRINO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "MG0000566-17",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-mg0000566-3-a4c53f2cd9d6",
+      "tradeName": "JOFATOX ORAL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "MG0000566-3",
+      "previousRegistrationNumber": "4520/1993",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0000566",
+      "holder": "jofadel industria farmaceutica s/a",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACETIL-DL-METIONINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BITARTARATO DE COLINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE PIRIDOXINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "INOSITOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TIAMINA CLORIDRATO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "MG0000566-3",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    }
+  ]
+}

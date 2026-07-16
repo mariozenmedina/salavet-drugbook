@@ -1,0 +1,6428 @@
+{
+  "locale": "pt-BR",
+  "letter": "e",
+  "updatedAt": "2026-07-16T16:00:00Z",
+  "items": [
+    {
+      "id": "product-mapa-sp0000728-51-4dd920736b85",
+      "tradeName": "E.C.P.",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-51",
+      "previousRegistrationNumber": "0.205/1972",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPIONATO DE ESTRADIOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-51",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002267-29-caf63689740b",
+      "tradeName": "EASOTIC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002267-29",
+      "previousRegistrationNumber": "9745/2013",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002267",
+      "holder": "VIRBAC DO BRASIL INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACEPONATO DE HIDROCORTISONA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GENTAMICINA ( SULFATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MICONAZOL NITRATO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002267-29",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001650-41-a8df8ea07eb2",
+      "tradeName": "EC-PET",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001650-41",
+      "previousRegistrationNumber": "10025/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001650",
+      "holder": "chemitec agro veterinaria ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FIPRONIL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001650-41",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-pr0000167-11-fdf5e0d34380",
+      "tradeName": "ECEGON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "PR0000167-11",
+      "previousRegistrationNumber": "9799/2014",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "PR0000167",
+      "holder": "biogenesis bago saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GONADOTROFINA CORIONICA EQUINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIOFILIZADO + DILUENTE"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "PR0000167-11",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-pr0035858-10-463129019de5",
+      "tradeName": "ECEGON®",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "PR0035858-10",
+      "previousRegistrationNumber": "PR0000167000011",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "PR0035858",
+      "holder": "´BIOGÉNESISBAGÓ SAÚDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GONADOTROFINA CORIONICA EQUINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIOFILIZADO + DILUENTE"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "PR0035858-10",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0027022-1-4f1452df16c0",
+      "tradeName": "ECG BR",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0027022-1",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0027022",
+      "holder": "BR SAUDE ANIMAL EIRELI",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GONADOTROFINA CORIONICA EQUINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIOFILIZADO + DILUENTE"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0027022-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-10-037-2015-53eef6c5d596",
+      "tradeName": "ECGEN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "10.037/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002178",
+      "holder": "UZINAS CHIMICAS BRASILEIRAS S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GONADOTROFINA CORIONICA EQUINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIOFILIZADO + DILUENTE"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:10.037/2015",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001410-9-cad3d0539ed4",
+      "tradeName": "ECONAFARM",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001410-9",
+      "previousRegistrationNumber": "6.677/99",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001410",
+      "holder": "farmabase saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ECONAZOL (NITRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "VELA"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [
+        "INSTALAÇAO/AMBIENTE"
+      ],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "GALLUS GALLUS (GALINHA POEDEIRA)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001410-9",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000248-1-3239fd37365d",
+      "tradeName": "ECOTREX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000248-1",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000248",
+      "holder": "AMERICAN NUTRIENTS DO BRASIL INDUSTRIA E COMÉRCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORETO DE DIDECIL DIMETIL AMONIO 50%",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "DESINFETANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "NAO SE APLICA"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000248-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000370-12-cb4f74fa0a7e",
+      "tradeName": "ECTHOL COLEIRA ANTI-PULGAS E CARRAPATOS PARA CÃES",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000370-12",
+      "previousRegistrationNumber": "4129/1992",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000370",
+      "holder": "Farex do Brasil Ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORPIRIFOS",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COLEIRA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000370-12",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000370-3-83ad876486ad",
+      "tradeName": "ECTHOL SHIELD - ANTIPARASITÁRIO EXTERNO NÃO SISTÊMICO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000370-3",
+      "previousRegistrationNumber": "4978/1995",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000370",
+      "holder": "Farex do Brasil Ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORPIRIFOS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TETRAMETRIN",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SPRAY"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000370-3",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-80-fbd943863d56",
+      "tradeName": "ECTHOS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-80",
+      "previousRegistrationNumber": "10.099/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ABAMECTINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FLUAZURON",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-80",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0006440-23-f8ac9443b7ad",
+      "tradeName": "ECTIC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0006440-23",
+      "previousRegistrationNumber": "3.757/1991",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0006440",
+      "holder": "JA Saúde Animal S.A.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "INSTALACAO/ AVIARIOS"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0006440-23",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-3-909-1992-22be27f4cd81",
+      "tradeName": "ECTIC POUR ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "3.909/1992",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0006440",
+      "holder": "JA Saúde Animal S.A.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:3.909/1992",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-go0000442-9-27614fa070c6",
+      "tradeName": "ECTOBAT 80",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "GO0000442-9",
+      "previousRegistrationNumber": "8.530/2003",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "GO0000442",
+      "holder": "champiom farmoquimico ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORPIRIFOS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DICLORVOS",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [
+        "PULVERIZAÇÃO"
+      ],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "GO0000442-9",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002925-45-5e14c86a7084",
+      "tradeName": "ECTOCID",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002925-45",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002925",
+      "holder": "UNIÃO QUIMICA FARMACEUTICA NACIONAL S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FIPRONIL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002925-45",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002925-61-51aabbeaf988",
+      "tradeName": "ECTOCID PULVERIZAÇÃO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002925-61",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002925",
+      "holder": "UNIÃO QUIMICA FARMACEUTICA NACIONAL S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FIPRONIL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FLUAZURON",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002925-61",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002003-61-a012934ff377",
+      "tradeName": "ECTOENDO PREMIX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002003-61",
+      "previousRegistrationNumber": "7.471/2000",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002003",
+      "holder": "SYNTEC DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002003-61",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-83-efc5fcd20eae",
+      "tradeName": "ECTOFEND",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-83",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DELTAMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COLEIRA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [
+        "TOPICA"
+      ],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-83",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-5433-1996-1312aff605bc",
+      "tradeName": "ECTOKILL PLUS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "5433/1996",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001500",
+      "holder": "PHARMALOGIC INDÚSTRIA E COMÉRCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BUTOXIDO DE PIPERONILA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPERMETRINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TRICLORFON",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:5433/1996",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001510-11-a9ae0ab4cbbf",
+      "tradeName": "ECTOLIN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001510-11",
+      "previousRegistrationNumber": "4313",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001510",
+      "holder": "vansil industria e comercio e representações ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001510-11",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rj0005630-3-07bd7859ab47",
+      "tradeName": "ECTOMOSOL SM",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RJ0005630-3",
+      "previousRegistrationNumber": "2664/1969",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RJ0005630",
+      "holder": "A QUIMICA SANTA MARINA SOCIEDADE ANONIMA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MONOSSULFURETO DE TETRAETILTIURAN (SULFIRAM)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RJ0005630-3",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rj0005630-4-0f07bdd8a34e",
+      "tradeName": "ECTOMOSOL SM SPRAY",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RJ0005630-4",
+      "previousRegistrationNumber": "219/1974",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RJ0005630",
+      "holder": "A QUIMICA SANTA MARINA SOCIEDADE ANONIMA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFIRAM",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "FELINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RJ0005630-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0060330-4-0d505bb24283",
+      "tradeName": "ECTONIL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0060330-4",
+      "previousRegistrationNumber": "5.019/1995",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0060330",
+      "holder": "pearson saude animal s/a",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0060330-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0060330-15-a20e356e82f8",
+      "tradeName": "ECTONIL POUR ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0060330-15",
+      "previousRegistrationNumber": "5.840/1997",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0060330",
+      "holder": "pearson saude animal s/a",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO OLEOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0060330-15",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0001431-4-b2f86300fe21",
+      "tradeName": "ECTONVET 5 FORTE POUR ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0001431-4",
+      "previousRegistrationNumber": "7158/2000",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0001431",
+      "holder": "BASSO & PANCOTTE LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPERMETRINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ETION",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [
+        "POUR ON"
+      ],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0001431-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002143-16-45a96b224d03",
+      "tradeName": "ECTOPAR PONTA DE ORELHAS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002143-16",
+      "previousRegistrationNumber": "6.843/1999",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002143",
+      "holder": "LAVI LABORATORIOS VITAMINICOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002143-16",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000159-14-d0b36a6c4d07",
+      "tradeName": "ECTOSULES",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000159-14",
+      "previousRegistrationNumber": "5638",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000159",
+      "holder": "LABORATORIO MICROSULES DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000159-14",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000159-17-88649634043e",
+      "tradeName": "ECTOSULES PLUS POUR ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000159-17",
+      "previousRegistrationNumber": "6836",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000159",
+      "holder": "LABORATORIO MICROSULES DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPERMETRINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ETION",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000159-17",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000159-16-371c6afdee21",
+      "tradeName": "ECTOSULES POUR ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000159-16",
+      "previousRegistrationNumber": "5726",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000159",
+      "holder": "LABORATORIO MICROSULES DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000159-16",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000027-19-35c933064649",
+      "tradeName": "ECTOSYN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000027-19",
+      "previousRegistrationNumber": "7229/2000",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000027",
+      "holder": "KONIG DO BRASIL",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MONOSULFIRAM",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000027-19",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0001431-7-02d2e729c6f4",
+      "tradeName": "ECTOVET",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0001431-7",
+      "previousRegistrationNumber": "6468/1998",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0001431",
+      "holder": "BASSO & PANCOTTE LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DIAZINON",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [
+        "BANHO DE IMERSAO"
+      ],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CANINO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0001431-7",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002267-36-67e25ae1e084",
+      "tradeName": "EFFIPRO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002267-36",
+      "previousRegistrationNumber": "9.668/2012",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0002267",
+      "holder": "VIRBAC DO BRASIL INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FIPRONIL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002267-36",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0013374-31-1892b64f69fa",
+      "tradeName": "EFFIPRO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0013374-31",
+      "previousRegistrationNumber": "9.668/2012",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0013374",
+      "holder": "VIRBAC DO BRASIL IND E COM LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FIPRONIL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0013374-31",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0013374-1-503e4cb50e26",
+      "tradeName": "EFFIPRO BOVIS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0013374-1",
+      "previousRegistrationNumber": "001337-4.000001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0013374",
+      "holder": "VIRBAC DO BRASIL IND E COM LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FIPRONIL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0013374-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-10-042-5f68867124c3",
+      "tradeName": "EFFIPRO SPRAY",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "10.042",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002267",
+      "holder": "VIRBAC DO BRASIL INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FIPRONIL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:10.042",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0013374-34-0392a8228039",
+      "tradeName": "EFFITIX®",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0013374-34",
+      "previousRegistrationNumber": "000226-7.000034",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0013374",
+      "holder": "VIRBAC DO BRASIL IND E COM LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FIPRONIL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0013374-34",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002267-34-5de28f28b674",
+      "tradeName": "EFFITIX SPOT ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002267-34",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0002267",
+      "holder": "VIRBAC DO BRASIL INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FIPRONIL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002267-34",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000051-6-9e254278609b",
+      "tradeName": "EFICUR",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000051-6",
+      "previousRegistrationNumber": "9.700/2012",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000051",
+      "holder": "HIPRA SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CEFTIOFUR (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "SUINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000051-6",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000043-15-0393ab61ac82",
+      "tradeName": "EFIPET 3+",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000043-15",
+      "previousRegistrationNumber": "9.809/2014",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000043",
+      "holder": "LABORATORIO IBASA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FLUAZURON",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IMIDACLOPRIDA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000043-15",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003000-27-d1ed84dba279",
+      "tradeName": "EGG-PPU",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003000-27",
+      "previousRegistrationNumber": "9744/2013",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003000",
+      "holder": "JA SAUDE ANIMAL S.A.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GUAIACOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO AQUOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANESTESICO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003000-27",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000574-4-202b1c7c2bde",
+      "tradeName": "ELANCOBAN GRANULAR",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000574-4",
+      "previousRegistrationNumber": "SP 5941030016",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000574",
+      "holder": "elanco saude animal",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTICOCCIDIANO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000574-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000574-45-24dcc7ce16b1",
+      "tradeName": "ELECTOR PSP",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000574-45",
+      "previousRegistrationNumber": "9.972",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000574",
+      "holder": "elanco saude animal",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SPINOSAD",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "NAO SE APLICA"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000574-45",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002143-15-83ba1a2e4c35",
+      "tradeName": "ELMER POUR ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002143-15",
+      "previousRegistrationNumber": "8.721/2003",
+      "marketingStatus": "suspended",
+      "holderRegistrationNumber": "SP0002143",
+      "holder": "LAVI LABORATORIOS VITAMINICOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPERMETRINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TRICLORFON",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002143-15",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001650-6-5ca3f6db0081",
+      "tradeName": "ELO-XICAM  0,2% SOLUÇÃO INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001650-6",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001650",
+      "holder": "chemitec agro veterinaria ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MELOXICAM",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTI-INFLAMATÓRIOS NÃO ESTEROIDAIS"
+      ],
+      "routes": [
+        "SUBCUTANEA"
+      ],
+      "authorizedSpecies": [
+        "CANINO",
+        "FELINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001650-6",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001650-31-d5ae4fac2ef0",
+      "tradeName": "ELO-XICAM 0,5 MG COMPRIMIDOS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001650-31",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001650",
+      "holder": "chemitec agro veterinaria ltda",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTI-INFLAMATÓRIOS NÃO ESTEROIDAIS"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001650-31",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001650-40-a20299ab494e",
+      "tradeName": "ELO-XICAM  2,0MG COMPRIMIDOS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001650-40",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001650",
+      "holder": "chemitec agro veterinaria ltda",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTI-INFLAMATÓRIOS NÃO ESTEROIDAIS"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001650-40",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0006262-38-8670cc2e205e",
+      "tradeName": "ELURA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0006262-38",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0006262",
+      "holder": "ELANCO SAÚDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TARTARATO DE CAPROMORELINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GATO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0006262-38",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-8-464-2003-3cc032687946",
+      "tradeName": "EMBRAMEC DUO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "8.464/2003",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002151",
+      "holder": "EMBRASVET EMPRESA BRASILEIRA VETERINARIA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE LEVAMISOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:8.464/2003",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002151-1-4b06e60cf43f",
+      "tradeName": "EMBRAMEC GOLD 3,6%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002151-1",
+      "previousRegistrationNumber": "9.653/2012",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0002151",
+      "holder": "EMBRASVET EMPRESA BRASILEIRA VETERINARIA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO OLEOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002151-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002178-23-ab70bf71ff07",
+      "tradeName": "EMBRAMEC GOLD 3,6%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002178-23",
+      "previousRegistrationNumber": "000215-1.000001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002178",
+      "holder": "UZINAS CHIMICAS BRASILEIRAS S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO OLEOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002178-23",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002925-32-6cf5df90fa41",
+      "tradeName": "EMEDRON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002925-32",
+      "previousRegistrationNumber": "000292-5.000032",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002925",
+      "holder": "UNIÃO QUIMICA FARMACEUTICA NACIONAL S.A",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIEMETICOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002925-32",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002925-15-635062f5bb81",
+      "tradeName": "EMEDRON 1%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002925-15",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002925",
+      "holder": "UNIÃO QUIMICA FARMACEUTICA NACIONAL S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE ONDANSETRONA DI-HIDRATADO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO AQUOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIEMETICOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002925-15",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rj0004766-9-e66d2bc22e94",
+      "tradeName": "EMETIM DUPRAT INJETAVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RJ0004766-9",
+      "previousRegistrationNumber": "5.997/1997",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RJ0004766",
+      "holder": "LABORATÓRIOS DUPRAT LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE METOCLOPRAMIDA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIEMETICOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RJ0004766-9",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rj0004766-4-c4c5e996f3e1",
+      "tradeName": "EMETIM DUPRAT SOLUÇÃO ORAL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RJ0004766-4",
+      "previousRegistrationNumber": "4448/1993",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RJ0004766",
+      "holder": "LABORATÓRIOS DUPRAT LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE METOCLOPRAMIDA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIEMETICOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RJ0004766-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000566-11-590e05f670a5",
+      "tradeName": "ENALAPREV 20 MG",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000566-11",
+      "previousRegistrationNumber": "7901/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000566",
+      "holder": "cepav pharma ltda.",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIHIPERTENSIVO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000566-11",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000566-10-5b46691ccc45",
+      "tradeName": "ENALAPREV 5 MG",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000566-10",
+      "previousRegistrationNumber": "7902/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000566",
+      "holder": "cepav pharma ltda.",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIHIPERTENSIVO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000566-10",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-94-2271c2438c55",
+      "tradeName": "ENDAL PLUS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-94",
+      "previousRegistrationNumber": "5.454/1996",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-94",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-go0011703-30-bceecaef32d5",
+      "tradeName": "ENDEAVOR",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "GO0011703-30",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "GO0011703",
+      "holder": "vetoquinol saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DELTAMETRINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FIPRONIL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PIRIPROXIFEN",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COLEIRA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "GO0011703-30",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0013374-26-28516fc4ce5c",
+      "tradeName": "ENDOGARD",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0013374-26",
+      "previousRegistrationNumber": "9.250/2006",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0013374",
+      "holder": "VIRBAC DO BRASIL IND E COM LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0013374-26",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000108-1-19dbb296cf50",
+      "tradeName": "ENDOMEC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000108-1",
+      "previousRegistrationNumber": "10.112/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000108",
+      "holder": "VETECIA LABORATÓRIOS DE PRODUTOS VETERINÁRIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [
+        "SUBCUTANEA"
+      ],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000108-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-pr0000248-18-fe0292e31370",
+      "tradeName": "ENDOSTAC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "PR0000248-18",
+      "previousRegistrationNumber": "3497",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "PR0000248",
+      "holder": "LABORÁTORIOS CALBOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ALBENDAZOLE",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "PR0000248-18",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0013374-13-3f119869c425",
+      "tradeName": "ENDURANCE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0013374-13",
+      "previousRegistrationNumber": "6938/1999",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0013374",
+      "holder": "VIRBAC DO BRASIL IND E COM LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DIMETILGLICINA (HIDROCLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0013374-13",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001740-30-ebf0034da999",
+      "tradeName": "ENERGECT FC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001740-30",
+      "previousRegistrationNumber": "8.887/2004",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001740",
+      "holder": "bimeda brasil s.a.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACETATO DI ALFA TOCOFEROL (1.000 UL/G)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE ARGININA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE HISTIDINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE LISINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "COLECALCIFEROL (VITAMINA  D 1.000",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "000 UL/G)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-FENILALANINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-ISOLEUCINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-LEUCINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-METIONINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-TREONINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-TRIPTOFANO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "L-VALINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PALMITATO DE VIATAMINA A (1.000.000 UL/GG)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CANINO",
+        "CAPRINO",
+        "FELINO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001740-30",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002917-21-bef0dd3b1ca1",
+      "tradeName": "ENFLOX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002917-21",
+      "previousRegistrationNumber": "8.834/2004",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002917",
+      "holder": "SAN GROUP BIOTECH BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "GALLUS GALLUS (GALINHA POEDEIRA)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002917-21",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002917-16-19a30d9f311a",
+      "tradeName": "ENFLOX 30",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002917-16",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002917",
+      "holder": "SAN GROUP BIOTECH BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002917-16",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000051-78-0e6ec87f6ad3",
+      "tradeName": "ENFRENT",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000051-78",
+      "previousRegistrationNumber": "10030/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000051",
+      "holder": "OURO FINO SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DIPROPIONATO IMIDOCARBE",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000051-78",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-12-a567c445aa8b",
+      "tradeName": "ENRADIN F80",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-12",
+      "previousRegistrationNumber": "SP-59362 30001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENRAMICINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS ADITIVOS MELHORADORES DE DESEMPENHO"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "SUINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-12",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000051-15-10d178cf3ca9",
+      "tradeName": "ENRAGOLD",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000051-15",
+      "previousRegistrationNumber": "SP-0076830052",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000051",
+      "holder": "OURO FINO SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENRAMICINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS ADITIVOS MELHORADORES DE DESEMPENHO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000051-15",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001410-15-91554c9cb0f1",
+      "tradeName": "ENRAMAX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001410-15",
+      "previousRegistrationNumber": "SP-08797 30053",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001410",
+      "holder": "farmabase saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENRAMICINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001410-15",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003000-39-0c9b225b2c02",
+      "tradeName": "ENRO 10",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003000-39",
+      "previousRegistrationNumber": "9.374/2008",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003000",
+      "holder": "JA SAUDE ANIMAL S.A.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003000-39",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001510-20-9edafa56eee6",
+      "tradeName": "ENRO FLEC COMPRIMIDOS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001510-20",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001510",
+      "holder": "vansil industria e comercio e representações ltda",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001510-20",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001510-33-4725855e7aa3",
+      "tradeName": "ENRO FLEC INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001510-33",
+      "previousRegistrationNumber": "7375",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001510",
+      "holder": "vansil industria e comercio e representações ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001510-33",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001510-49-529bd040c39f",
+      "tradeName": "ENRO FLEC LÍQUIDO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001510-49",
+      "previousRegistrationNumber": "6129",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001510",
+      "holder": "vansil industria e comercio e representações ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001510-49",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001410-24-c78529e9f1f3",
+      "tradeName": "ENROFARM",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001410-24",
+      "previousRegistrationNumber": "6.214/98",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001410",
+      "holder": "farmabase saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001410-24",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001410-85-06a460d87432",
+      "tradeName": "ENROFARM SOLUÇÃO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001410-85",
+      "previousRegistrationNumber": "6.213/1998",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001410",
+      "holder": "farmabase saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "AVE - PERU",
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001410-85",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003689-31-597e6e7df70d",
+      "tradeName": "ENROFLOMAX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003689-31",
+      "previousRegistrationNumber": "6.621/1998",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003689",
+      "holder": "AGROCERES MULTIMIX NUTRIÇÃO ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003689-31",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0006440-26-9f2d58091914",
+      "tradeName": "ENROFLOXACINA 10%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0006440-26",
+      "previousRegistrationNumber": "8.969",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0006440",
+      "holder": "JA Saúde Animal S.A.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0006440-26",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-9-619-2011-31aedaed93b3",
+      "tradeName": "ENROFLOXIL INJETÁVEL 2,5%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "9.619/2011",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0000019",
+      "holder": "VETBRAS INDUSTRIA E COMERCIO DE PRODUTOS AGROPECUARIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:9.619/2011",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0004413-39-9ded3414d22e",
+      "tradeName": "ENROMAXI PS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0004413-39",
+      "previousRegistrationNumber": "9.200/2006",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0004413",
+      "holder": "SAUVET INDUSTRIA FARMACÊUTICA E VETERINÁRIA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0004413-39",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000159-18-962e096ef756",
+      "tradeName": "ENROMIC INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000159-18",
+      "previousRegistrationNumber": "6.655/1999",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000159",
+      "holder": "LABORATORIO MICROSULES DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CANINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000159-18",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000159-20-e59b59fc43b8",
+      "tradeName": "ENROMIC ORAL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000159-20",
+      "previousRegistrationNumber": "4.942/1994",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000159",
+      "holder": "LABORATORIO MICROSULES DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000159-20",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-8-806-2004-5b86267c3de1",
+      "tradeName": "ENRONEW",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "8.806/2004",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001091",
+      "holder": "WORLD VETERINARIA COMERCIO E INDUSTRIA LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:8.806/2004",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001290-31-83488bd81bc4",
+      "tradeName": "ENROPET",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001290-31",
+      "previousRegistrationNumber": "6943/1999",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001290",
+      "holder": "SESPO INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001290-31",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000051-70-402c620ad60c",
+      "tradeName": "ENROTRAT TABS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000051-70",
+      "previousRegistrationNumber": "9.573/2010",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000051",
+      "holder": "OURO FINO SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000051-70",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-mg0000019-2-f0942be01db7",
+      "tradeName": "ENROTRIL COMPRIMIDO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "MG0000019-2",
+      "previousRegistrationNumber": "000001-9.000002",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0000019",
+      "holder": "VETBRAS INDUSTRIA E COMERCIO DE PRODUTOS AGROPECUARIOS LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "MG0000019-2",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-mg0000019-12-c9d1dbc92792",
+      "tradeName": "ENROTRIL SOLUÇÃO 20%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "MG0000019-12",
+      "previousRegistrationNumber": "5.690/1996",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0000019",
+      "holder": "VETBRAS INDUSTRIA E COMERCIO DE PRODUTOS AGROPECUARIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "MG0000019-12",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0058521-2-d6382178b852",
+      "tradeName": "ENROVET",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0058521-2",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0058521",
+      "holder": "MAISA FARINHA DAUD LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0058521-2",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000311-3-092671d90fc8",
+      "tradeName": "ENROXINA 150",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000311-3",
+      "previousRegistrationNumber": "9.126/2005",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000311",
+      "holder": "AGROFARM IMP. Y EXP. DE PRODUTOS VETERINARIOS LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO",
+        "FELINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000311-3",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001390-44-f31784ec8b99",
+      "tradeName": "ENTEREX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001390-44",
+      "previousRegistrationNumber": "8.934",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001390",
+      "holder": "vetnil ind e comércio de produtos veterinários ltda",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO",
+        "EQÜINO/EQUIDEO",
+        "FELINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001390-44",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002356-36-a9fed9e0e601",
+      "tradeName": "ENTERO-BIO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002356-36",
+      "previousRegistrationNumber": "5.677/96",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002356",
+      "holder": "BIOFARM QUIMICA E FARMACEUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PECTINA CITRICA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFAGUANIDINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFATO DE ESTREPTOMICINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAO",
+        "EQÜINO/EQUIDEO",
+        "GATO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002356-36",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-ba0001430-1-0ed51e8876b9",
+      "tradeName": "ENTEROBACTER",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "BA0001430-1",
+      "previousRegistrationNumber": "191/1972",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "BA0001430",
+      "holder": "LABOVET PRODUTOS VETERINARIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FTALILSULFATIAZOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NEOMICINA (SULFATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "BA0001430-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001945-7-3230b40c01cd",
+      "tradeName": "ENTHOMO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001945-7",
+      "previousRegistrationNumber": "2.885/1988",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001945",
+      "holder": "lanxess industria de produtos quimicos e plasticos ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BUTOXIDO DE PIPERONILA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPERMETRINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORPIRIFOS",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "NAO SE APLICA"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001945-7",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0013374-5-9f0a2b1f8355",
+      "tradeName": "EPIOTIC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0013374-5",
+      "previousRegistrationNumber": "001337-4.000005",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0013374",
+      "holder": "VIRBAC DO BRASIL IND E COM LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACIDO SALICILICO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0013374-5",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000027-3-85a7934da835",
+      "tradeName": "EPISAN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000027-3",
+      "previousRegistrationNumber": "6259/1998",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000027",
+      "holder": "KONIG DO BRASIL",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DIAZEPAM",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTICONVULSIVANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000027-3",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002925-62-e289c3fef793",
+      "tradeName": "EPMOX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002925-62",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002925",
+      "holder": "UNIÃO QUIMICA FARMACEUTICA NACIONAL S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MOXIDECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002925-62",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001290-7-4915bde1e546",
+      "tradeName": "EPRECIS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001290-7",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001290",
+      "holder": "SESPO INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001290-7",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001290-8-ce7e47783239",
+      "tradeName": "EPRECIS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001290-8",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001290",
+      "holder": "SESPO INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001290-8",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002356-13-788d57aaa259",
+      "tradeName": "EPREMIUM 5%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002356-13",
+      "previousRegistrationNumber": "000005-1.000025",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002356",
+      "holder": "BIOFARM QUIMICA E FARMACEUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002356-13",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001740-11-d723b426aae1",
+      "tradeName": "EPRIFORT 1%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001740-11",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001740",
+      "holder": "bimeda brasil s.a.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001740-11",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0006440-8-f0d3056fa267",
+      "tradeName": "EPRIGOLD",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0006440-8",
+      "previousRegistrationNumber": "SP0006440000008",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0006440",
+      "holder": "JA Saúde Animal S.A.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0006440-8",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-go0011703-37-ec0028ec01ce",
+      "tradeName": "EPRIMAX POUR ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "GO0011703-37",
+      "previousRegistrationNumber": "10.045/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "GO0011703",
+      "holder": "vetoquinol saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "GO0011703-37",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000230-10-7fde3b00dd5d",
+      "tradeName": "EPRINEX INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000230-10",
+      "previousRegistrationNumber": "10.053/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000230",
+      "holder": "BOEHRINGER INGELHEIM ANIMAL HEALTH DO BRASIL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [
+        "SUBCUTANEA"
+      ],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000230-10",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000230-40-6df6117ee736",
+      "tradeName": "EPRINEX POUR ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000230-40",
+      "previousRegistrationNumber": "9.735/2013",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000230",
+      "holder": "BOEHRINGER INGELHEIM ANIMAL HEALTH DO BRASIL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000230-40",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-go0000051-1-203652496c2e",
+      "tradeName": "EPRINO INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "GO0000051-1",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "GO0000051",
+      "holder": "clarion biociencias ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "GO0000051-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-go0011703-41-b2c642c690f0",
+      "tradeName": "EPRINO INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "GO0011703-41",
+      "previousRegistrationNumber": "GO0000051000001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "GO0011703",
+      "holder": "vetoquinol saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "GO0011703-41",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-go0000051-25-e8f459caa023",
+      "tradeName": "EPRINO PLUS POUR-ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "GO0000051-25",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "GO0000051",
+      "holder": "clarion biociencias ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FLUAZURON",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [
+        "POUR ON"
+      ],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "GO0000051-25",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-go0011703-39-df0c595bab51",
+      "tradeName": "EPRINO PLUS POUR-ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "GO0011703-39",
+      "previousRegistrationNumber": "00005-1.000025",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "GO0011703",
+      "holder": "vetoquinol saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPRINOMECTINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FLUAZURON",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "GO0011703-39",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000051-1-9f5622c2e41a",
+      "tradeName": "EQDOMIN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000051-1",
+      "previousRegistrationNumber": "9.755",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000051",
+      "holder": "OURO FINO SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE DETOMIDINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANESTESICO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000051-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-90-be507e73b8a0",
+      "tradeName": "EQUEST",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-90",
+      "previousRegistrationNumber": "7.788/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MOXIDECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "GEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-90",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-87-e08072be72dc",
+      "tradeName": "EQUEST PRAMOX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-87",
+      "previousRegistrationNumber": "9.333/2007",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MOXIDECTINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PRAZIQUANTEL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "GEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-87",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002003-13-36dea0e28c1e",
+      "tradeName": "EQUI-BOOST",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002003-13",
+      "previousRegistrationNumber": "6.188/1997",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002003",
+      "holder": "SYNTEC DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BOLDENONA (UNDECILENATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002003-13",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001290-45-54193bcbbd60",
+      "tradeName": "EQUIDERM POMADA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001290-45",
+      "previousRegistrationNumber": "2.870/1988",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001290",
+      "holder": "SESPO INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DEXAMETASONA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NEOMICINA (SULFATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NISTATINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFANILAMIDA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "POMADA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTI-INFLAMATÓRIOS NÃO ESTEROIDAIS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001290-45",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001290-2-66cdaae7d926",
+      "tradeName": "EQUIFORT",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001290-2",
+      "previousRegistrationNumber": "5444/96",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001290",
+      "holder": "SESPO INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "UNDECILINATO DE BOLDENONA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANABOLIZANTES"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001290-2",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003000-45-010fabb2c21f",
+      "tradeName": "EQUIJET",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003000-45",
+      "previousRegistrationNumber": "6657/1999",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003000",
+      "holder": "JA SAUDE ANIMAL S.A.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PAMOATO DE PIRANTEL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003000-45",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-ba0001430-36-d452f51503f5",
+      "tradeName": "EQUIMAG PASTA 10%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "BA0001430-36",
+      "previousRegistrationNumber": "3336/1990",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "BA0001430",
+      "holder": "LABOVET PRODUTOS VETERINARIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MEBENDAZOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "BA0001430-36",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0013374-14-ebe66631f6a8",
+      "tradeName": "EQUIMAX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0013374-14",
+      "previousRegistrationNumber": "5942/1997",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0013374",
+      "holder": "VIRBAC DO BRASIL IND E COM LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PRAZIQUANTEL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0013374-14",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002003-29-e61d1f342131",
+      "tradeName": "EQUIMECTIN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002003-29",
+      "previousRegistrationNumber": "8291/2002",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002003",
+      "holder": "SYNTEC DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002003-29",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003727-109-f65644710ff5",
+      "tradeName": "EQUIMEVE PASTA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003727-109",
+      "previousRegistrationNumber": "5.820/1997",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003727",
+      "holder": "IMEVE-INDUSTRIA DE MEDICAMENTOS VETERINARIOS S/A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ALBENDAZOLE",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003727-109",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001290-46-920c4cc679ff",
+      "tradeName": "EQUIPALAZONE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001290-46",
+      "previousRegistrationNumber": "2.321/1985",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001290",
+      "holder": "SESPO INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FENILBUTAZONA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTI-INFLAMATÓRIOS NÃO ESTEROIDAIS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001290-46",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-mg0000220-19-52e09edf177e",
+      "tradeName": "EQUIPALAZONE INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "MG0000220-19",
+      "previousRegistrationNumber": "2.949/1988",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0000220",
+      "holder": "CEVA SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FENILBUTAZONA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTI-INFLAMATÓRIOS NÃO ESTEROIDAIS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "MG0000220-19",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001390-36-d17db4952d5d",
+      "tradeName": "EQUIPRAZOL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001390-36",
+      "previousRegistrationNumber": "7.812",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001390",
+      "holder": "vetnil ind e comércio de produtos veterinários ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OMEPRAZOLE",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "GRANULO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001390-36",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003000-1-32ae60140c6c",
+      "tradeName": "EQUISEDAN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003000-1",
+      "previousRegistrationNumber": "9.987/2014",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003000",
+      "holder": "JA SAUDE ANIMAL S.A.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE XILAZINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003000-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-3-282-1989-0bd775306c4e",
+      "tradeName": "EQUITHAL GEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "3.282/1989",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0006440",
+      "holder": "JA Saúde Animal S.A.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:3.282/1989",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-pr0000418-7-6a04b6783eeb",
+      "tradeName": "EQUITINA ORAL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "PR0000418-7",
+      "previousRegistrationNumber": "8410/2002",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "PR0000418",
+      "holder": "DISPEC DO BRASIL INDÚSTRIA E COMÉRCIO DE PRODUTOS AGROPECUÁRIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "PR0000418-7",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002356-30-5898f531ff72",
+      "tradeName": "EQUITRAT",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002356-30",
+      "previousRegistrationNumber": "5.597/1996",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002356",
+      "holder": "BIOFARM QUIMICA E FARMACEUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MEBENDAZOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002356-30",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002356-6-6bfb25a5312b",
+      "tradeName": "EQUITRAT GOLD",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002356-6",
+      "previousRegistrationNumber": "8.668/2003",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002356",
+      "holder": "BIOFARM QUIMICA E FARMACEUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002356-6",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002356-28-ffa2556d4b9d",
+      "tradeName": "EQUITRAT PLUS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002356-28",
+      "previousRegistrationNumber": "5.596/1996",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002356",
+      "holder": "BIOFARM QUIMICA E FARMACEUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MEBENDAZOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TRICLORFON",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002356-28",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-7-681-2001-e92744cc247d",
+      "tradeName": "EQUIVERM",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "7.681/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0000019",
+      "holder": "VETBRAS INDUSTRIA E COMERCIO DE PRODUTOS AGROPECUARIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:7.681/2001",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-8-890-2004-1b33535f83f3",
+      "tradeName": "EQUIVET GOLD",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "8.890/2004",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0000019",
+      "holder": "VETBRAS INDUSTRIA E COMERCIO DE PRODUTOS AGROPECUARIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:8.890/2004",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000230-31-0f341d3a3305",
+      "tradeName": "EQVALAN GOLD",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000230-31",
+      "previousRegistrationNumber": "9.281-07",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000230",
+      "holder": "BOEHRINGER INGELHEIM ANIMAL HEALTH DO BRASIL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PRAZIQUANTEL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000230-31",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000230-26-973c0e4c24a2",
+      "tradeName": "EQVALAN PASTA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000230-26",
+      "previousRegistrationNumber": "1.656/1983",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000230",
+      "holder": "BOEHRINGER INGELHEIM ANIMAL HEALTH DO BRASIL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000230-26",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002267-13-a7b0f2031bf0",
+      "tradeName": "ERADIA ®",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002267-13",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002267",
+      "holder": "VIRBAC DO BRASIL INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "METRONIDAZOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002267-13",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002003-18-7364b09b3b91",
+      "tradeName": "EROQUIM NICOTINATO A 10%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002003-18",
+      "previousRegistrationNumber": "7709/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002003",
+      "holder": "SYNTEC DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACIDO NICOTINICO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002003-18",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000051-16-b8528bcb0c9b",
+      "tradeName": "ESTREPTOMAX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000051-16",
+      "previousRegistrationNumber": "8.395/2002",
+      "marketingStatus": "suspended",
+      "holderRegistrationNumber": "SP0000051",
+      "holder": "OURO FINO SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ESTREPTOMICINA BASE (SULFATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PÓ + DILUENTE"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000051-16",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001510-5-9d3b2a1b3628",
+      "tradeName": "ESTREPTOMICIN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001510-5",
+      "previousRegistrationNumber": "1050",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001510",
+      "holder": "vansil industria e comercio e representações ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DIHIDROESTREPTOMICINA (BASE)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PÓ + DILUENTE"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001510-5",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002356-27-84f4ced18da5",
+      "tradeName": "ESTREPTOMICINA BIOFARM",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002356-27",
+      "previousRegistrationNumber": "5.478/1996",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002356",
+      "holder": "BIOFARM QUIMICA E FARMACEUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFATO DE ESTREPTOMICINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PÓ + DILUENTE"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "EQÜINO/EQUIDEO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002356-27",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000159-22-16b6b2a532be",
+      "tradeName": "ESTREPTOPENICILINA MICROSULES",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000159-22",
+      "previousRegistrationNumber": "8.224 /2002",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000159",
+      "holder": "LABORATORIO MICROSULES DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DIHIDROESTREPTOMICINA (BASE)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PENICILINA G PROCAINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PROCAINA (HIDROCLORETO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CANINO",
+        "EQÜINO/EQUIDEO",
+        "SUINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000159-22",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0013374-18-c3c7d05fd263",
+      "tradeName": "ESTROACTIVE®",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0013374-18",
+      "previousRegistrationNumber": "SP0000230000045",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0013374",
+      "holder": "VIRBAC DO BRASIL IND E COM LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BENZOATO DE ESTRADIOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0013374-18",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002356-40-3b5cf538089b",
+      "tradeName": "ESTROGIN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002356-40",
+      "previousRegistrationNumber": "0.063/1972",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002356",
+      "holder": "BIOFARM QUIMICA E FARMACEUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BENZOATO DE ESTRADIOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO OLEOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAPRINO",
+        "EQÜINO/EQUIDEO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002356-40",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000370-2-efcc3c3d0a4d",
+      "tradeName": "ESTROMBOL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000370-2",
+      "previousRegistrationNumber": "8670/2003",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000370",
+      "holder": "Farex do Brasil Ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ESTANOZOLOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANABOLIZANTES"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000370-2",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002925-26-2b4d539e9d2f",
+      "tradeName": "ESTRON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002925-26",
+      "previousRegistrationNumber": "8.252/2002",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002925",
+      "holder": "UNIÃO QUIMICA FARMACEUTICA NACIONAL S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLOPROSTENOL SODICO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002925-26",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000230-45-a905f4bcc515",
+      "tradeName": "ESTROVULINN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000230-45",
+      "previousRegistrationNumber": "9819/2014",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0000230",
+      "holder": "BOEHRINGER INGELHEIM ANIMAL HEALTH DO BRASIL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BENZOATO DE ESTRADIOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000230-45",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-ba0001430-2-4bd545c22591",
+      "tradeName": "ETIMAG OTO SEPTIC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "BA0001430-2",
+      "previousRegistrationNumber": "7518/2000",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "BA0001430",
+      "holder": "LABOVET PRODUTOS VETERINARIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORHEXIDINA DI GLUCONATO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTISSEPTICO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO",
+        "FELINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "BA0001430-2",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000311-2-e9b04cd3bd31",
+      "tradeName": "EUTHANYLE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000311-2",
+      "previousRegistrationNumber": "9.054/2005",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000311",
+      "holder": "AGROFARM IMP. Y EXP. DE PRODUTOS VETERINARIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DIFENILHIDANTOINA SAL SODICA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PENTOBARBITAL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO",
+        "FELINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000311-2",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001080-18-8e12fba98048",
+      "tradeName": "EVANCOL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001080-18",
+      "previousRegistrationNumber": "10.116/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001080",
+      "holder": "ALIVIRA SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "COLISTINA (SULFATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001080-18",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001080-33-105ae8a4e22c",
+      "tradeName": "EVANFLOK",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001080-33",
+      "previousRegistrationNumber": "7.734/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001080",
+      "holder": "ALIVIRA SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE CIPROFLOXACINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001080-33",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002267-33-6d2d6f67da86",
+      "tradeName": "EVICTO® 12%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002267-33",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002267",
+      "holder": "VIRBAC DO BRASIL INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SELAMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002267-33",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002267-32-588b17f52937",
+      "tradeName": "EVICTO® 6%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002267-32",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002267",
+      "holder": "VIRBAC DO BRASIL INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SELAMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO",
+        "FELINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002267-32",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002003-21-d471b9d198ab",
+      "tradeName": "EVIGEST INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002003-21",
+      "previousRegistrationNumber": "6.710/1999",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002003",
+      "holder": "SYNTEC DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACETATO DE MEDROXIPROGESTERONA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002003-21",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-7-938-2001-553007a40342",
+      "tradeName": "EVITAK",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "7.938/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000566",
+      "holder": "cepav pharma ltda.",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO REVESTIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:7.938/2001",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000051-62-2ddbf40e514b",
+      "tradeName": "EVOL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000051-62",
+      "previousRegistrationNumber": "10110/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000051",
+      "holder": "OURO FINO SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFOXIDO DE ALBENDAZOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000051-62",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-28-09f3164a67f1",
+      "tradeName": "EXCEDE (CCFA) SUSPENSÃO ESTÉRIL - 100 MG/ML",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-28",
+      "previousRegistrationNumber": "9.431/2008",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CEFTIOFUR (ACIDO LIVRE)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "SUINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-28",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-32-44a06f859d56",
+      "tradeName": "EXCEDE (CCFA) SUSPENSAO ESTERIL - 200 MG/ML",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-32",
+      "previousRegistrationNumber": "9.434/2008",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CEFTIOFUR (ACIDO LIVRE)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-32",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-92-ac0c2d6d7b6e",
+      "tradeName": "EXCELLER",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-92",
+      "previousRegistrationNumber": "8.083/2002",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DORAMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-92",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-59-8672be33ab43",
+      "tradeName": "EXCENEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-59",
+      "previousRegistrationNumber": "3.982/1992",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CEFTIOFUR (SODICO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PÓ + DILUENTE"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAO",
+        "EQÜINO/EQUIDEO",
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "GALLUS GALLUS (GALINHA POEDEIRA)",
+        "SUINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-59",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-17-d9ab0f7a761a",
+      "tradeName": "EXCENEL RTU EZ",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-17",
+      "previousRegistrationNumber": "5761/96",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CEFTIOFUR (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-17",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-79-4888559791f0",
+      "tradeName": "EXPERT",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-79",
+      "previousRegistrationNumber": "8.253",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORPIRIFOS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DIAZINON",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "BRINCO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-79",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000663-19-d98081a7b814",
+      "tradeName": "EXTIMOX 50",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000663-19",
+      "previousRegistrationNumber": "6.893/1999",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000663",
+      "holder": "ILENDER DO BRASIL LABORATORIOS LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "SUINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000663-19",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-7-7228b05dcafa",
+      "tradeName": "EXZOLT",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-7",
+      "previousRegistrationNumber": "000036-1.000007",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FLURALANER",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-7",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000361-28-26d10207edbc",
+      "tradeName": "EXZOLT 5%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000361-28",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000361",
+      "holder": "MERCK SHARP & DOHME SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FLURALANER",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000361-28",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0006262-19-e2104da059e3",
+      "tradeName": "EZATECT",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0006262-19",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0006262",
+      "holder": "ELANCO SAÚDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ABAMECTINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DORAMECTINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0006262-19",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    }
+  ]
+}

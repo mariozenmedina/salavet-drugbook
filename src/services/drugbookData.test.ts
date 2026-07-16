@@ -2,10 +2,12 @@ import { describe, expect, it, vi } from 'vitest'
 import localesJson from '../../public/data/locales.json'
 import alphabetJson from '../../public/data/pt-BR/alphabet.json'
 import conceptsJson from '../../public/data/pt-BR/catalog/concepts/a.json'
+import productManifestJson from '../../public/data/pt-BR/catalog/products/manifest.json'
 import productsJson from '../../public/data/pt-BR/catalog/products/a.json'
 import letterJson from '../../public/data/pt-BR/letters/a.json'
 import manifestJson from '../../public/data/pt-BR/manifest.json'
 import monographJson from '../../public/data/pt-BR/monographs/carprofeno.json'
+import productSearchIndexJson from '../../public/data/pt-BR/product-search-index.json'
 import searchIndexJson from '../../public/data/pt-BR/search-index.json'
 import uiJson from '../../public/data/pt-BR/ui.json'
 import {
@@ -18,6 +20,8 @@ import {
   loadLocaleManifest,
   loadLocales,
   loadMonograph,
+  loadProductCatalogManifest,
+  loadProductSearchIndex,
   loadProductShard,
   loadSearchIndex,
   loadUiText,
@@ -32,7 +36,9 @@ const fixtureByPath: Record<string, unknown> = {
   '/data/pt-BR/search-index.json': searchIndexJson,
   '/data/pt-BR/letters/a.json': letterJson,
   '/data/pt-BR/catalog/concepts/a.json': conceptsJson,
+  '/data/pt-BR/catalog/products/manifest.json': productManifestJson,
   '/data/pt-BR/catalog/products/a.json': productsJson,
+  '/data/pt-BR/product-search-index.json': productSearchIndexJson,
   '/data/pt-BR/monographs/carprofeno.json': monographJson,
 }
 
@@ -53,13 +59,27 @@ describe('drugbook JSON loaders', () => {
   it('loads and validates every supported fixture type', async () => {
     const fetcher = fixtureFetcher()
 
-    const [locales, manifest, ui, alphabet, search, letter, concepts, products, monograph] =
+    const [
+      locales,
+      manifest,
+      ui,
+      alphabet,
+      search,
+      productManifest,
+      productSearch,
+      letter,
+      concepts,
+      products,
+      monograph,
+    ] =
       await Promise.all([
         loadLocales(fetcher),
         loadLocaleManifest('pt-BR', fetcher),
         loadUiText('pt-BR', fetcher),
         loadAlphabet('pt-BR', fetcher),
         loadSearchIndex('pt-BR', fetcher),
+        loadProductCatalogManifest('pt-BR', fetcher),
+        loadProductSearchIndex('pt-BR', fetcher),
         loadLetter('pt-BR', 'A', fetcher),
         loadConceptShard('pt-BR', 'A', fetcher),
         loadProductShard('pt-BR', 'A', fetcher),
@@ -71,9 +91,11 @@ describe('drugbook JSON loaders', () => {
     expect(ui.welcome.title).toBe('Drugbook veterinário')
     expect(alphabet.letters).toHaveLength(2)
     expect(search.items).toHaveLength(4)
+    expect(productManifest.totalCount).toBe(2_825)
+    expect(productSearch.items).toHaveLength(2_825)
     expect(letter.letter).toBe('a')
     expect(concepts.items).toHaveLength(2)
-    expect(products.items).toHaveLength(1)
+    expect(products.items).toHaveLength(242)
     expect(monograph.monographStatus).toBe('needsReview')
   })
 

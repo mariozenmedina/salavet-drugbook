@@ -1,0 +1,166 @@
+{
+  "locale": "pt-BR",
+  "schemaVersion": "1.0.0",
+  "dataVersion": "2026.07.16.2",
+  "updatedAt": "2026-07-16T16:00:00Z",
+  "sourceId": "mapa-veterinary-pharmaceutical-products",
+  "totalCount": 2825,
+  "shards": [
+    {
+      "id": "0-9",
+      "label": "0–9",
+      "path": "/data/pt-BR/catalog/products/0-9.json",
+      "count": 2
+    },
+    {
+      "id": "a",
+      "label": "A",
+      "path": "/data/pt-BR/catalog/products/a.json",
+      "count": 242
+    },
+    {
+      "id": "b",
+      "label": "B",
+      "path": "/data/pt-BR/catalog/products/b.json",
+      "count": 181
+    },
+    {
+      "id": "c",
+      "label": "C",
+      "path": "/data/pt-BR/catalog/products/c.json",
+      "count": 312
+    },
+    {
+      "id": "d",
+      "label": "D",
+      "path": "/data/pt-BR/catalog/products/d.json",
+      "count": 173
+    },
+    {
+      "id": "e",
+      "label": "E",
+      "path": "/data/pt-BR/catalog/products/e.json",
+      "count": 162
+    },
+    {
+      "id": "f",
+      "label": "F",
+      "path": "/data/pt-BR/catalog/products/f.json",
+      "count": 188
+    },
+    {
+      "id": "g",
+      "label": "G",
+      "path": "/data/pt-BR/catalog/products/g.json",
+      "count": 80
+    },
+    {
+      "id": "h",
+      "label": "H",
+      "path": "/data/pt-BR/catalog/products/h.json",
+      "count": 36
+    },
+    {
+      "id": "i",
+      "label": "I",
+      "path": "/data/pt-BR/catalog/products/i.json",
+      "count": 94
+    },
+    {
+      "id": "j",
+      "label": "J",
+      "path": "/data/pt-BR/catalog/products/j.json",
+      "count": 2
+    },
+    {
+      "id": "k",
+      "label": "K",
+      "path": "/data/pt-BR/catalog/products/k.json",
+      "count": 42
+    },
+    {
+      "id": "l",
+      "label": "L",
+      "path": "/data/pt-BR/catalog/products/l.json",
+      "count": 69
+    },
+    {
+      "id": "m",
+      "label": "M",
+      "path": "/data/pt-BR/catalog/products/m.json",
+      "count": 202
+    },
+    {
+      "id": "n",
+      "label": "N",
+      "path": "/data/pt-BR/catalog/products/n.json",
+      "count": 66
+    },
+    {
+      "id": "o",
+      "label": "O",
+      "path": "/data/pt-BR/catalog/products/o.json",
+      "count": 73
+    },
+    {
+      "id": "p",
+      "label": "P",
+      "path": "/data/pt-BR/catalog/products/p.json",
+      "count": 233
+    },
+    {
+      "id": "q",
+      "label": "Q",
+      "path": "/data/pt-BR/catalog/products/q.json",
+      "count": 12
+    },
+    {
+      "id": "r",
+      "label": "R",
+      "path": "/data/pt-BR/catalog/products/r.json",
+      "count": 68
+    },
+    {
+      "id": "s",
+      "label": "S",
+      "path": "/data/pt-BR/catalog/products/s.json",
+      "count": 213
+    },
+    {
+      "id": "t",
+      "label": "T",
+      "path": "/data/pt-BR/catalog/products/t.json",
+      "count": 187
+    },
+    {
+      "id": "u",
+      "label": "U",
+      "path": "/data/pt-BR/catalog/products/u.json",
+      "count": 20
+    },
+    {
+      "id": "v",
+      "label": "V",
+      "path": "/data/pt-BR/catalog/products/v.json",
+      "count": 120
+    },
+    {
+      "id": "w",
+      "label": "W",
+      "path": "/data/pt-BR/catalog/products/w.json",
+      "count": 3
+    },
+    {
+      "id": "x",
+      "label": "X",
+      "path": "/data/pt-BR/catalog/products/x.json",
+      "count": 11
+    },
+    {
+      "id": "z",
+      "label": "Z",
+      "path": "/data/pt-BR/catalog/products/z.json",
+      "count": 34
+    }
+  ]
+}

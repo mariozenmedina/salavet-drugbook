@@ -1,0 +1,493 @@
+{
+  "locale": "pt-BR",
+  "letter": "q",
+  "updatedAt": "2026-07-16T16:00:00Z",
+  "items": [
+    {
+      "id": "product-mapa-sp0001460-30-ed6c1c83a91e",
+      "tradeName": "QUALIPAC M",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001460-30",
+      "previousRegistrationNumber": "10050/2015",
+      "marketingStatus": "suspended",
+      "holderRegistrationNumber": "SP0001460",
+      "holder": "m cassab comercio e industria ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ÁCIDO 3-NITRO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MONENSINA (SÓDICA)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001460-30",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001460-36-ea769062aa15",
+      "tradeName": "QUALIPAC S",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001460-36",
+      "previousRegistrationNumber": "10051/2015",
+      "marketingStatus": "suspended",
+      "holderRegistrationNumber": "SP0001460",
+      "holder": "m cassab comercio e industria ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ÁCIDO 3-NITRO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SALINOMICINA SODICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001460-36",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0008850-10-2bc4f02f4425",
+      "tradeName": "QUALLYCEF CCFA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0008850-10",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0008850",
+      "holder": "LABORATÓRIO BIOVET LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CEFTIOFUR (ACIDO LIVRE)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0008850-10",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0008850-18-6fed6a905401",
+      "tradeName": "QUALLYXINE VL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0008850-18",
+      "previousRegistrationNumber": "5.196/95",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0008850",
+      "holder": "LABORATÓRIO BIOVET LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CEFALEXINA (MONOHIDRATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NEOMICINA (SULFATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PREDNISOLONA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0008850-18",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001650-12-672fa411887c",
+      "tradeName": "QUATERMON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001650-12",
+      "previousRegistrationNumber": "1.666",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001650",
+      "holder": "chemitec agro veterinaria ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORETO DE BENZALCONIO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "DESINFETANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "EQÜINO/EQUIDEO",
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "GALLUS GALLUS (GALINHA POEDEIRA)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001650-12",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001650-10-6366428b7e6a",
+      "tradeName": "QUATERMON 30%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001650-10",
+      "previousRegistrationNumber": "6.699",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001650",
+      "holder": "chemitec agro veterinaria ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORETO DE BENZALCONIO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "DESINFETANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "NAO SE APLICA"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001650-10",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001650-32-7bb1f9c6f1ac",
+      "tradeName": "QUATERMON 50%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001650-32",
+      "previousRegistrationNumber": "6698",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001650",
+      "holder": "chemitec agro veterinaria ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORETO DE BENZALCONIO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "DESINFETANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "NAO SE APLICA"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001650-32",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001390-4-029696184500",
+      "tradeName": "QUETAMINA INJETÁVEL CÃES E GATOS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001390-4",
+      "previousRegistrationNumber": "8524",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001390",
+      "holder": "vetnil ind e comércio de produtos veterinários ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CETAMINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANESTESICO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001390-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003395-5-bac699bbd681",
+      "tradeName": "QUICK BAYT",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003395-5",
+      "previousRegistrationNumber": "9.098/2005",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003395",
+      "holder": "IPANEMA INDUSTRIA DE PRODUTOS VETERINARIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IMIDACLOPRIDA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MUSCALURE",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "GRANULO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "NAO SE APLICA"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003395-5",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rj0003352-12-e11eca998f12",
+      "tradeName": "QUINOLON 10%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RJ0003352-12",
+      "previousRegistrationNumber": "5694",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RJ0003352",
+      "holder": "LABORATÓRIO BRAVET LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RJ0003352-12",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rj0003352-15-e999e338fd60",
+      "tradeName": "QUINOLON 2,5%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RJ0003352-15",
+      "previousRegistrationNumber": "5693/96",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RJ0003352",
+      "holder": "LABORATÓRIO BRAVET LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ENROFLOXACINO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO",
+        "FELINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RJ0003352-15",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rj0003352-4-8f1b6d6c8787",
+      "tradeName": "QUINOLON 50 MG COMPRIMIDOS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RJ0003352-4",
+      "previousRegistrationNumber": "6608",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RJ0003352",
+      "holder": "LABORATÓRIO BRAVET LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RJ0003352-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    }
+  ]
+}

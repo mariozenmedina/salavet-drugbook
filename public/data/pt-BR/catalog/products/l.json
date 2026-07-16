@@ -1,0 +1,2900 @@
+{
+  "locale": "pt-BR",
+  "letter": "l",
+  "updatedAt": "2026-07-16T16:00:00Z",
+  "items": [
+    {
+      "id": "product-mapa-sc0005533-7-56aa82f05d9f",
+      "tradeName": "LABCON ANTI ALGAS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SC0005533-7",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SC0005533",
+      "holder": "INDUSTRIA E COMERCIO DE ALIMENTOS DESIDRATADOS ALCON LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PEROXIDO DE HIDROGENIO (AGUA OXIGENADA)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "DESINFETANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "PEIXE"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SC0005533-7",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sc0005533-6-06928145b0af",
+      "tradeName": "LABCON AQUALIFE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SC0005533-6",
+      "previousRegistrationNumber": "6343/98",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SC0005533",
+      "holder": "INDUSTRIA E COMERCIO DE ALIMENTOS DESIDRATADOS ALCON LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "PEIXE"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SC0005533-6",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sc0005533-3-81e6a368b7e7",
+      "tradeName": "LABCON BACTER",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SC0005533-3",
+      "previousRegistrationNumber": "8917/2004",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SC0005533",
+      "holder": "INDUSTRIA E COMERCIO DE ALIMENTOS DESIDRATADOS ALCON LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NEOMICINA (SULFATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "CAPSULA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "PEIXE"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SC0005533-3",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sc0005533-4-c0b20c99c3e1",
+      "tradeName": "LABCON CLEAN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SC0005533-4",
+      "previousRegistrationNumber": "6211/97",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SC0005533",
+      "holder": "INDUSTRIA E COMERCIO DE ALIMENTOS DESIDRATADOS ALCON LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "AZUL DE METILENO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFATO DE COBRE",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VERDE MALAQUITA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "DESINFETANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "PEIXE"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SC0005533-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sc0005533-5-b87e2cf39a75",
+      "tradeName": "LABCON ICTIO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SC0005533-5",
+      "previousRegistrationNumber": "6210/97",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SC0005533",
+      "holder": "INDUSTRIA E COMERCIO DE ALIMENTOS DESIDRATADOS ALCON LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "AZUL DE METILENO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFATO DE COBRE",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VERDE MALAQUITA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "PEIXE"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SC0005533-5",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0001240-2-a12a1da5f8f4",
+      "tradeName": "LAC SULPH",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0001240-2",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0001240",
+      "holder": "CURANTUR INDUSTRIA DE MEDICAMENTOS VETERINARIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "HEPAR SULFUR",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAPRINO",
+        "EQÜINO/EQUIDEO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0001240-2",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002925-1-7377e157e99d",
+      "tradeName": "LACRI",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002925-1",
+      "previousRegistrationNumber": "000292-5.000001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002925",
+      "holder": "UNIÃO QUIMICA FARMACEUTICA NACIONAL S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CARBOXIMETILCELULOSE SODICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO AQUOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "HIDRATAÇÃO E MEDICAÇÃO SUPORTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002925-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000370-15-07dec01424ef",
+      "tradeName": "LACRIL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000370-15",
+      "previousRegistrationNumber": "8497/2003",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000370",
+      "holder": "Farex do Brasil Ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ÁCIDO HIALURÔNICO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000370-15",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000370-19-e0d65f22c178",
+      "tradeName": "LACRILON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000370-19",
+      "previousRegistrationNumber": "8498/2003",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000370",
+      "holder": "Farex do Brasil Ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "4-SULFATO DE CONDROITINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "6-SULFATO DE CONDROITINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO",
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000370-19",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003000-25-f1e9941b83d2",
+      "tradeName": "LACTOCINA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003000-25",
+      "previousRegistrationNumber": "5.735",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003000",
+      "holder": "JA SAUDE ANIMAL S.A.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OCITOCINA SINTETICA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAPRINO",
+        "EQÜINO/EQUIDEO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003000-25",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000051-50-8d5cb1d80c23",
+      "tradeName": "LACTOFUR",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000051-50",
+      "previousRegistrationNumber": "9.958/2014",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000051",
+      "holder": "OURO FINO SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CEFTIOFUR (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000051-50",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000574-7-108a1d2c2f6b",
+      "tradeName": "LACTOTROPIN INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000574-7",
+      "previousRegistrationNumber": "000127-0.000001",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0000574",
+      "holder": "elanco saude animal",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SOMETRIBOVE BOVINO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SOMETRIBOVE ZINCO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "BUBALINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000574-7",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001270-1-4578172f6719",
+      "tradeName": "LACTOTROPIN INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001270-1",
+      "previousRegistrationNumber": "3.338",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0001270",
+      "holder": "ELI LILLY DO BRASIL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SOMETRIBOVE BOVINO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SOMETRIBOVE ZINCO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [
+        "SUBCUTANEA"
+      ],
+      "authorizedSpecies": [
+        "BOVINO",
+        "BUBALINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001270-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002925-16-a6ef072a30d0",
+      "tradeName": "LACTOTROPIN INJETÁVEL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002925-16",
+      "previousRegistrationNumber": "000057-4.000007",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002925",
+      "holder": "UNIÃO QUIMICA FARMACEUTICA NACIONAL S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SOMETRIBOVE BOVINO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SOMETRIBOVE ZINCO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "BUBALINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002925-16",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000860-17-a3435b3a31f3",
+      "tradeName": "LACTUS POUR ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000860-17",
+      "previousRegistrationNumber": "9.560/2010",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000860",
+      "holder": "NOXON DO BRASIL QUÍMICA E FARMACÊUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO OLEOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000860-17",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001390-38-2668d036a6eb",
+      "tradeName": "LANDIC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001390-38",
+      "previousRegistrationNumber": "0.559",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001390",
+      "holder": "vetnil ind e comércio de produtos veterinários ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFATO DE ATROPINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFATO DE GENTAMICINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "INTRAMUSCULAR"
+      ],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001390-38",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000574-42-0f1ead972ae1",
+      "tradeName": "LARVADEX 10",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000574-42",
+      "previousRegistrationNumber": "1.973/1983",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000574",
+      "holder": "elanco saude animal",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIROMAZINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "AVE - PERU",
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "GALLUS GALLUS (GALINHA POEDEIRA)"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000574-42",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-mg0001880-1-5b9cebdb94da",
+      "tradeName": "LARVIDIL PÓ",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "MG0001880-1",
+      "previousRegistrationNumber": "8509",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0001880",
+      "holder": "Laboratorio Laippe Ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ALUME DE POTASSIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CARBARIL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CIPERMETRINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFADIAZINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VIOLETA GENCIANA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [
+        "TOPICA"
+      ],
+      "authorizedSpecies": [
+        "BOVINO",
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "MG0001880-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002143-20-a65352a0d49c",
+      "tradeName": "LAVI-FEN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002143-20",
+      "previousRegistrationNumber": "187/1975",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002143",
+      "holder": "LAVI LABORATORIOS VITAMINICOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORETO DE BENZALCONIO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "DESINFETANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "NAO SE APLICA"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002143-20",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002143-3-36ef5704b584",
+      "tradeName": "LAVI FEN PLUS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002143-3",
+      "previousRegistrationNumber": "8.187/2002",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002143",
+      "holder": "LAVI LABORATORIOS VITAMINICOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORETO DE BENZALCONIO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "DESINFETANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CANINO",
+        "EQÜINO/EQUIDEO",
+        "FELINO",
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "GALLUS GALLUS (GALINHA POEDEIRA)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002143-3",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002143-14-33c5c3574b6b",
+      "tradeName": "LAVIMEC POUR ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002143-14",
+      "previousRegistrationNumber": "7.767/2001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002143",
+      "holder": "LAVI LABORATORIOS VITAMINICOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002143-14",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002143-12-096f57e5da4b",
+      "tradeName": "LAVIMED SD",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002143-12",
+      "previousRegistrationNumber": "0.216/1975",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002143",
+      "holder": "LAVI LABORATORIOS VITAMINICOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DIAVERIDINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SULFAQUINOXALINA (SODICA)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "AVE (ORNAMENTAL)",
+        "AVE CANORA"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002143-12",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002143-6-ec8807e49bea",
+      "tradeName": "LAVIRON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002143-6",
+      "previousRegistrationNumber": "0.113/1975",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002143",
+      "holder": "LAVI LABORATORIOS VITAMINICOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SACARATO DE FERRO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "VITAMINAS E MINERAIS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002143-6",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0013374-20-8635c92446eb",
+      "tradeName": "LECTRON 20%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0013374-20",
+      "previousRegistrationNumber": "4.851/1994",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0013374",
+      "holder": "VIRBAC DO BRASIL IND E COM LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FERRO (NA FORMA DE DEXTRANO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0013374-20",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000051-86-94cf1c3fa287",
+      "tradeName": "LEEVRE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000051-86",
+      "previousRegistrationNumber": "9945/2014",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000051",
+      "holder": "OURO FINO SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DELTAMETRINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PROPOXUR",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COLEIRA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000051-86",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000230-22-1e01d8d7cc34",
+      "tradeName": "LEGEND",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000230-22",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000230",
+      "holder": "BOEHRINGER INGELHEIM ANIMAL HEALTH DO BRASIL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "HIALURONATO DE SODIO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTI-INFLAMATÓRIOS NÃO ESTEROIDAIS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000230-22",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000051-88-ec3828e0d4b3",
+      "tradeName": "LEPECID BR SPRAY",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000051-88",
+      "previousRegistrationNumber": "9825/2014",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000051",
+      "holder": "OURO FINO SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORPIRIFOS",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "AEROSSOL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000051-88",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-pr0000591-4-39f998240381",
+      "tradeName": "LERBEK",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "PR0000591-4",
+      "previousRegistrationNumber": "PR-07284 00068",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "PR0000591",
+      "holder": "impextraco latin america comercio e industria de produtos para nutrição ltda",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTICOCCIDIANO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "PR0000591-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002003-52-258e44e93238",
+      "tradeName": "LEVAMISOL F SYNTEC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002003-52",
+      "previousRegistrationNumber": "6.675/1999",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002003",
+      "holder": "SYNTEC DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FOSFATO DE LEVAMISO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002003-52",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000108-11-90827d9d83d7",
+      "tradeName": "LEVAMISOL INJETÁVEL MATSUDA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000108-11",
+      "previousRegistrationNumber": "8.134/2002",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000108",
+      "holder": "VETECIA LABORATÓRIOS DE PRODUTOS VETERINÁRIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LEVAMISOL FOSFATO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000108-11",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001080-20-7390fa661555",
+      "tradeName": "LEVIAR",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001080-20",
+      "previousRegistrationNumber": "10.021/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001080",
+      "holder": "ALIVIRA SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "FLORFENICOL",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001080-20",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rj0004090-1-31eb24048215",
+      "tradeName": "LEXIN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RJ0004090-1",
+      "previousRegistrationNumber": "7.623",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RJ0004090",
+      "holder": "laboratórios duprat ltda",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RJ0004090-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0013374-16-0ea0ece2d9cd",
+      "tradeName": "LIBERACTIVE®",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0013374-16",
+      "previousRegistrationNumber": "000023-0.000029",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0013374",
+      "holder": "VIRBAC DO BRASIL IND E COM LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BUSERELINA (ACETATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0013374-16",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-20-88653412ccec",
+      "tradeName": "LIBRELA 10 MG",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-20",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BEDINVETMAB",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-20",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-19-6ae832ee3ecb",
+      "tradeName": "LIBRELA 15 MG",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-19",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BEDINVETMAB",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-19",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-22-2983a4a11f46",
+      "tradeName": "LIBRELA 20 MG",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-22",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BEDINVETMAB",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-22",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-24-31b0f13fe366",
+      "tradeName": "LIBRELA 30 MG",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-24",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BEDINVETMAB",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-24",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-21-7b9cf416e4a5",
+      "tradeName": "LIBRELA 5 MG",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-21",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BEDINVETMAB",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CANINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-21",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-4-038-1992-b76ec66113b9",
+      "tradeName": "LIDOFARM",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "4.038/1992",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002356",
+      "holder": "BIOFARM QUIMICA E FARMACEUTICA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE LIDOCAINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "EPINEFRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANESTESICO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CANINO",
+        "CAPRINO",
+        "EQÜINO/EQUIDEO",
+        "FELINO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:4.038/1992",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rj0003352-32-f8bb4c452c26",
+      "tradeName": "LIDOVET",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RJ0003352-32",
+      "previousRegistrationNumber": "5.989",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RJ0003352",
+      "holder": "LABORATÓRIO BRAVET LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE LIDOCAINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO AQUOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANESTESICO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RJ0003352-32",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-67-99deede58a57",
+      "tradeName": "LINCO-SPECTIN 100",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-67",
+      "previousRegistrationNumber": "7652/2001",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ESPECTINOMICINA (SULFATO TETRAIDRATADO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "AVE - PERU",
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-67",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003476-33-08a666e6519b",
+      "tradeName": "LINCO-SPECTIN 100",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003476-33",
+      "previousRegistrationNumber": "SP0072-8.000067",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003476",
+      "holder": "phibro saude animal internacional ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ESPECTINOMICINA (SULFATO TETRAIDRATADO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "AVE - PERU",
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003476-33",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-98-1d4e599a9089",
+      "tradeName": "LINCO-SPECTIN 440",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-98",
+      "previousRegistrationNumber": "7.653/2001",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ESPECTINOMICINA (SULFATO TETRAIDRATADO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "AVE - PERU",
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "GALLUS GALLUS (GALINHA POEDEIRA)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-98",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003476-38-bbbc2fc568a1",
+      "tradeName": "LINCO-SPECTIN 440",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003476-38",
+      "previousRegistrationNumber": "00072-8.000098",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003476",
+      "holder": "phibro saude animal internacional ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ESPECTINOMICINA (SULFATO TETRAIDRATADO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "AVE - PERU",
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "GALLUS GALLUS (GALINHA POEDEIRA)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003476-38",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-65-a91f7e418b1e",
+      "tradeName": "LINCO-SPECTIN PREMIX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-65",
+      "previousRegistrationNumber": "005/1975",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ESPECTINOMICINA (SULFATO TETRAIDRATADO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-65",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003476-42-09b5c8534db3",
+      "tradeName": "LINCO-SPECTIN PREMIX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003476-42",
+      "previousRegistrationNumber": "SP0072-8.000065",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003476",
+      "holder": "phibro saude animal internacional ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ESPECTINOMICINA (SULFATO TETRAIDRATADO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003476-42",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-16-83d086af08ae",
+      "tradeName": "LINCO-SPECTIN SOLUÇÃO ESTÉRIL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-16",
+      "previousRegistrationNumber": "137/1975",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ESPECTINOMICINA (SULFATO TETRAIDRATADO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-16",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001410-36-0e00adebd8e8",
+      "tradeName": "LINCOFARM 44",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001410-36",
+      "previousRegistrationNumber": "SP-08797 30008",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0001410",
+      "holder": "farmabase saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS ADITIVOS MELHORADORES DE DESEMPENHO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "AVE - PERU",
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001410-36",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001410-8-1fb96e0c9cf1",
+      "tradeName": "LINCOFARM TR",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001410-8",
+      "previousRegistrationNumber": "0001410.000008",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001410",
+      "holder": "farmabase saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001410-8",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001080-31-7ffc16576fed",
+      "tradeName": "LINCOGEN 2,2 - 2,2",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001080-31",
+      "previousRegistrationNumber": "6.357/1998",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001080",
+      "holder": "ALIVIRA SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GENTAMICINA ( SULFATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001080-31",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0004413-46-cb5f6e3279c7",
+      "tradeName": "LINCOMAX 44",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0004413-46",
+      "previousRegistrationNumber": "9.946/2014",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0004413",
+      "holder": "SAUVET INDUSTRIA FARMACÊUTICA E VETERINÁRIA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0004413-46",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-6889-99-c1b59dcf7b3f",
+      "tradeName": "LINCOMICIN 300",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "6889/99",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000345",
+      "holder": "LABYES DO BRASIL COMERCIAL, IMPORTADORA E EXPORTADORA DE MEDICAMENTOS E PRODUTOS VETERINARIOS LTDA.",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:6889/99",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-76-4313e4ba6930",
+      "tradeName": "LINCOMIX 600",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-76",
+      "previousRegistrationNumber": "2.110/1984",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "GALLUS GALLUS (GALINHA POEDEIRA)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-76",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003476-41-8bf2ce898229",
+      "tradeName": "LINCOMIX 600",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003476-41",
+      "previousRegistrationNumber": "0072-8.000076",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003476",
+      "holder": "phibro saude animal internacional ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "GALLUS GALLUS (GALINHA MATRIZ)",
+        "GALLUS GALLUS (GALINHA POEDEIRA)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003476-41",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002003-36-c960269e89de",
+      "tradeName": "LINCOSAN 11%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002003-36",
+      "previousRegistrationNumber": "6253/1998",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002003",
+      "holder": "SYNTEC DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002003-36",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0004413-47-39fea627a366",
+      "tradeName": "LINCOSPECMAX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0004413-47",
+      "previousRegistrationNumber": "9.968/2014",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0004413",
+      "holder": "SAUVET INDUSTRIA FARMACÊUTICA E VETERINÁRIA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ESPECTINOMICINA (SULFATO TETRAIDRATADO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0004413-47",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0007374-3-bec66265bda7",
+      "tradeName": "LINIMEX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0007374-3",
+      "previousRegistrationNumber": "5635/1996",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0007374",
+      "holder": "WINNER HORSE INDÚSTRIA E COMÉRCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CANFORA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MENTOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SALICILATO DE METILA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "GEL"
+      ],
+      "pharmaceuticalClasses": [
+        "RELAXANTE MUSCULAR"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CANINO",
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0007374-3",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001290-36-52c8ed5778b1",
+      "tradeName": "LISPEC 15%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001290-36",
+      "previousRegistrationNumber": "6.666/1999",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001290",
+      "holder": "SESPO INDUSTRIA E COMERCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ESPECTINOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LINCOMICINA (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001290-36",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0008850-22-33f51759d2dc",
+      "tradeName": "LIVERTON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0008850-22",
+      "previousRegistrationNumber": "7.390/2000",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0008850",
+      "holder": "LABORATÓRIO BIOVET LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORETO DE COLINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLORIDRATO DE PIRIDOXINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DL-ACETIL METIONINA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "INOSITOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NICOTINAMIDA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "VITAMINA B2 (RIBOFLAVINA)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0008850-22",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003000-30-cb967e943739",
+      "tradeName": "LONGAMECTINA PREMIUM 3,5%",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003000-30",
+      "previousRegistrationNumber": "9.771/2013",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003000",
+      "holder": "JA SAUDE ANIMAL S.A.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO OLEOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003000-30",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sc0000159-4-96a89de6b0ea",
+      "tradeName": "LONOMICIN M",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SC0000159-4",
+      "previousRegistrationNumber": "SC-25012 20026",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SC0000159",
+      "holder": "VETANCO DO BRASIL IMPORTAÇÃO E EXPORTAÇÃO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MADURAMICINA AMONIO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTICOCCIDIANO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SC0000159-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sc0000159-3-bc49bb4405e2",
+      "tradeName": "LONOMICIN MN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SC0000159-3",
+      "previousRegistrationNumber": "SC-25012 20027",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SC0000159",
+      "holder": "VETANCO DO BRASIL IMPORTAÇÃO E EXPORTAÇÃO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "MADURAMICINA AMONIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NICARBAZINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTICOCCIDIANO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "GALLUS GALLUS (FRANGO DE CORTE)"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SC0000159-3",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001740-35-1e3dfdaaddbe",
+      "tradeName": "LONTAL POUR ON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001740-35",
+      "previousRegistrationNumber": "3.074/1988",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001740",
+      "holder": "bimeda brasil s.a.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TRICLORFON",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001740-35",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000051-71-8299eb7b6126",
+      "tradeName": "LOPA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000051-71",
+      "previousRegistrationNumber": "10.020/2015",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000051",
+      "holder": "OURO FINO SAUDE ANIMAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GENTAMICINA ( SULFATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "LOPERAMIDE (CLORIDRATO)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000051-71",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0001431-6-5bcdbda5df1b",
+      "tradeName": "LUMECTIN S",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0001431-6",
+      "previousRegistrationNumber": "5393/1998",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0001431",
+      "holder": "BASSO & PANCOTTE LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IVERMECTINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [
+        "SUBCUTANEA"
+      ],
+      "authorizedSpecies": [
+        "BOVINO",
+        "OVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0001431-6",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000728-56-497b41daebb3",
+      "tradeName": "LUTALYSE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000728-56",
+      "previousRegistrationNumber": "966/1979",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000728",
+      "holder": "zoetis INDUSTRIA DE PRODUTOS VETERINÁRIOS LTDA - 31",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DINOPROST (TROMETAMINA)",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUCAO AQUOSA"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "EQÜINO/EQUIDEO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000728-56",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-mg0000220-14-d7231a21cc46",
+      "tradeName": "LUTEGLAN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "MG0000220-14",
+      "previousRegistrationNumber": "4.472/1993",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0000220",
+      "holder": "CEVA SAUDE ANIMAL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLOPROSTENOL",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ÁCIDO CÍTRICO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO"
+      ],
+      "pharmaceuticalClasses": [
+        "HORMÔNIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "MG0000220-14",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002003-51-fbf0f753dc3e",
+      "tradeName": "LUXOL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002003-51",
+      "previousRegistrationNumber": "6.218/1998",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002003",
+      "holder": "SYNTEC DO BRASIL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "SALICILATO DE METILA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "POMADA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANALGESICO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002003-51",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002259-1-70fb27611529",
+      "tradeName": "LUXSAN X",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002259-1",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002259",
+      "holder": "GEA EQUIPAMENTOS E SOLUCOES LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "IODO RESSUBLIMADO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTISSEPTICO"
+      ],
+      "routes": [
+        "TOPICA"
+      ],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002259-1",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    }
+  ]
+}

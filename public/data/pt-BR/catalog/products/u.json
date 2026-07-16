@@ -1,0 +1,819 @@
+{
+  "locale": "pt-BR",
+  "letter": "u",
+  "updatedAt": "2026-07-16T16:00:00Z",
+  "items": [
+    {
+      "id": "product-mapa-sp0002925-70-c9ce40ad850b",
+      "tradeName": "UBERLAC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002925-70",
+      "previousRegistrationNumber": "8299/2002",
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0002925",
+      "holder": "UNIÃO QUIMICA FARMACEUTICA NACIONAL S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CEFOPERAZONE SODICO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002925-70",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0002925-58-9cb5959bd29d",
+      "tradeName": "UBERSEC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0002925-58",
+      "previousRegistrationNumber": "8.296/2002",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0002925",
+      "holder": "UNIÃO QUIMICA FARMACEUTICA NACIONAL S.A",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CEFALEXINA BENZATINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0002925-58",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001510-29-a82562e90aaf",
+      "tradeName": "UBRECILIN",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001510-29",
+      "previousRegistrationNumber": "2563",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001510",
+      "holder": "vansil industria e comercio e representações ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CLOXACILINA SODICA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "NEOMICINA (SULFATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PREDNISOLONA ACETATO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001510-29",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000230-9-776db95ba869",
+      "tradeName": "UBROLEXIN- SUSPENSÃO INTRAMAMÁRIA PARA VACAS EM LACTAÇÃO",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000230-9",
+      "previousRegistrationNumber": "000022-1.00001",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000230",
+      "holder": "BOEHRINGER INGELHEIM ANIMAL HEALTH DO BRASIL LTDA.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CANAMICINA (MONOSSULFATO)",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "CEFALEXINA MONOIDRATADA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SUSPENSAO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000230-9",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000663-14-b058e5ff4c27",
+      "tradeName": "UCARSAN 420",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000663-14",
+      "previousRegistrationNumber": "5.777/1996",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000663",
+      "holder": "ILENDER DO BRASIL LABORATORIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUTARALDEÍDO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "DESINFETANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "NAO SE APLICA"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000663-14",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003298-4-be0effb4393a",
+      "tradeName": "UMBICURA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003298-4",
+      "previousRegistrationNumber": "2704/1969",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0003298",
+      "holder": "PECUARISTA DOESTE DE ARAÇATUBA LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "DICLORVOS",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003298-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001650-38-4b0bc3b58cbd",
+      "tradeName": "UNGUENTO CHEMITEC",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001650-38",
+      "previousRegistrationNumber": "4.786",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001650",
+      "holder": "chemitec agro veterinaria ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "ACIDO CRESILICO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXIDO DE ZINCO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "POMADA"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001650-38",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-legacy-4-467-1993-f81773280fae",
+      "tradeName": "UNGUENTO CURATRIL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": null,
+      "previousRegistrationNumber": "4.467/1993",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "MG0000019",
+      "holder": "VETBRAS INDUSTRIA E COMERCIO DE PRODUTOS AGROPECUARIOS LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "POMADA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTISSEPTICO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "CAPRINO",
+        "EQÜINO/EQUIDEO",
+        "OVINO",
+        "SUINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "legacy:4.467/1993",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-go0011703-26-1999ca97049a",
+      "tradeName": "UNGUENTO FAGRA",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "GO0011703-26",
+      "previousRegistrationNumber": "3.970/1992",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "GO0011703",
+      "holder": "vetoquinol saude animal ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BUTOXIDO DE PIPERONILA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXIDO DE ZINCO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "GO0011703-26",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000094-16-1d3f924936cd",
+      "tradeName": "UNGUENTO PEARSON",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000094-16",
+      "previousRegistrationNumber": "1.081",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000094",
+      "holder": "eurofarma laboratórios s.a.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OLEO DE PINHO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXIDO DE ZINCO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "POMADA"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000094-16",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0000094-19-ec938160bc2c",
+      "tradeName": "UNGUENTO PLUS AEROSOL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0000094-19",
+      "previousRegistrationNumber": "3.835",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0000094",
+      "holder": "eurofarma laboratórios s.a.",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "OXIDO DE ZINCO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "AEROSSOL"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0000094-19",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0013544-4-e695dd1ebe7d",
+      "tradeName": "UNGUENTO SANOL DOG",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0013544-4",
+      "previousRegistrationNumber": "1.335/81",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0013544",
+      "holder": "TOTAL QUIMICA  LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BUTOXIDO DE PIPERONILA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PIRETRINAS NATURAIS",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "TRICLOSAN",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "CREME"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0013544-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001510-21-ea4195ac8c36",
+      "tradeName": "UNGUENTO VANSIL PLUS",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001510-21",
+      "previousRegistrationNumber": "5248",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001510",
+      "holder": "vansil industria e comercio e representações ltda",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BUTOXIDO DE PIPERONILA",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "PERMETRINA",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "PASTA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIPARASITÁRIOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "EQÜINO/EQUIDEO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001510-21",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000311-5-3b6c6da6a507",
+      "tradeName": "UNIENROL",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000311-5",
+      "previousRegistrationNumber": "9124",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000311",
+      "holder": "AGROFARM IMP. Y EXP. DE PRODUTOS VETERINARIOS LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTIMICROBIANOS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000311-5",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-rs0000311-6-4eee181f9876",
+      "tradeName": "UNILETAS FORTE",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "RS0000311-6",
+      "previousRegistrationNumber": "9123",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "RS0000311",
+      "holder": "AGROFARM IMP. Y EXP. DE PRODUTOS VETERINARIOS LTDA",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTICONVULSIVANTE"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "RS0000311-6",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001500-8-2c2f7d7bd658",
+      "tradeName": "UNIMAG",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001500-8",
+      "previousRegistrationNumber": "8494/2003",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001500",
+      "holder": "PHARMALOGIC INDÚSTRIA E COMÉRCIO LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BOROGLUCONATO DE CALCIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "BOROGLUCONATO DE MAGNESIO",
+          "role": "active",
+          "strength": null
+        },
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "GLUCONATO DE MAGNESIO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "SOLUÇAO INJETAVEL"
+      ],
+      "pharmaceuticalClasses": [
+        "VITAMINAS E MINERAIS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO",
+        "OVINO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001500-8",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001400-7-09d0c8a88d16",
+      "tradeName": "UNIVERSAL I 5000",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001400-7",
+      "previousRegistrationNumber": "9782/2013",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001400",
+      "holder": "DELAVAL LTDA",
+      "conceptId": null,
+      "components": [
+        {
+          "ingredientId": null,
+          "sourceIngredientName": "COMPLEXO DE IODO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "LIQUIDA"
+      ],
+      "pharmaceuticalClasses": [
+        "ANTISSEPTICO"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "BOVINO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001400-7",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-go0011703-4-fe11e8ef886b",
+      "tradeName": "UPCARD",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "GO0011703-4",
+      "previousRegistrationNumber": "000376-0.000003",
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "GO0011703",
+      "holder": "vetoquinol saude animal ltda",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "GO0011703-4",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0003760-3-f5d6c7bb12d0",
+      "tradeName": "UPCARD",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0003760-3",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "cancelled",
+      "holderRegistrationNumber": "SP0003760",
+      "holder": null,
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [],
+      "authorizedSpecies": [
+        "CAO"
+      ],
+      "origin": "Importado",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0003760-3",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    },
+    {
+      "id": "product-mapa-sp0001390-57-9c6abd0c2446",
+      "tradeName": "UROLIX",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "MAPA",
+      "registrationNumber": "SP0001390-57",
+      "previousRegistrationNumber": null,
+      "marketingStatus": "registered",
+      "holderRegistrationNumber": "SP0001390",
+      "holder": "vetnil ind e comércio de produtos veterinários ltda",
+      "conceptId": null,
+      "components": [],
+      "componentLinkStatus": "unmatched",
+      "dosageForms": [
+        "COMPRIMIDO"
+      ],
+      "pharmaceuticalClasses": [
+        "OUTROS"
+      ],
+      "routes": [
+        "ORAL"
+      ],
+      "authorizedSpecies": [
+        "CAO",
+        "GATO"
+      ],
+      "origin": "Nacional",
+      "sourceRecord": {
+        "sourceId": "mapa-veterinary-pharmaceutical-products",
+        "recordId": "SP0001390-57",
+        "retrievedAt": "2026-07-16",
+        "contentHash": "sha256:380e18c8c3355fc196c3844ae6592400dd3bb5935d90701d615338a8386c6522"
+      }
+    }
+  ]
+}

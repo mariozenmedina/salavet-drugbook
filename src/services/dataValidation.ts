@@ -15,6 +15,8 @@ import type {
   LocaleManifest,
   MarketingStatus,
   MonographStatus,
+  ProductCatalogManifest,
+  ProductSearchIndexFile,
   ProductShard,
   ReferenceKind,
   RegulatoryUseType,
@@ -369,16 +371,62 @@ function validateCommercialProduct(value: unknown, path: string, issues: Validat
   requireString(record, 'tradeName', path, issues)
   requireString(record, 'jurisdiction', path, issues)
   requireString(record, 'regulatoryAuthority', path, issues)
-  requireString(record, 'registrationNumber', path, issues)
+  requireNullableString(record, 'registrationNumber', path, issues)
+  requireNullableString(record, 'previousRegistrationNumber', path, issues)
   requireEnum(record, 'marketingStatus', marketingStatuses, path, issues)
-  requireString(record, 'holder', path, issues)
+  requireNullableString(record, 'holderRegistrationNumber', path, issues)
+  requireNullableString(record, 'holder', path, issues)
   requireNullableString(record, 'conceptId', path, issues)
   validateObjectArray(record, 'components', path, issues, validateProductComponent)
   requireEnum(record, 'componentLinkStatus', componentLinkStatuses, path, issues)
   requireStringArray(record, 'dosageForms', path, issues)
+  requireStringArray(record, 'pharmaceuticalClasses', path, issues)
   requireStringArray(record, 'routes', path, issues)
   requireStringArray(record, 'authorizedSpecies', path, issues)
+  requireNullableString(record, 'origin', path, issues)
   validateSourceRecord(record.sourceRecord, `${path}.sourceRecord`, issues)
+}
+
+function validateProductCatalogManifestShard(
+  value: unknown,
+  path: string,
+  issues: ValidationIssue[],
+): void {
+  const record = asRecord(value, path, issues)
+
+  if (!record) {
+    return
+  }
+
+  requireString(record, 'id', path, issues)
+  requireString(record, 'label', path, issues)
+  requireString(record, 'path', path, issues)
+  requireNumber(record, 'count', path, issues)
+}
+
+function validateProductSearchIndexItem(
+  value: unknown,
+  path: string,
+  issues: ValidationIssue[],
+): void {
+  const record = asRecord(value, path, issues)
+
+  if (!record) {
+    return
+  }
+
+  requireString(record, 'productId', path, issues)
+  requireString(record, 'tradeName', path, issues)
+  requireString(record, 'normalizedTradeName', path, issues)
+  requireNullableString(record, 'registrationNumber', path, issues)
+  requireNullableString(record, 'previousRegistrationNumber', path, issues)
+  requireEnum(record, 'marketingStatus', marketingStatuses, path, issues)
+  requireNullableString(record, 'holder', path, issues)
+  requireStringArray(record, 'componentNames', path, issues)
+  requireStringArray(record, 'pharmaceuticalClasses', path, issues)
+  requireStringArray(record, 'species', path, issues)
+  requireString(record, 'shard', path, issues)
+  requireString(record, 'path', path, issues)
 }
 
 function validateLetterItem(value: unknown, path: string, issues: ValidationIssue[]): void {
@@ -804,6 +852,52 @@ export const validateProductShard: DataValidator<ProductShard> = (value) =>
     validateObjectArray(record, 'items', path, issues, validateCommercialProduct)
   })
 
+export const validateProductCatalogManifest: DataValidator<ProductCatalogManifest> =
+  (value) =>
+    validateWith<ProductCatalogManifest>(value, (candidate, path, issues) => {
+      const record = asRecord(candidate, path, issues)
+
+      if (!record) {
+        return
+      }
+
+      requireString(record, 'locale', path, issues)
+      requireString(record, 'schemaVersion', path, issues)
+      requireString(record, 'dataVersion', path, issues)
+      requireString(record, 'updatedAt', path, issues)
+      requireString(record, 'sourceId', path, issues)
+      requireNumber(record, 'totalCount', path, issues)
+      validateObjectArray(
+        record,
+        'shards',
+        path,
+        issues,
+        validateProductCatalogManifestShard,
+      )
+    })
+
+export const validateProductSearchIndex: DataValidator<ProductSearchIndexFile> =
+  (value) =>
+    validateWith<ProductSearchIndexFile>(value, (candidate, path, issues) => {
+      const record = asRecord(candidate, path, issues)
+
+      if (!record) {
+        return
+      }
+
+      requireString(record, 'locale', path, issues)
+      requireString(record, 'schemaVersion', path, issues)
+      requireString(record, 'dataVersion', path, issues)
+      requireString(record, 'updatedAt', path, issues)
+      validateObjectArray(
+        record,
+        'items',
+        path,
+        issues,
+        validateProductSearchIndexItem,
+      )
+    })
+
 export const validateLetterFile: DataValidator<LetterFile> = (value) =>
   validateWith<LetterFile>(value, (candidate, path, issues) => {
     const record = asRecord(candidate, path, issues)
@@ -1050,6 +1144,43 @@ export function validateDatasetRelations(
     }
   })
 
+  const verifiedTradeNamesByConcept = new Map<string, Set<string>>()
+
+  products
+    .filter((product) => product.componentLinkStatus === 'verified')
+    .forEach((product) => {
+      const relatedConceptIds = new Set([
+        ...(product.conceptId ? [product.conceptId] : []),
+        ...product.components
+          .map((component) => component.ingredientId)
+          .filter((ingredientId): ingredientId is string => ingredientId !== null),
+      ])
+
+      relatedConceptIds.forEach((conceptId) => {
+        const tradeNames = verifiedTradeNamesByConcept.get(conceptId) ?? new Set<string>()
+        tradeNames.add(product.tradeName)
+        verifiedTradeNamesByConcept.set(conceptId, tradeNames)
+      })
+    })
+
+  const expectedTradeNames = (conceptId: string): string[] =>
+    [...(verifiedTradeNamesByConcept.get(conceptId) ?? [])].sort((left, right) =>
+      left.localeCompare(right, 'pt-BR'),
+    )
+  const validateDerivedTradeNames = (
+    conceptId: string,
+    tradeNames: string[],
+    path: string,
+  ): void => {
+    if (tradeNames.join('|') !== expectedTradeNames(conceptId).join('|')) {
+      addIssue(
+        issues,
+        path,
+        'Trade names must match verified commercial-product relationships',
+      )
+    }
+  }
+
   const letterItems = value.letters.flatMap((letter) => letter.items)
   addDuplicateIssues(
     letterItems.map((item) => item.conceptId),
@@ -1064,6 +1195,12 @@ export function validateDatasetRelations(
     if (concept && concept.conceptType !== item.conceptType) {
       addIssue(issues, `$.letters.items[${itemIndex}].conceptType`, 'Concept type does not match catalog concept')
     }
+
+    validateDerivedTradeNames(
+      item.conceptId,
+      item.tradeNames,
+      `$.letters.items[${itemIndex}].tradeNames`,
+    )
   })
 
   addDuplicateIssues(
@@ -1095,6 +1232,12 @@ export function validateDatasetRelations(
         'Concept type does not match catalog concept',
       )
     }
+
+    validateDerivedTradeNames(
+      item.conceptId,
+      item.tradeNames,
+      `$.searchIndex.items[${itemIndex}].tradeNames`,
+    )
   })
 
   addDuplicateIssues(

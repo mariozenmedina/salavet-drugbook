@@ -157,15 +157,19 @@ export interface CommercialProduct {
   tradeName: string
   jurisdiction: string
   regulatoryAuthority: string
-  registrationNumber: string
+  registrationNumber: string | null
+  previousRegistrationNumber: string | null
   marketingStatus: MarketingStatus
-  holder: string
+  holderRegistrationNumber: string | null
+  holder: string | null
   conceptId: string | null
   components: ProductComponent[]
   componentLinkStatus: ComponentLinkStatus
   dosageForms: string[]
+  pharmaceuticalClasses: string[]
   routes: string[]
   authorizedSpecies: string[]
+  origin: string | null
   sourceRecord: RegulatorySourceRecord
 }
 
@@ -174,6 +178,46 @@ export interface ProductShard {
   letter: string
   updatedAt: string
   items: CommercialProduct[]
+}
+
+export interface ProductCatalogManifestShard {
+  id: string
+  label: string
+  path: string
+  count: number
+}
+
+export interface ProductCatalogManifest {
+  locale: string
+  schemaVersion: string
+  dataVersion: string
+  updatedAt: string
+  sourceId: string
+  totalCount: number
+  shards: ProductCatalogManifestShard[]
+}
+
+export interface ProductSearchIndexItem {
+  productId: string
+  tradeName: string
+  normalizedTradeName: string
+  registrationNumber: string | null
+  previousRegistrationNumber: string | null
+  marketingStatus: MarketingStatus
+  holder: string | null
+  componentNames: string[]
+  pharmaceuticalClasses: string[]
+  species: string[]
+  shard: string
+  path: string
+}
+
+export interface ProductSearchIndexFile {
+  locale: string
+  schemaVersion: string
+  dataVersion: string
+  updatedAt: string
+  items: ProductSearchIndexItem[]
 }
 
 export interface LetterItem {

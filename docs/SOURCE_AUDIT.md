@@ -177,6 +177,18 @@ The audited 2026-07-16 snapshot produced:
 
 Two consecutive runs over the same bytes and retrieval date produced byte-identical candidate and report files. All component links remain `unmatched`, and the intermediate artifacts omit `Modo de Uso`, `Advertência`, and `Indicação` values.
 
+## Public Product Inventory
+
+The second-stage generator consumes the ignored candidate JSON plus the committed exact-value mapping registry:
+
+```bash
+pnpm source:build:product-catalog -- --input .data/mapa-pharmaceutical-candidates.json --mappings data/imports/mapa-products/component-mappings.json --public-root public/data/pt-BR --locale pt-BR --data-version 2026.07.16.2 --updated-at 2026-07-16T16:00:00Z
+```
+
+The 2026-07-16 build published all 2,825 candidate rows across 26 trade-name shards, plus a product manifest and product search index. It produced 2,821 unmatched products and 4 products with candidate component proposals. No relationship was marked verified. The 4,301 source component occurrences remain present on their commercial product records, including the 4 occurrences with candidate canonical IDs.
+
+The generated index supports discovery by trade name, current or previous registration, holder, source component, pharmaceutical class, and species. It remains separate from the drug-concept search index so products without canonical component links are still discoverable without being presented as reviewed monographs.
+
 ## Decision
 
 Stage 3 remains open. The project will not build a commercial drug inventory from the mislabeled SIPEAGRO establishment export and will not guess product-to-ingredient links.
