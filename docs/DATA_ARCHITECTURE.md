@@ -388,7 +388,7 @@ Regulatory source metadata and clinical references are both traceable, but they 
   "jurisdiction": "BR",
   "title": "MAPA veterinary product export",
   "url": "https://www.gov.br/agricultura/pt-br/assuntos/insumos-agropecuarios/insumos-pecuarios/produtos-veterinarios/paineis-de-bi-do-mapa",
-  "license": "Pending source-specific review",
+  "license": "Free redistribution and transformation approved by project operator on 2026-07-16",
   "accessedAt": "2026-07-16"
 }
 ```

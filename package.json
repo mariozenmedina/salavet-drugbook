@@ -12,6 +12,7 @@
     "test:watch": "vitest",
     "data:validate": "vitest run src/services/dataValidation.test.ts",
     "source:audit": "node scripts/audit-veterinary-source.ts",
+    "source:adapt:pharmaceutical": "node scripts/adapt-mapa-pharmaceutical.ts",
     "typecheck": "vue-tsc -b --noEmit",
     "lint": "vue-tsc -b --noEmit"
   },

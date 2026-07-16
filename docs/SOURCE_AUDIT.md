@@ -53,7 +53,7 @@ MAPA currently links separate public panels for pharmaceutical and biological ve
 
 The pharmaceutical panel exposes export controls for two Qlik table objects. Its public application identifier and object identifiers are visible in the panel's own JavaScript, but QIX WebSocket access from the automation environment returned HTTP 403 even with the anonymous session cookie issued by the server. The agent workflow does not use browser automation, so the operator exported the tables manually.
 
-The panel-index page states that its site content uses Creative Commons Attribution-NoDerivatives 3.0 Unported. It does not explicitly clarify whether that notice authorizes normalized redistribution of the Qlik table exports. The broader MAPA open-data page describes open datasets as freely reusable, but these panel exports are not currently published as resources in the MAPA open-data catalog. Generated public catalog data therefore remains blocked on a source-specific reuse decision.
+The panel-index page states that its site content uses Creative Commons Attribution-NoDerivatives 3.0 Unported and does not separately label the Qlik table exports. On 2026-07-16, the project operator explicitly confirmed that all source content supplied under `.data/` is authorized for free redistribution and transformation for this free veterinary drugbook. That project-specific rights decision permits derived catalog publication while attribution and source provenance remain mandatory.
 
 ### Pharmaceutical Export
 
@@ -155,8 +155,30 @@ The command reports the file name, byte count, SHA-256 hash, headers, row count,
 
 The command detects comma, semicolon, or tab delimiters from the header. The current SIPEAGRO file is classified as `sipeagro-establishment-catalog` and rejected. Both manual MAPA exports are classified as `product-catalog-candidate`. Candidate classification only confirms the minimum product-level schema; it does not verify any ingredient relationship and does not authorize redistribution.
 
+## Pharmaceutical Adapter
+
+Run the deterministic first-stage adapter with explicit input, candidate, report, and retrieval-date arguments:
+
+```bash
+pnpm source:adapt:pharmaceutical -- --input .data/produtos_farma_mapa.csv --output .data/mapa-pharmaceutical-candidates.json --report .data/mapa-pharmaceutical-import-report.json --retrieved-at 2026-07-16
+```
+
+The command requires the exact 33-column audited pharmaceutical schema and fails closed on schema drift. It treats the source's `-` marker as a missing value, preserves current and previous registrations separately, maps only the three known regulatory statuses, and writes intermediate files outside `public/data`.
+
+The audited 2026-07-16 snapshot produced:
+
+- 2,825 candidate rows and no excluded rows;
+- 2,575 registered, 46 suspended, and 204 cancelled rows;
+- 158 legacy-registration review items;
+- 13 duplicate-registration conflict groups;
+- 369 missing-ingredient review items;
+- 871 unique unmatched component values;
+- no unknown regulatory statuses.
+
+Two consecutive runs over the same bytes and retrieval date produced byte-identical candidate and report files. All component links remain `unmatched`, and the intermediate artifacts omit `Modo de Uso`, `Advertência`, and `Indicação` values.
+
 ## Decision
 
 Stage 3 remains open. The project will not build a commercial drug inventory from the mislabeled SIPEAGRO establishment export and will not guess product-to-ingredient links.
 
-The next source-adapter pull request should target the pharmaceutical export only, generate an intermediate import-quality report and review queues, use committed fictitious fixtures, and ignore long label-like fields. The biological export needs a separate schema decision. Importer code and generated product data remain separate pull requests, and no generated panel data may be published until reuse terms are approved.
+The next source-adapter pull request targets the pharmaceutical export only, generates an intermediate import-quality report and review queues, uses committed fictitious fixtures, and ignores long label-like fields in its initial inventory output. The biological export needs a separate schema decision. Importer code and generated product data remain separate pull requests so that mapping and editorial decisions receive focused review. Derived panel data may be published with attribution under the project operator's recorded reuse approval.

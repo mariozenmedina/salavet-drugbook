@@ -2,7 +2,7 @@
 
 Public veterinary drugbook for Sala Vet, planned as an installable, mobile-first, multilingual webapp driven by JSON data.
 
-Current status: the Vite + Vue + TypeScript bootstrap and Stage 2 data foundation are implemented. The repository now has typed contracts, runtime validation, loaders, normalized search, and a fictitious `pt-BR` fixture dataset for the installable drugbook-only v1. The manually exported MAPA pharmaceutical and biological product tables have been audited. Stage 3 now proceeds with a pharmaceutical inventory adapter and a source-specific reuse review before generated records can be published.
+Current status: the Vite + Vue + TypeScript bootstrap and Stage 2 data foundation are implemented. The repository now has typed contracts, runtime validation, loaders, normalized search, and a fictitious `pt-BR` fixture dataset for the installable drugbook-only v1. The manually exported MAPA pharmaceutical and biological product tables have been audited and approved by the project operator for free redistribution and transformation. Stage 3 now proceeds with a deterministic pharmaceutical inventory adapter.
 
 Main documents:
 
@@ -19,7 +19,15 @@ Initial guidelines:
 - Stack: Vite, Vue, TypeScript, Vue Router, Pinia, LESS, Lucide, Vitest, and PWA.
 - JSON data is split by locale and by the drug's first letter.
 - Commercial products, active ingredients, fixed combinations, and clinical monographs have separate records and review lifecycles.
-- The audited MAPA pharmaceutical export is the planned primary Brazilian commercial-product inventory after its reuse terms are approved.
+- The audited and reuse-approved MAPA pharmaceutical export is the planned primary Brazilian commercial-product inventory.
 - V1 remains installable on supported mobile browsers through its PWA manifest and service worker.
 - Repository and code conventions are English. User-facing text is translated through locale data.
 - `.data/` is the ignored local source inbox. `.crawler-data/` also remains out of Git for compatibility with the previous crawler workflow.
+
+Run the reviewed first-stage pharmaceutical adapter with explicit local paths:
+
+```bash
+pnpm source:adapt:pharmaceutical -- --input .data/produtos_farma_mapa.csv --output .data/mapa-pharmaceutical-candidates.json --report .data/mapa-pharmaceutical-import-report.json --retrieved-at 2026-07-16
+```
+
+The command writes deterministic intermediate candidates and review queues outside `public/data`; it does not create user-facing catalog records or reviewed component links.
