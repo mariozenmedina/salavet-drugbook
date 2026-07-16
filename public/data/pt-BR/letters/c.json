@@ -1,0 +1,29 @@
+{
+  "locale": "pt-BR",
+  "letter": "c",
+  "updatedAt": "2026-07-16T12:00:00Z",
+  "items": [
+    {
+      "conceptId": "ingredient-carprofen",
+      "slug": "carprofeno",
+      "primaryName": "Carprofeno",
+      "conceptType": "ingredient",
+      "tradeNames": ["Produto Exemplo Carprofeno"],
+      "synonyms": ["Carprofen"],
+      "species": [],
+      "monographStatus": "needsReview",
+      "path": "/pt-BR/drug/carprofeno"
+    },
+    {
+      "conceptId": "ingredient-potassium-clavulanate",
+      "slug": "clavulanato-de-potassio",
+      "primaryName": "Clavulanato de potássio",
+      "conceptType": "ingredient",
+      "tradeNames": ["Produto Exemplo AC"],
+      "synonyms": ["Potassium clavulanate"],
+      "species": [],
+      "monographStatus": "draft",
+      "path": "/pt-BR/drug/clavulanato-de-potassio"
+    }
+  ]
+}

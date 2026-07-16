@@ -1,0 +1,46 @@
+{
+  "conceptId": "ingredient-carprofen",
+  "locale": "pt-BR",
+  "slug": "carprofeno",
+  "primaryName": "Carprofeno",
+  "monographStatus": "needsReview",
+  "review": null,
+  "sections": [
+    {
+      "id": "editorial-status",
+      "title": "Status editorial",
+      "kind": "paragraphs",
+      "paragraphs": [
+        {
+          "text": "Este registro é uma demonstração estrutural. Conteúdo clínico, doses e recomendações ainda não foram incluídos.",
+          "referenceIds": ["ref-fixture-structure"]
+        }
+      ]
+    }
+  ],
+  "speciesEvidence": [],
+  "safety": {
+    "contraindications": [],
+    "warnings": [],
+    "adverseEffects": [],
+    "monitoring": []
+  },
+  "interactions": [],
+  "references": [
+    {
+      "id": "ref-fixture-structure",
+      "kind": "website",
+      "title": "Fixture estrutural do Sala Vet Drugbook",
+      "authors": ["Sala Vet Drugbook"],
+      "publisher": "Sala Vet Drugbook",
+      "year": 2026,
+      "edition": null,
+      "doi": null,
+      "pmid": null,
+      "url": null,
+      "jurisdiction": null,
+      "license": "Internal fixture",
+      "accessedAt": "2026-07-16"
+    }
+  ]
+}

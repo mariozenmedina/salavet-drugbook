@@ -2,7 +2,7 @@
 
 Public veterinary drugbook for Sala Vet, planned as an installable, mobile-first, multilingual webapp driven by JSON data.
 
-Current status: the Vite + Vue + TypeScript bootstrap is installed and the v1 release is scoped as an installable, drugbook-only PWA backed by source-traceable data.
+Current status: the Vite + Vue + TypeScript bootstrap and Stage 2 data foundation are implemented. The repository now has typed contracts, runtime validation, loaders, normalized search, and a fictitious `pt-BR` fixture dataset for the installable drugbook-only v1.
 
 Main documents:
 

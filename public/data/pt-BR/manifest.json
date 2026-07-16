@@ -2,7 +2,22 @@
   "locale": "pt-BR",
   "label": "Portuguese (Brazil)",
   "direction": "ltr",
-  "dataVersion": "0.1.0",
-  "updatedAt": "2026-06-29",
-  "letters": []
+  "schemaVersion": "1.0.0",
+  "dataVersion": "2026.07.16.1",
+  "updatedAt": "2026-07-16T12:00:00Z",
+  "sources": ["fixture-local"],
+  "letters": [
+    {
+      "id": "a",
+      "label": "A",
+      "path": "/data/pt-BR/letters/a.json",
+      "count": 2
+    },
+    {
+      "id": "c",
+      "label": "C",
+      "path": "/data/pt-BR/letters/c.json",
+      "count": 2
+    }
+  ]
 }

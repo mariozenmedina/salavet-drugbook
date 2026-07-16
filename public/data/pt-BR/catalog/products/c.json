@@ -1,0 +1,35 @@
+{
+  "locale": "pt-BR",
+  "letter": "c",
+  "updatedAt": "2026-07-16T12:00:00Z",
+  "items": [
+    {
+      "id": "product-fixture-carprofen",
+      "tradeName": "Produto Exemplo Carprofeno",
+      "jurisdiction": "BR",
+      "regulatoryAuthority": "Fixture local",
+      "registrationNumber": "FIXTURE-CAR-001",
+      "marketingStatus": "unknown",
+      "holder": "Sala Vet Drugbook",
+      "conceptId": "ingredient-carprofen",
+      "components": [
+        {
+          "ingredientId": "ingredient-carprofen",
+          "sourceIngredientName": "CARPROFENO",
+          "role": "active",
+          "strength": null
+        }
+      ],
+      "componentLinkStatus": "verified",
+      "dosageForms": [],
+      "routes": [],
+      "authorizedSpecies": [],
+      "sourceRecord": {
+        "sourceId": "fixture-local",
+        "recordId": "FIXTURE-CAR-001",
+        "retrievedAt": "2026-07-16T12:00:00Z",
+        "contentHash": "sha256:fixture-carprofen"
+      }
+    }
+  ]
+}

@@ -11,6 +11,7 @@ This document is the project's operational guide. Each stage should be executed 
 - [x] Install the Vite + Vue + TypeScript project.
 - [x] Replace the lost crawler migration with an official-source ingestion plan.
 - [x] Define v1 as an installable, drugbook-only PWA.
+- [x] Implement Stage 2 data contracts, runtime validation, loaders, normalized search, and fixture data.
 - [ ] Implement the official Brazilian veterinary product catalog pipeline.
 - [ ] Implement the v1 drugbook webapp and publish the initial reviewed monographs.
 - [ ] Prepare the public contribution workflow.
@@ -55,7 +56,7 @@ The following features remain planned but must not delay the first release:
 - Data-driven multilingual UI: every translatable string must live in locale data, not inside components.
 - Default `pt-BR`: any route without an explicit locale should fall back to `pt-BR`.
 - Structured data: do not load raw source HTML; components should render typed JSON blocks.
-- Persistent prescription: prescription data must survive reloads through `localStorage`.
+- Forward-compatible prescription: when the post-v1 prescription feature is implemented, its data must survive reloads through versioned `localStorage`.
 - Clinical safety: calculations, warnings, and interactions must be traceable to source and review status.
 - Agents must not test in a browser: visual and interactive validation is handled by the operator.
 
@@ -70,13 +71,14 @@ The following features remain planned but must not delay the first release:
 - `Vitest` for pure functions, validators, search, and calculator logic.
 - `@vue/test-utils` only for component unit tests when useful.
 
-## Planned Routes
+## Planned V1 Routes
 
 - `/` redirects to `/{locale}` with `pt-BR` as the default.
 - `/{locale}`: welcome/home screen with the alphabet grid loaded from locale data.
 - `/{locale}/letter/{letter}`: filterable drug list for that letter.
 - `/{locale}/drug/{slug}`: drug monograph.
-- `/{locale}/prescription`: calculator and editable/printable prescription page.
+
+Post-v1 adds `/{locale}/prescription` for the calculator and editable/printable prescription page.
 
 Route segments are intentionally English because routes are part of the repository and developer convention. User-facing labels can still be translated.
 
@@ -86,8 +88,9 @@ The top bar should contain only:
 
 - Product/Sala Vet name.
 - Global drug search.
-- Prescription/calculator icon button.
 - Locale selector.
+
+The prescription/calculator icon button is added after the post-v1 prescription route exists.
 
 Search should open a scrollable result list as soon as the user types at least one character. It should search `primaryName`, trade names, synonyms, and related components.
 
@@ -138,18 +141,18 @@ Goal: define catalog and monograph contracts before the UI or importer depends o
 
 Tasks:
 
-- Create TypeScript types for locale, index, ingredient, combination, commercial product, monograph, provenance, sections, species evidence, and references.
-- Create schema validators for JSON data.
-- Create loaders that fetch data by locale and letter.
-- Create normalized accent-insensitive and case-insensitive search.
-- Create minimal mock data in `public/data/pt-BR`.
-- Keep dosage and calculator contracts forward-compatible without making them a v1 requirement.
+- [x] Create TypeScript types for locale, index, ingredient, combination, commercial product, monograph, provenance, sections, species evidence, and references.
+- [x] Create schema validators for JSON data.
+- [x] Create loaders that fetch data by locale and letter.
+- [x] Create normalized accent-insensitive and case-insensitive search.
+- [x] Create minimal mock data in `public/data/pt-BR`.
+- [x] Keep dosage and calculator contracts forward-compatible without making them a v1 requirement.
 
 Acceptance criteria:
 
-- Unit tests cover search normalization.
-- Unit tests cover mock data loading and validation.
-- Schema documentation is updated if anything changes.
+- [x] Unit tests cover search normalization.
+- [x] Unit tests cover mock data loading and validation.
+- [x] Schema documentation is updated if anything changes.
 
 ## Stage 3 - Official Source and Catalog Ingestion Foundation
 
@@ -266,7 +269,6 @@ Tasks:
 - Highlight clinical warnings by severity.
 - Show reviewed species-specific dosages.
 - Show references and review status.
-- Link to add/calculate on the prescription page.
 
 Acceptance criteria:
 
@@ -388,3 +390,15 @@ Acceptance criteria:
 - Replaced the lost crawler-based A/B migration stage with an official-source ingestion plan.
 - Selected the MAPA SIPEAGRO dataset as the primary Brazilian commercial-product inventory, subject to importer field inspection.
 - Required commercial products, active ingredients, combinations, clinical monographs, and provenance to remain separate concepts.
+
+### 2026-07-16 - Stage 2 Drugbook Data Contracts
+
+- Added TypeScript contracts for locale data, drug concepts, commercial products, combinations, monographs, species evidence, dosages, safety, interactions, and provenance.
+- Added path-aware runtime validators for every public JSON loader.
+- Added relationship validation for concept, combination, product, letter, search, monograph, and reference links.
+- Added `pnpm run data:validate` for focused fixture and relationship validation.
+- Added typed loaders with HTTP, parse, path-segment, and schema error handling.
+- Added deterministic accent-insensitive and case-insensitive search across generic names, synonyms, trade names, and components.
+- Added a deliberately fictitious `pt-BR` fixture dataset with no unsupported clinical claims and a `needsReview` monograph.
+- Added unit tests for valid and invalid data, relationships, loaders, and search behavior.
+- Did not run browser tests or open a browser.
